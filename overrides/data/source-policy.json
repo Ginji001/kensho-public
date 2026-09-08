@@ -1,0 +1,19 @@
+{
+  "allowedDomains": [
+    "www.cosme.net",
+    "monipla.jp",
+    "roomclip.jp",
+    "lipscosme.com",
+    "www.calbee.co.jp",
+    "cocoromembers.jp.sharp",
+    "cp-mk-1.makuake.com",
+    "www.coca-cola.com"
+  ],
+  "manualOnly": ["lipscosme.com"],
+  "discovery": [
+    {"source":"atcosme","url":"https://www.cosme.net/present/","enabled":true},
+    {"source":"Monipla","url":"https://monipla.jp/","enabled":true},
+    {"source":"RoomClip","url":"https://roomclip.jp/monitor","enabled":true}
+  ],
+  "note": "新規候補は6時間ごとに自動収集し、公開前に公式情報を確認する。LIPSは自動アクセスせず管理者確認を維持する。"
+}
