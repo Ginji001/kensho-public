@@ -39,6 +39,9 @@ jobs:
             echo "package.json was not found in kensho-source.zip" >&2
             exit 1
           fi
+          if [ -d overrides ]; then
+            cp -R overrides/. "$APP_DIR"/
+          fi
           echo "APP_DIR=$APP_DIR" >> "$GITHUB_ENV"
           echo "Application root: $APP_DIR"
 
@@ -47,6 +50,19 @@ jobs:
         run: |
           cd "$APP_DIR"
           npm test
+
+      - name: Discover new campaign candidates
+        shell: bash
+        run: |
+          cd "$APP_DIR"
+          npm run discover
+
+      - name: Upload discovery queue
+        uses: actions/upload-artifact@v4
+        with:
+          name: discovery-queue
+          path: ${{ env.APP_DIR }}/data/discovered-campaigns.json
+          retention-days: 14
 
       - name: Refresh reviewed campaign data
         shell: bash
