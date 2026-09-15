@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-15T09:24:14.433Z",
+  "updatedAt": "2026-09-15T09:30:33.562Z",
   "items": [
     {
       "url": "https://shop.tsukumo.co.jp/features/nagao-ss/",
       "source": "Tsukumo",
       "title": "長尾製作所特集",
       "status": "held",
-      "attempts": 1,
+      "attempts": 2,
       "firstSeenAt": "2026-09-15T09:24:14.433Z",
-      "updatedAt": "2026-09-15T09:24:14.433Z",
+      "updatedAt": "2026-09-15T09:30:33.562Z",
       "lastReason": "no-deadline"
     },
     {
@@ -141,6 +141,26 @@
       "firstSeenAt": "2026-09-15T09:24:14.433Z",
       "updatedAt": "2026-09-15T09:24:14.433Z",
       "lastReason": "expired"
+    },
+    {
+      "url": "https://www.e-earphone.jp/blogs/campaign-sale/black-friday-sale",
+      "source": "eEarphone",
+      "title": "BLACK FRIDAY SALE",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-15T09:30:33.562Z",
+      "updatedAt": "2026-09-15T09:30:33.562Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.e-earphone.jp/blogs/campaign-sale/christmas-sale",
+      "source": "eEarphone",
+      "title": "Christmas SALE",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-15T09:30:33.562Z",
+      "updatedAt": "2026-09-15T09:30:33.562Z",
+      "lastReason": "not-campaign"
     },
     {
       "url": "https://www.e-earphone.jp/blogs/campaign-sale/e-ear-otoshidama-cp",
