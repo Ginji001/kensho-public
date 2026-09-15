@@ -37,3 +37,17 @@ test('titles and genres are cleaned for gadgets and @cosme', () => {
   assert.equal(classifyGenre('ワイヤレスイヤフォンが当たる', 'Monipla'), 'ガジェット・家電');
   assert.equal(classifyGenre('ゲーミングノートPCプレゼント', 'official'), 'ガジェット・家電');
 });
+
+test('PC shop and audio shop campaign pages are understood', () => {
+  const tsukumo = '<title>AMDゲームの祭典直前キャンペーン2026｜PC専門店【ツクモ】公式通販サイト</title><main>エントリー期間 ：2026年8月28日 (金)～ 10月11日 (日) 豪華賞品を抽選で10名様に 購入証明としてレシートまたは納品書の画像添付が必須です</main>';
+  const t = evaluate({source: 'Tsukumo', url: 'https://shop.tsukumo.co.jp/features/amdreview2608v2/', html: tsukumo, now, policy});
+  assert.equal(t.decision, 'publish');
+  assert.equal(t.campaign.deadline, '2026-10-11');
+  assert.equal(t.campaign.requiresPurchase, true);
+  assert.equal(t.campaign.winners, 10);
+  const ee = '<title>【祝 e☆イヤホン19周年！】19万eイヤポイントプレゼントキャンペーン！【~2026/9/28(月)まで】</title><main>2026/8/31(月) 11:00 ～ 2026/9/28(月) 11:00 抽選で19名様</main>';
+  const e = evaluate({source: 'eEarphone', url: 'https://www.e-earphone.jp/blogs/campaign-sale/e-earpoint_presentcp', html: ee, now, policy});
+  assert.equal(e.decision, 'publish');
+  assert.equal(e.campaign.deadline, '2026-09-28');
+  assert.deepEqual(select('Tsukumo', ['https://shop.tsukumo.co.jp/features/amdreview2608v2/', 'https://shop.tsukumo.co.jp/goods/123'], policy.discovery.find(d => d.source === 'Tsukumo')), ['https://shop.tsukumo.co.jp/features/amdreview2608v2/']);
+});
