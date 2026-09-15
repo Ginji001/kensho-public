@@ -58,6 +58,8 @@
       "linkPattern": "^https://shop\\.tsukumo\\.co\\.jp/features/[\\w-]+/?$",
       "requireDeadline": true,
       "bodyPattern": "抽選で|当たる|プレゼント",
+      "titleExclude": "SALE|セール|実施中|まとめ",
+      "maxDeadlineDays": 120,
       "genre": "ガジェット・家電"
     },
     {
@@ -67,6 +69,8 @@
       "linkPattern": "^https://www\\.e-earphone\\.jp/blogs/campaign-sale/[\\w-]+$",
       "requireDeadline": true,
       "bodyPattern": "抽選で|当たる|プレゼント",
+      "titleExclude": "SALE|セール|実施中|まとめ",
+      "maxDeadlineDays": 120,
       "genre": "ガジェット・家電"
     }
   ],
