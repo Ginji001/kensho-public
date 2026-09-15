@@ -12,10 +12,13 @@ export const MARKER = '/*kensho-enhance-v2*/';
 
 const BLOCK = `${MARKER}
 const MYSITES_KEY='kensho-public-mysites-v1';
-const SOURCE_LABELS={atcosme:'@cosme',Monipla:'モニプラ',RoomClip:'RoomClip',LIPS:'LIPS',official:'公式サイト',SHARP:'SHARP',Makuake:'Makuake'};
+const SOURCE_LABELS={atcosme:'@cosme',Monipla:'モニプラ',RoomClip:'RoomClip',LIPS:'LIPS',official:'公式サイト',SHARP:'SHARP',Makuake:'Makuake',PCWatch:'PC Watch',AudioTechnica:'オーディオテクニカ'};
+const TOPICS={pc:/PC|パソコン|キーボード|マウス(?!ウォッシュ)|SSD|HDD|CPU|GPU|グラフィックボード|グラボ|マザーボード|電源ユニット|PCケース|ディスプレイ|(?:\\d+(?:\\.\\d+)?型|4K|ゲーミング|液晶|湾曲|ウルトラワイド)\\S*モニター|ルーター|Wi-?Fi|タブレット|ゲーミング|Chromebook|MacBook|iPad|USB|充電器|モバイルバッテリー/i,audio:/イヤホン|イヤフォン|ヘッドホン|ヘッドフォン|スピーカー|サウンドバー|オーディオ|TWS|マイク(?!ロ)|アンプ|DAP|ポータブルプレーヤー|ターンテーブル|レコードプレーヤー|Soundcore|AirPods|JBL|Bose|Shure|ゼンハイザー|audio-technica/i};
+let activeTopic='';
+function topicMatch(c,t){return TOPICS[t].test(c.name+' '+(c.prize||''))}
 function mySites(){try{const v=JSON.parse(storage?.getItem(MYSITES_KEY)||'[]');return Array.isArray(v)?v.filter(x=>typeof x==='string'):[]}catch{return []}}
 function usableHref(c){const end=expired(c)||c.linkStatus==='ended';const ok=!end&&!offline&&c.linkStatus==='ok'&&Date.now()-Date.parse(c.linkCheckedAt)<48*3600000;return ok?safeUrl(c.applyUrl||c.url,catalog.allowedDomains):null}
-function extraFilter(xs,f){const mine=mySites();return xs.filter(c=>(!f.onlyNew||(state[c.id]?.status||'new')==='new')&&(!f.noPurchaseLoose||c.requiresPurchase!==true)&&(!f.soon||(daysLeft(c)>=0&&daysLeft(c)<=7))&&(!f.mySites||!mine.length||mine.includes(c.source)))}
+function extraFilter(xs,f){const mine=mySites();return xs.filter(c=>(!f.onlyNew||(state[c.id]?.status||'new')==='new')&&(!f.noPurchaseLoose||c.requiresPurchase!==true)&&(!f.soon||(daysLeft(c)>=0&&daysLeft(c)<=7))&&(!f.mySites||!mine.length||mine.includes(c.source))&&(!activeTopic||topicMatch(c,activeTopic)))}
 function simpleCondition(c){return String(c.condition||'').replace(/（自動抽出[^）]*）/g,'').trim()}
 function quickDone(c,s,href){if(!href||s.status!=='new')return el('span',{class:'quick-done-empty'});const b=el('button',{class:'quick-done',type:'button',text:'✓ 応募した'});b.onclick=()=>persist(c.id,{status:'applied'});return b}
 function actionButton(text,fn,cls=''){const b=el('button',{type:'button',class:cls,text});b.onclick=fn;return b}
@@ -23,6 +26,8 @@ for(const name of ['source','priority','winners','product','deadline','free','no
 {const st=form.elements.status;if(st){st.value='';st.closest('label').hidden=true}}
 form.querySelectorAll('p.small').forEach(p=>p.remove());
 document.querySelectorAll('[data-quick="lips"],[data-quick="monitor"],[data-quick="gadget"]').forEach(b=>b.remove());
+form.addEventListener('reset',()=>{activeTopic=''});form.addEventListener('input',()=>{activeTopic=''});
+{const fav=document.querySelector('[data-quick="favorite"]');for(const [t,label] of [['pc','PC関連'],['audio','オーディオ']]){const b=el('button',{type:'button','data-quick':'topic-'+t,'aria-pressed':'false',text:label});b.onclick=()=>{form.reset();queueMicrotask(()=>{activeTopic=t;document.querySelectorAll('[data-quick]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));render()})};fav.before(b)}}
 const extraFieldset=form.querySelector('fieldset');extraFieldset.querySelector('legend').textContent='かんたん絞り込み';
 for(const [name,label] of [['onlyNew','未応募だけ'],['noPurchaseLoose','購入なし'],['soon','締切7日以内'],['mySites','登録済みサイトだけ']])extraFieldset.append(el('label',{class:'check'},[el('input',{name,type:'checkbox'}),document.createTextNode(label)]));
 const sitesDialog=el('dialog',{class:'sites','aria-label':'登録済みサイト'});document.body.append(sitesDialog);
