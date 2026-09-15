@@ -15,17 +15,29 @@
 - GitHub PagesによるHTTPS公開
 - 6時間ごとのリンク再確認・期限処理・再配信
 - @cosme / Monipla / RoomClip の新規候補を6時間ごとに自動収集
-- 新規候補はActionsの `discovery-queue` artifact として管理者レビュー用に保存
+- 新規候補は締切・当選人数・条件を自動抽出し、安全基準を満たせば自動掲載（「自動掲載」タグ付き）
+- 判定できない候補は `review-queue.json` に保留し、6時間ごとに最大12回自動で再判定
 - 公開対象は確認済みデータのみ。検索ページへのフォールバックは行わない
 - 公開ファイルは `public/` のみ。個人版API・state.json・Tailscale内部URLには接続しない
 
-## 運用
+## 運用（全自動）
 
-1. `data/reviewed-campaigns.json` が公開候補の正本です。
-2. `npm run discover` が公開サイトから新規候補URLを収集します。
-3. 新規候補は公式ページを確認してから正本へ昇格します。
-4. `npm run refresh` がリンク・終了状態を更新します。
-5. main更新または6時間ごとのGitHub Actionsでテスト・更新・Pages配信を行います。
+6時間ごと（およびmain更新時）にGitHub Actionsが以下を自動実行します。手動作業は不要です。
+
+1. `npm run discover` — @cosme / モニプラ / RoomClip から新規候補URLを収集
+2. `npm run promote` — 候補ページから締切・当選人数・条件・ジャンルを抽出し、次の基準で自動判定
+   - 許可ドメイン内・HTTPS・公開IPのみ／LIPSなど手動確認対象は除外
+   - ページが取得でき、タイトルがあり、終了表示がない
+   - 締切が過去でない（締切不明の場合は21日で自動非表示）
+   - 個人情報・秘密値らしき文字列を含まない
+   - 合格 → `overrides/data/auto-campaigns.json` に追加して公開／判定不能 → `review-queue.json` で再判定（約3日で自動却下）
+3. `npm run refresh` — 手動確認済み＋自動掲載の全案件のリンク・終了状態を確認
+4. `npm run prune` — 締切を3日過ぎた・終了した自動掲載を削除
+5. ビルド・秘密値チェック → 自動掲載データをリポジトリへコミット → Pages配信
+
+`data/reviewed-campaigns.json`（zip内）は手動で精査した案件の正本です。自動掲載より優先されます。
+自動掲載を止めたい案件は `overrides/data/auto-campaigns.json` の該当行に `"hidden": true` を付けてください。
+各実行の結果（公開件数・保留候補）はActionsの実行サマリーに表示されます。
 
 LIPSは自動アクセス対象外です。公式画面を管理者が確認した案件だけを有効化します。
 
