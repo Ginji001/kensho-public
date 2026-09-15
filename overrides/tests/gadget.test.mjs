@@ -51,3 +51,9 @@ test('PC shop and audio shop campaign pages are understood', () => {
   assert.equal(e.campaign.deadline, '2026-09-28');
   assert.deepEqual(select('Tsukumo', ['https://shop.tsukumo.co.jp/features/amdreview2608v2/', 'https://shop.tsukumo.co.jp/goods/123'], policy.discovery.find(d => d.source === 'Tsukumo')), ['https://shop.tsukumo.co.jp/features/amdreview2608v2/']);
 });
+
+test('deadline uses the latest labeled date and does not roll far into next year', async () => {
+  const {extractDeadline} = await import('../scripts/promote.mjs');
+  assert.equal(extractDeadline('応募期間 2026/1/5~2026/1/20 関連記事 キャンペーン期間 2026/8/31(月) 11:00 ~ 2026/9/28(月) 11:00', now), '2026-09-28');
+  assert.equal(extractDeadline('応募締切 4/6', now), '2026-04-06');
+});
