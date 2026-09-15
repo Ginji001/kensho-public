@@ -10,7 +10,9 @@
     "www.coca-cola.com",
     "pc.watch.impress.co.jp",
     "www.audio-technica.co.jp",
-    "docs.google.com"
+    "docs.google.com",
+    "shop.tsukumo.co.jp",
+    "www.e-earphone.jp"
   ],
   "manualOnly": [
     "lipscosme.com"
@@ -47,6 +49,24 @@
       "linkPattern": "^https://www\\.audio-technica\\.co\\.jp/news/detail/\\d+/?$",
       "titlePattern": "プレゼント|キャンペーン|当たる",
       "requireDeadline": true,
+      "genre": "ガジェット・家電"
+    },
+    {
+      "source": "Tsukumo",
+      "url": "https://shop.tsukumo.co.jp/features/campaign/",
+      "enabled": true,
+      "linkPattern": "^https://shop\\.tsukumo\\.co\\.jp/features/[\\w-]+/?$",
+      "requireDeadline": true,
+      "bodyPattern": "抽選で|当たる|プレゼント",
+      "genre": "ガジェット・家電"
+    },
+    {
+      "source": "eEarphone",
+      "url": "https://www.e-earphone.jp/blogs/campaign-sale",
+      "enabled": true,
+      "linkPattern": "^https://www\\.e-earphone\\.jp/blogs/campaign-sale/[\\w-]+$",
+      "requireDeadline": true,
+      "bodyPattern": "抽選で|当たる|プレゼント",
       "genre": "ガジェット・家電"
     }
   ],
