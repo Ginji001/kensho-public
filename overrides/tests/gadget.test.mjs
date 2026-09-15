@@ -57,3 +57,10 @@ test('deadline uses the latest labeled date and does not roll far into next year
   assert.equal(extractDeadline('応募期間 2026/1/5~2026/1/20 関連記事 キャンペーン期間 2026/8/31(月) 11:00 ~ 2026/9/28(月) 11:00', now), '2026-09-28');
   assert.equal(extractDeadline('応募締切 4/6', now), '2026-04-06');
 });
+
+test('shop sale pages and far deadlines are not published', () => {
+  const page = (t, b) => `<title>${t}</title><main>${b}</main>`;
+  assert.equal(evaluate({source: 'eEarphone', url: 'https://www.e-earphone.jp/blogs/campaign-sale/black-friday-sale', now, policy, html: page('BLACK FRIDAY SALE', 'キャンペーン期間 2026/11/20~2026/11/30 抽選で50名様にプレゼント')}).reason, 'not-campaign');
+  assert.equal(evaluate({source: 'Tsukumo', url: 'https://shop.tsukumo.co.jp/features/x/', now, policy, html: page('プレゼント企画', '応募期間 2027年4月14日まで 抽選で10名様')}).reason, 'deadline-too-far');
+  assert.deepEqual(select('Tsukumo', ['https://shop.tsukumo.co.jp/features/campaign/', 'https://shop.tsukumo.co.jp/features/abc/'], policy.discovery.find(d => d.source === 'Tsukumo')), ['https://shop.tsukumo.co.jp/features/abc/']);
+});
