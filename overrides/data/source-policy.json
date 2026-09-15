@@ -12,7 +12,9 @@
     "www.audio-technica.co.jp",
     "docs.google.com",
     "shop.tsukumo.co.jp",
-    "www.e-earphone.jp"
+    "www.e-earphone.jp",
+    "www.4gamer.net",
+    "news.mynavi.jp"
   ],
   "manualOnly": [
     "lipscosme.com"
@@ -35,7 +37,7 @@
     },
     {
       "source": "PCWatch",
-      "url": "https://pc.watch.impress.co.jp/docs/topic/present/",
+      "url": "https://pc.watch.impress.co.jp/",
       "enabled": true,
       "linkPattern": "^https://pc\\.watch\\.impress\\.co\\.jp/docs/topic/present/\\d+\\.html$",
       "titlePattern": "プレゼント",
@@ -45,11 +47,12 @@
     {
       "source": "AudioTechnica",
       "url": "https://www.audio-technica.co.jp/news/",
-      "enabled": true,
+      "enabled": false,
       "linkPattern": "^https://www\\.audio-technica\\.co\\.jp/news/detail/\\d+/?$",
       "titlePattern": "プレゼント|キャンペーン|当たる",
       "requireDeadline": true,
-      "genre": "ガジェット・家電"
+      "genre": "ガジェット・家電",
+      "disabledReason": "ニュース一覧がJavaScript描画になりリンクを取得できないため停止（2026-09-15）"
     },
     {
       "source": "Tsukumo",
@@ -72,6 +75,27 @@
       "titleExclude": "SALE|セール|実施中|まとめ",
       "maxDeadlineDays": 120,
       "genre": "ガジェット・家電"
+    },
+    {
+      "source": "4Gamer",
+      "url": "https://www.4gamer.net/tags/TN/TN024/",
+      "enabled": true,
+      "linkPattern": "^https://www\\.4gamer\\.net/games/\\d{3}/G\\d{6}/\\d{11}/$",
+      "titlePattern": "^[［\\[]プレゼント[］\\]]",
+      "requireDeadline": true,
+      "maxDeadlineDays": 120,
+      "urlDatePattern": "/(\\d{8})\\d{3}/?$",
+      "maxArticleAgeDays": 60
+    },
+    {
+      "source": "MynaviNews",
+      "url": "https://news.mynavi.jp/present/",
+      "enabled": true,
+      "linkPattern": "^https://news\\.mynavi\\.jp/article/\\d{8}-present\\d+/$",
+      "requireDeadline": true,
+      "maxDeadlineDays": 120,
+      "urlDatePattern": "/article/(\\d{8})-",
+      "maxArticleAgeDays": 60
     }
   ],
   "note": "新規候補は6時間ごとに自動収集し、scripts/promote.mjs が締切・当選人数・条件を抽出して安全基準を満たすものを自動公開する。判定できない候補は data/review-queue.json に保留し自動で再判定する。LIPSは自動アクセスせず管理者確認を維持する。"

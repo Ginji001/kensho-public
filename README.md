@@ -14,7 +14,7 @@
 - manifest、192/512 PNG、Service Worker、オフライン一覧
 - GitHub PagesによるHTTPS公開
 - 6時間ごとのリンク再確認・期限処理・再配信
-- @cosme / Monipla / RoomClip の新規候補を6時間ごとに自動収集
+- @cosme / Monipla / RoomClip / PC Watch / 4Gamer / マイナビニュース / ツクモ / e☆イヤホン の新規候補を6時間ごとに自動収集
 - 新規候補は締切・当選人数・条件を自動抽出し、安全基準を満たせば自動掲載（条件欄に「自動抽出」と表示）
 - 判定できない候補は `review-queue.json` に保留し、6時間ごとに最大12回自動で再判定
 - 公開対象は確認済みデータのみ。検索ページへのフォールバックは行わない
@@ -24,7 +24,8 @@
 
 6時間ごと（およびmain更新時）にGitHub Actionsが以下を自動実行します。手動作業は不要です。
 
-1. `npm run discover` — @cosme / モニプラ / RoomClip から新規候補URLを収集
+1. `npm run discover` — @cosme / モニプラ / RoomClip / PC Watch / 4Gamer / マイナビニュース / ツクモ / e☆イヤホン から新規候補URLを収集（オーディオテクニカはニュース一覧がJavaScript描画のため停止中）
+   - 4Gamer・マイナビニュースは記事URLの日付が60日より古いものを除外
 2. `npm run promote` — 候補ページから締切・当選人数・条件・ジャンルを抽出し、次の基準で自動判定
    - 許可ドメイン内・HTTPS・公開IPのみ／LIPSなど手動確認対象は除外
    - ページが取得でき、タイトルがあり、終了表示がない

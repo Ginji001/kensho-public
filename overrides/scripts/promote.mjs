@@ -111,7 +111,7 @@ const GENRE_RULES = [
   ['ポイント・金券', /ポイント|ギフト券|ギフトカード|QUOカード|クオカード|商品券|Amazonギフト|PayPay|電子マネー/i],
   ['ペット', /ペット|犬|猫|ドッグ|キャット/],
   ['ガジェット・家電', /家電|イヤホン|イヤフォン|ヘッドホン|ヘッドフォン|スピーカー|サウンドバー|オーディオ|TWS|マイク(?!ロ)|アンプ|スマホ|充電器|モバイルバッテリー|ドライヤー|掃除機|カメラ|ガジェット|美顔器|PC|パソコン|キーボード|マウス(?!ウォッシュ)|SSD|HDD|CPU|GPU|グラフィックボード|マザーボード|電源ユニット|ディスプレイ|ルーター|タブレット|ゲーミング|Chromebook|MacBook|iPad/i],
-  ['食品・飲料', /食品|飲料|お茶|緑茶|麦茶|コーヒー|お菓子|スイーツ|ビール|日本酒|ワイン|お米|調味料|ジュース|ドリンク|サプリ|グルメ|プロテイン/],
+  ['食品・飲料', /食品|だし|つゆ|飲料|お茶|緑茶|麦茶|コーヒー|お菓子|スイーツ|ビール|日本酒|ワイン|お米|調味料|ジュース|ドリンク|サプリ|グルメ|プロテイン/],
   ['コスメ', /化粧|コスメ|美容|スキンケア|ファンデ|リップ|シャンプー|ヘアケア|美顔|クレンジング|パック|セラム|美容液|日焼け止め|ネイル|香水|ボディ/],
   ['旅行・本', /旅行|宿泊|ホテル|書籍|絵本|雑誌/],
   ['日用品', /洗剤|収納|インテリア|キッチン|雑貨|日用品|タオル|壁紙|DIY|家具|寝具|掃除|入浴剤/i],
@@ -158,6 +158,13 @@ export function evaluate({source, url, html, now = new Date(), policy}) {
   if (entry.titlePattern && !new RegExp(entry.titlePattern, 'i').test(title + ' ' + ((html.match(/<title[^>]*>([\s\S]*?)<\/title>/i) || [])[1] || ''))) return {decision: 'reject', reason: 'not-campaign'};
   if (entry.titleExclude && new RegExp(entry.titleExclude, 'i').test(title)) return {decision: 'reject', reason: 'not-campaign'};
   if (CLOSED_TITLE.test(title) || endedPage(html)) return {decision: 'reject', reason: 'ended'};
+  if (entry.urlDatePattern && entry.maxArticleAgeDays) {
+    const m = url.match(new RegExp(entry.urlDatePattern));
+    if (m) {
+      const published = Date.parse(`${m[1].slice(0, 4)}-${m[1].slice(4, 6)}-${m[1].slice(6, 8)}T00:00:00+09:00`);
+      if (Number.isFinite(published) && published < +now - entry.maxArticleAgeDays * DAY) return {decision: 'reject', reason: 'too-old'};
+    }
+  }
   const text = mainText(html);
   if (entry.bodyPattern && !new RegExp(entry.bodyPattern, 'i').test(text)) return {decision: 'reject', reason: 'not-campaign'};
   const deadline = extractDeadline(text, now);
