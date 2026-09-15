@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-15T14:33:05.005Z",
+  "updatedAt": "2026-09-15T17:03:46.590Z",
   "items": [
     {
       "url": "https://shop.tsukumo.co.jp/features/nagao-ss/",
       "source": "Tsukumo",
       "title": "長尾製作所特集",
       "status": "held",
-      "attempts": 6,
+      "attempts": 7,
       "firstSeenAt": "2026-09-15T09:24:14.433Z",
-      "updatedAt": "2026-09-15T14:33:05.005Z",
-      "lastReason": "fetch:fetch failed"
+      "updatedAt": "2026-09-15T17:03:46.590Z",
+      "lastReason": "no-deadline"
     },
     {
       "url": "https://news.mynavi.jp/article/20260424-present01/",
@@ -240,6 +240,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-15T14:33:05.005Z",
       "updatedAt": "2026-09-15T14:33:05.005Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/040/G004099/20241225013/",
+      "source": "4Gamer",
+      "title": "4Gamerの1年を振り返る，Annual 4Gamer 2024。一番読まれたのは“ローグライク meets アイマス”な話題作の攻略記事！",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-15T17:03:46.590Z",
+      "updatedAt": "2026-09-15T17:03:46.590Z",
       "lastReason": "not-campaign"
     },
     {
@@ -563,6 +573,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/489/G048903/20260904038/",
+      "source": "4Gamer",
+      "title": "［インタビュー］6周年の「三國志 覇道」で，攻城戦の根底が変わる新シーズン「龍気連響」開幕。盾に強い新兵科“工兵”も現る",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-15T17:03:46.590Z",
+      "updatedAt": "2026-09-15T17:03:46.590Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/516/G051681/20220428072/",
       "source": "4Gamer",
       "title": "オープンワールドRPG「ノアズハート」のクローズドβテストが5月18日に開始，参加申し込みも可能に。4Gamer読者向けに500名分の応募枠を用意",
@@ -661,6 +681,46 @@
       "firstSeenAt": "2026-09-15T14:33:05.005Z",
       "updatedAt": "2026-09-15T14:33:05.005Z",
       "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/999/G999902/20260116046/",
+      "source": "4Gamer",
+      "title": "「4Gamerベンチマークレギュレーション32」をリリース。「CoD:BO7」「BF6」を導入。モンハンワイルズの計測方法を変更",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-15T17:03:46.590Z",
+      "updatedAt": "2026-09-15T17:03:46.590Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/999/G999905/20241227052/",
+      "source": "4Gamer",
+      "title": "冬のプレゼント企画を実施中。高性能上位モデルの「PlayStation 5 Pro」や最新モデル「iPhone 16 Pro Max」などが当たる！",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-15T17:03:46.590Z",
+      "updatedAt": "2026-09-15T17:03:46.590Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/999/G999905/20250117034/",
+      "source": "4Gamer",
+      "title": "「PlayStation 5 Pro」や「iPhone 16 Pro Max」などが当たる！ プレゼント企画「2024 Winter Special Present」を実施中",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-15T17:03:46.590Z",
+      "updatedAt": "2026-09-15T17:03:46.590Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/999/G999905/20250127006/",
+      "source": "4Gamer",
+      "title": "［プレゼント］本日締切！ PlayStation 5 ProやiPhone 16 Pro Maxなどが当たる「2024 Winter Special Present」を実施中",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-15T17:03:46.590Z",
+      "updatedAt": "2026-09-15T17:03:46.590Z",
+      "lastReason": "too-old"
     },
     {
       "url": "https://www.4gamer.net/games/999/G999905/20250207006/",
@@ -801,6 +861,16 @@
       "firstSeenAt": "2026-09-15T14:33:05.005Z",
       "updatedAt": "2026-09-15T14:33:05.005Z",
       "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.cosme.net/brandcollection/present/detail/present_id/12165",
+      "source": "atcosme",
+      "title": "SK-II(SK2/エスケーツー) / フェイシャル トリートメント エッセンスをプレゼント！",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-15T17:03:46.590Z",
+      "updatedAt": "2026-09-15T17:03:46.590Z",
+      "lastReason": "expired"
     },
     {
       "url": "https://www.e-earphone.jp/blogs/campaign-sale/26spring_pointpresent-cp",
