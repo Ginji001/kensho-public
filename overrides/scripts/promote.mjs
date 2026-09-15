@@ -76,14 +76,14 @@ export function extractDeadline(text, now = new Date()) {
   const rel = text.match(/(?:締切|〆切|締め切り)(?:まで)?\s*(?:あと|残り)?\s*(\d{1,3})\s*日/);
   if (rel) return fmt(todayMs + +rel[1] * DAY);
 
-  const label = /(応募期間|募集期間|応募締切|応募締め切り|締切|〆切|受付期間|実施期間|キャンペーン期間|開催期間|参加期限|応募期限)/g;
+  const label = /(応募期間|募集期間|エントリー期間|応募締切|応募締め切り|締切|〆切|受付期間|実施期間|キャンペーン期間|開催期間|参加期限|応募期限)/g;
   let lm;
   while ((lm = label.exec(text))) {
     const window = text.slice(lm.index, lm.index + 90);
     const ds = datesIn(window);
     if (ds.length) return fmt(ds.length >= 2 && /[~〜\-–―]/.test(window) ? Math.max(...ds.slice(0, 2)) : ds[0]);
   }
-  const range = text.match(/(?:(20\d{2})\s*[年/.]\s*)?(\d{1,2})\s*[/月]\s*(\d{1,2})\s*日?\s*(?:\([^)]{1,3}\))?\s*[~〜\-–―]\s*(?:(20\d{2})\s*[年/.]\s*)?(\d{1,2})\s*[/月]\s*(\d{1,2})/);
+  const range = text.match(/(?:(20\d{2})\s*[年/.]\s*)?(\d{1,2})\s*[/月]\s*(\d{1,2})\s*日?\s*(?:\([^)]{1,3}\))?\s*(?:\d{1,2}:\d{2})?\s*[~〜\-–―]\s*(?:(20\d{2})\s*[年/.]\s*)?(\d{1,2})\s*[/月]\s*(\d{1,2})/);
   if (range) {
     const ms = range[4] ? validDate(+range[4], +range[5], +range[6]) : fromMD(+range[5], +range[6]);
     if (plausible(ms)) return fmt(ms);
@@ -119,7 +119,7 @@ export function classifyGenre(title, source) {
 }
 
 export function extractConditions(text, source) {
-  const purchase = /(?:対象)?商品(?:を|の)?(?:ご)?購入|レシート(?:を|の)?(?:撮影|送付|応募)|お買い上げ|購入者限定|購入が必要/.test(text);
+  const purchase = /(?:対象)?(?:商品|製品)(?:を|の)?(?:ご)?購入|レシート|納品書|購入証明|購入期間|お買い上げ|購入者限定|購入が必要|以上(?:の)?(?:ご)?購入/.test(text);
   const noPurchase = /購入不要|購入の必要はありません/.test(text);
   const sns = /Instagram|インスタグラム|TikTok|X\s*\(旧Twitter\)|Twitter|フォロー(?:&|＆|して)|リポスト|リツイート/i.test(text);
   const review = /レビュー|口コミ|クチコミ|投稿(?:して|いただ|する)|感想/.test(text);
@@ -155,6 +155,7 @@ export function evaluate({source, url, html, now = new Date(), policy}) {
   if (entry.titlePattern && !new RegExp(entry.titlePattern, 'i').test(title + ' ' + ((html.match(/<title[^>]*>([\s\S]*?)<\/title>/i) || [])[1] || ''))) return {decision: 'reject', reason: 'not-campaign'};
   if (CLOSED_TITLE.test(title) || endedPage(html)) return {decision: 'reject', reason: 'ended'};
   const text = mainText(html);
+  if (entry.bodyPattern && !new RegExp(entry.bodyPattern, 'i').test(text)) return {decision: 'reject', reason: 'not-campaign'};
   const deadline = extractDeadline(text, now);
   if (deadline && deadline < dayJST(now)) return {decision: 'reject', reason: 'expired'};
   if (!deadline && entry.requireDeadline) return {decision: 'hold', reason: 'no-deadline'};
