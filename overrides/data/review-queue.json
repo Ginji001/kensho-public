@@ -1,16 +1,26 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-15T17:03:46.590Z",
+  "updatedAt": "2026-09-15T21:25:05.756Z",
   "items": [
     {
       "url": "https://shop.tsukumo.co.jp/features/nagao-ss/",
       "source": "Tsukumo",
       "title": "長尾製作所特集",
       "status": "held",
-      "attempts": 7,
+      "attempts": 8,
       "firstSeenAt": "2026-09-15T09:24:14.433Z",
-      "updatedAt": "2026-09-15T17:03:46.590Z",
-      "lastReason": "no-deadline"
+      "updatedAt": "2026-09-15T21:25:05.756Z",
+      "lastReason": "fetch:fetch failed"
+    },
+    {
+      "url": "https://news.mynavi.jp/article/20260410-present01/",
+      "source": "MynaviNews",
+      "title": "【1名様】春のお出かけに便利！「ペットボトルにも挿せるミストハンディファン LCAF038」をプレゼント",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-15T21:25:05.756Z",
+      "updatedAt": "2026-09-15T21:25:05.756Z",
+      "lastReason": "too-old"
     },
     {
       "url": "https://news.mynavi.jp/article/20260424-present01/",
@@ -160,6 +170,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-15T03:40:16.757Z",
       "updatedAt": "2026-09-15T03:40:16.757Z",
+      "lastReason": "expired"
+    },
+    {
+      "url": "https://roomclip.jp/form/3797",
+      "source": "RoomClip",
+      "title": "【無料モニター】大事なグッズをホコリから守ってキレイに飾る！「ガラスコレクションケース」を3名様にプレゼント！",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-15T21:25:05.756Z",
+      "updatedAt": "2026-09-15T21:25:05.756Z",
       "lastReason": "expired"
     },
     {
