@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-15T08:40:50.678Z",
+  "updatedAt": "2026-09-15T09:19:40.065Z",
   "items": [
     {
       "url": "https://roomclip.jp/form/3776",
@@ -60,6 +60,146 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-15T03:40:16.757Z",
       "updatedAt": "2026-09-15T03:40:16.757Z",
+      "lastReason": "expired"
+    },
+    {
+      "url": "https://www.e-earphone.jp/blogs/campaign-sale/26spring_pointpresent-cp",
+      "source": "eEarphone",
+      "title": "春トク！30万ポイントプレゼントキャンペーン！【~2026/3/31(火)まで】 – e☆イヤホン",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-15T09:19:40.065Z",
+      "updatedAt": "2026-09-15T09:19:40.065Z",
+      "lastReason": "expired"
+    },
+    {
+      "url": "https://www.e-earphone.jp/blogs/campaign-sale/black-friday-sale",
+      "source": "eEarphone",
+      "title": "BLACK FRIDAY SALE",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-15T09:19:40.065Z",
+      "updatedAt": "2026-09-15T09:19:40.065Z",
+      "lastReason": "expired"
+    },
+    {
+      "url": "https://www.e-earphone.jp/blogs/campaign-sale/christmas-sale",
+      "source": "eEarphone",
+      "title": "Christmas SALE",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-15T09:19:40.065Z",
+      "updatedAt": "2026-09-15T09:19:40.065Z",
+      "lastReason": "expired"
+    },
+    {
+      "url": "https://www.e-earphone.jp/blogs/campaign-sale/e-ear-otoshidama-cp",
+      "source": "eEarphone",
+      "title": "【抽選で最大10万円相当が当たる！】2026謹賀新年eイヤお年玉キャンペーン！ – e☆イヤホン",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-15T09:19:40.065Z",
+      "updatedAt": "2026-09-15T09:19:40.065Z",
+      "lastReason": "expired"
+    },
+    {
+      "url": "https://www.e-earphone.jp/blogs/campaign-sale/e-earjumbo",
+      "source": "eEarphone",
+      "title": "【計100万円相当のポイントが当たる！】2025年末eイヤジャンボキャンペーン – e☆イヤホン",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-15T09:19:40.065Z",
+      "updatedAt": "2026-09-15T09:19:40.065Z",
+      "lastReason": "expired"
+    },
+    {
+      "url": "https://www.e-earphone.jp/blogs/campaign-sale/e-earpoint_presentcp",
+      "source": "eEarphone",
+      "title": "【祝 e☆イヤホン19周年！】感謝の気持ちを込めて、19万eイヤポイントプレゼントキャンペーン！【~2026/9/28(月)まで】",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-15T09:19:40.065Z",
+      "updatedAt": "2026-09-15T09:19:40.065Z",
+      "lastReason": "expired"
+    },
+    {
+      "url": "https://www.e-earphone.jp/blogs/campaign-sale/e-earpoint_presentcp-2",
+      "source": "eEarphone",
+      "title": "応募でつかめ！2026サマーeイヤジャンボキャンペーン！【2026/07/27-08/31】 – e☆イヤホン",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-15T09:19:40.065Z",
+      "updatedAt": "2026-09-15T09:19:40.065Z",
+      "lastReason": "expired"
+    },
+    {
+      "url": "https://www.e-earphone.jp/blogs/campaign-sale/eear-point-yamawake",
+      "source": "eEarphone",
+      "title": "【チョコッとハッピー！】総額20万ポイント山分けキャンペーン！【~2026/2/24(火)まで】 – e☆イヤホン",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-15T09:19:40.065Z",
+      "updatedAt": "2026-09-15T09:19:40.065Z",
+      "lastReason": "expired"
+    },
+    {
+      "url": "https://www.e-earphone.jp/blogs/campaign-sale/pointbackcp",
+      "source": "eEarphone",
+      "title": "50人に一人はタダに！？全額ポイントバックキャンペーン！【2026/6/29(月) 11:00 ～ 7/27(月) 11:00】 – e☆イヤホン",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-15T09:19:40.065Z",
+      "updatedAt": "2026-09-15T09:19:40.065Z",
+      "lastReason": "expired"
+    },
+    {
+      "url": "https://www.e-earphone.jp/blogs/campaign-sale/sale-campaign-list2",
+      "source": "eEarphone",
+      "title": "2026プライムセールまとめ – e☆イヤホン",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-15T09:19:40.065Z",
+      "updatedAt": "2026-09-15T09:19:40.065Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.e-earphone.jp/blogs/campaign-sale/secret_used_sale",
+      "source": "eEarphone",
+      "title": "中古シークレットセール！（2025/5/27(火)18:00～2025/5/29(木)11:00） – e☆イヤホン",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-15T09:19:40.065Z",
+      "updatedAt": "2026-09-15T09:19:40.065Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.e-earphone.jp/blogs/campaign-sale/sony_purchase_cp",
+      "source": "eEarphone",
+      "title": "ソニーに乗り換えるなら”今”しかない！ソニーの人気イヤホンWF-1000XM5などが最大2,000円OFF！ – e☆イヤホン",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-15T09:19:40.065Z",
+      "updatedAt": "2026-09-15T09:19:40.065Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.e-earphone.jp/blogs/campaign-sale/used-day",
+      "source": "eEarphone",
+      "title": "中古の日SP（2025/6/13(金)20:00～2025/6/16(月)11:00） – e☆イヤホン",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-15T09:19:40.065Z",
+      "updatedAt": "2026-09-15T09:19:40.065Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.e-earphone.jp/blogs/campaign-sale/wf-1000xm6_review_pointcp",
+      "source": "eEarphone",
+      "title": "【SONY WF-1000XM6購入者限定！】レビュー投稿で1000円分のeイヤポイントプレゼント！【～7/31 購入分まで！】 – e☆イヤホン",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-15T09:19:40.065Z",
+      "updatedAt": "2026-09-15T09:19:40.065Z",
       "lastReason": "expired"
     }
   ]
