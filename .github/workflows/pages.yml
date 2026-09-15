@@ -8,7 +8,7 @@ on:
     - cron: '17 */6 * * *'
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -57,11 +57,20 @@ jobs:
           cd "$APP_DIR"
           npm run discover
 
+      - name: Auto-review and publish new candidates
+        shell: bash
+        run: |
+          cd "$APP_DIR"
+          npm run promote
+
       - name: Upload discovery queue
         uses: actions/upload-artifact@v4
         with:
           name: discovery-queue
-          path: ${{ env.APP_DIR }}/data/discovered-campaigns.json
+          path: |
+            ${{ env.APP_DIR }}/data/discovered-campaigns.json
+            ${{ env.APP_DIR }}/data/review-queue.json
+            ${{ env.APP_DIR }}/data/auto-campaigns.json
           retention-days: 14
 
       - name: Refresh reviewed campaign data
@@ -69,6 +78,7 @@ jobs:
         run: |
           cd "$APP_DIR"
           npm run refresh
+          npm run prune
 
       - name: Build public files
         shell: bash
@@ -88,6 +98,41 @@ jobs:
             echo 'Private or credential-bearing endpoint detected in publishable data.' >&2
             exit 1
           fi
+
+      - name: Save automation state to repository
+        if: github.ref == 'refs/heads/main'
+        shell: bash
+        run: |
+          cp "$APP_DIR/data/auto-campaigns.json" overrides/data/auto-campaigns.json
+          cp "$APP_DIR/data/review-queue.json" overrides/data/review-queue.json
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898699+github-actions[bot]@users.noreply.github.com'
+          git add overrides/data/auto-campaigns.json overrides/data/review-queue.json
+          if git diff --cached --quiet; then
+            echo 'No automation state changes.'
+            exit 0
+          fi
+          git commit -m 'chore: update auto-published campaigns [skip ci]'
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            sleep 5
+          done
+          echo 'Could not push automation state.' >&2
+          exit 1
+
+      - name: Write run summary
+        if: always()
+        shell: bash
+        run: |
+          cd "$APP_DIR"
+          node -e '
+            const fs=require("fs");const r=p=>{try{return JSON.parse(fs.readFileSync(p,"utf8"))}catch{return null}};
+            const auto=r("data/auto-campaigns.json")||[];const q=r("data/review-queue.json")||{items:[]};const pub=r("public/public-campaigns.json")||{campaigns:[]};
+            const held=q.items.filter(x=>x.status==="held");
+            let md=`## 懸賞データ自動更新\n\n- 公開案件: ${pub.campaigns.length}件（うち自動掲載 ${auto.length}件）\n- 保留中の候補: ${held.length}件（自動で再判定）\n\n`;
+            if(held.length)md+="| 掲載元 | URL | 理由 | 試行 |\n|---|---|---|---|\n"+held.map(x=>`| ${x.source} | ${x.url} | ${x.lastReason||""} | ${x.attempts} |`).join("\n")+"\n";
+            fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,md);
+          '
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
