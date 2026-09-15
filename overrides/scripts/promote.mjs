@@ -54,7 +54,7 @@ export function extractDeadline(text, now = new Date()) {
   const plausible = ms => Number.isFinite(ms) && ms >= todayMs - 400 * DAY && ms <= todayMs + 400 * DAY;
   const fromMD = (m, d) => {
     let ms = validDate(ty, m, d);
-    if (ms < todayMs - 60 * DAY) ms = validDate(ty + 1, m, d);
+    if (ms < todayMs - 60 * DAY) { const next = validDate(ty + 1, m, d); if (next <= todayMs + 120 * DAY) ms = next; }
     return ms;
   };
   const datesIn = s => {
@@ -77,12 +77,15 @@ export function extractDeadline(text, now = new Date()) {
   if (rel) return fmt(todayMs + +rel[1] * DAY);
 
   const label = /(応募期間|募集期間|エントリー期間|応募締切|応募締め切り|締切|〆切|受付期間|実施期間|キャンペーン期間|開催期間|参加期限|応募期限)/g;
-  let lm;
+  let lm, best = NaN;
   while ((lm = label.exec(text))) {
     const window = text.slice(lm.index, lm.index + 90);
     const ds = datesIn(window);
-    if (ds.length) return fmt(ds.length >= 2 && /[~〜\-–―]/.test(window) ? Math.max(...ds.slice(0, 2)) : ds[0]);
+    if (!ds.length) continue;
+    const end = ds.length >= 2 && /[~〜\-–―]/.test(window) ? Math.max(...ds.slice(0, 2)) : ds[0];
+    if (!(best >= end)) best = end;
   }
+  if (Number.isFinite(best)) return fmt(best);
   const range = text.match(/(?:(20\d{2})\s*[年/.]\s*)?(\d{1,2})\s*[/月]\s*(\d{1,2})\s*日?\s*(?:\([^)]{1,3}\))?\s*(?:\d{1,2}:\d{2})?\s*[~〜\-–―]\s*(?:(20\d{2})\s*[年/.]\s*)?(\d{1,2})\s*[/月]\s*(\d{1,2})/);
   if (range) {
     const ms = range[4] ? validDate(+range[4], +range[5], +range[6]) : fromMD(+range[5], +range[6]);
