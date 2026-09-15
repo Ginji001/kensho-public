@@ -156,11 +156,13 @@ export function evaluate({source, url, html, now = new Date(), policy}) {
   const title = pageTitle(html);
   if (!title) return {decision: 'hold', reason: 'no-title'};
   if (entry.titlePattern && !new RegExp(entry.titlePattern, 'i').test(title + ' ' + ((html.match(/<title[^>]*>([\s\S]*?)<\/title>/i) || [])[1] || ''))) return {decision: 'reject', reason: 'not-campaign'};
+  if (entry.titleExclude && new RegExp(entry.titleExclude, 'i').test(title)) return {decision: 'reject', reason: 'not-campaign'};
   if (CLOSED_TITLE.test(title) || endedPage(html)) return {decision: 'reject', reason: 'ended'};
   const text = mainText(html);
   if (entry.bodyPattern && !new RegExp(entry.bodyPattern, 'i').test(text)) return {decision: 'reject', reason: 'not-campaign'};
   const deadline = extractDeadline(text, now);
   if (deadline && deadline < dayJST(now)) return {decision: 'reject', reason: 'expired'};
+  if (deadline && entry.maxDeadlineDays && Date.parse(deadline + 'T00:00:00+09:00') > +now + entry.maxDeadlineDays * DAY) return {decision: 'reject', reason: 'deadline-too-far'};
   if (!deadline && entry.requireDeadline) return {decision: 'hold', reason: 'no-deadline'};
   const winners = extractWinners(text);
   const cond = extractConditions(text, source);
