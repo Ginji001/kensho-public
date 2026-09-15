@@ -15,6 +15,8 @@ const MYSITES_KEY='kensho-public-mysites-v1';
 const SOURCE_LABELS={atcosme:'@cosme',Monipla:'モニプラ',RoomClip:'RoomClip',LIPS:'LIPS',official:'公式サイト',SHARP:'SHARP',Makuake:'Makuake',PCWatch:'PC Watch',AudioTechnica:'オーディオテクニカ',Tsukumo:'ツクモ',eEarphone:'e☆イヤホン'};
 const TOPICS={pc:/PC|パソコン|AMD|Ryzen|Radeon|Intel|インテル|GeForce|NVIDIA|自作|キーボード|マウス(?!ウォッシュ)|SSD|HDD|CPU|GPU|グラフィックボード|グラボ|マザーボード|電源ユニット|PCケース|ディスプレイ|(?:\\d+(?:\\.\\d+)?型|4K|ゲーミング|液晶|湾曲|ウルトラワイド)\\S*モニター|ルーター|Wi-?Fi|タブレット|ゲーミング|Chromebook|MacBook|iPad|USB|充電器|モバイルバッテリー/i,audio:/イヤホン|イヤフォン|ヘッドホン|ヘッドフォン|スピーカー|サウンドバー|オーディオ|TWS|マイク(?!ロ)|アンプ|DAP|ポータブルプレーヤー|ターンテーブル|レコードプレーヤー|Soundcore|AirPods|JBL|Bose|Shure|ゼンハイザー|audio-technica/i};
 let activeTopic='';
+function isAppOnly(c){return c.source==='LIPS'||String(c.url||'').startsWith('https://lipscosme.com/')}
+function isDesktop(){try{return !matchMedia('(pointer:coarse)').matches}catch{return true}}
 function topicMatch(c,t){return TOPICS[t].test(c.name+' '+(c.prize||''))}
 function mySites(){try{const v=JSON.parse(storage?.getItem(MYSITES_KEY)||'[]');return Array.isArray(v)?v.filter(x=>typeof x==='string'):[]}catch{return []}}
 function usableHref(c){const end=expired(c)||c.linkStatus==='ended';const ok=!end&&!offline&&c.linkStatus==='ok'&&Date.now()-Date.parse(c.linkCheckedAt)<48*3600000;return ok?safeUrl(c.applyUrl||c.url,catalog.allowedDomains):null}
@@ -36,9 +38,9 @@ extraFieldset.append(actionButton('登録済みサイトを設定',openSites,'te
 document.querySelectorAll('.results>.small').forEach(p=>p.remove());
 const rapidDialog=el('dialog',{class:'rapid','aria-label':'連続応募'});rapidDialog.append(actionButton('×',()=>rapidDialog.close(),'rapid-close'),el('div',{class:'rapid-body'}));document.body.append(rapidDialog);
 let rapid={queue:[],i:0,done:0};
-function startRapid(){const f=Object.fromEntries(new FormData(form));f.sort=$('#sort').value;rapid={queue:extraFilter(selectCampaigns(catalog.campaigns,f,state),f).filter(c=>(state[c.id]?.status||'new')==='new'&&usableHref(c)).map(c=>c.id),i:0,done:0};showRapid();rapidDialog.showModal()}
+function startRapid(){const f=Object.fromEntries(new FormData(form));f.sort=$('#sort').value;rapid={queue:extraFilter(selectCampaigns(catalog.campaigns,f,state),f).filter(c=>(state[c.id]?.status||'new')==='new'&&usableHref(c)&&!(isDesktop()&&isAppOnly(c))).map(c=>c.id),i:0,done:0};showRapid();rapidDialog.showModal()}
 function markRapid(status){const id=rapid.queue[rapid.i];if(status==='applied')rapid.done++;rapid.i++;persist(id,{status});showRapid()}
-function showRapid(){const body=rapidDialog.querySelector('.rapid-body');const ids=rapid.queue;while(rapid.i<ids.length&&(state[ids[rapid.i]]?.status||'new')!=='new')rapid.i++;if(rapid.i>=ids.length){body.replaceChildren(el('h2',{text:ids.length?'おつかれさまでした':'応募できる案件がありません'}),el('p',{text:ids.length?rapid.done+'件を応募済みにしました。':'絞り込みを変えるか、次の更新をお待ちください。'}),actionButton('閉じる',()=>rapidDialog.close(),'primary'));return}const c=catalog.campaigns.find(x=>x.id===ids[rapid.i]);const href=usableHref(c);body.replaceChildren(el('p',{class:'rapid-progress',text:(rapid.i+1)+' / '+ids.length+' 件'}),el('p',{class:'meta',text:(SOURCE_LABELS[c.source]||c.source)+' · '+c.genre}),el('h3',{text:c.name}),el('p',{class:'prize',text:'当選 '+(c.winnersText||'未確認')+' ・ 締切 '+(c.deadline?c.deadline.slice(5,10).replace('-','/'):'公式で確認')}),el('p',{class:'condition',text:simpleCondition(c)}),href?el('a',{class:'rapid-open',href,target:'_blank',rel:'noopener noreferrer',text:(c.applyUrl?'応募フォームを開く':'応募ページを開く')+' ↗'}):el('span',{class:'disabled-link',text:'リンク確認中'}),el('div',{class:'rapid-actions'},[actionButton('✓ 応募した → 次へ',()=>markRapid('applied'),'primary'),actionButton('条件待ち',()=>markRapid('waiting')),actionButton('見送り',()=>markRapid('skipped')),actionButton('あとで →',()=>{rapid.i++;showRapid()})]))}
+function showRapid(){const body=rapidDialog.querySelector('.rapid-body');const ids=rapid.queue;while(rapid.i<ids.length&&(state[ids[rapid.i]]?.status||'new')!=='new')rapid.i++;if(rapid.i>=ids.length){body.replaceChildren(el('h2',{text:ids.length?'おつかれさまでした':'応募できる案件がありません'}),el('p',{text:ids.length?rapid.done+'件を応募済みにしました。':'絞り込みを変えるか、次の更新をお待ちください。'}),actionButton('閉じる',()=>rapidDialog.close(),'primary'));return}const c=catalog.campaigns.find(x=>x.id===ids[rapid.i]);const href=usableHref(c);body.replaceChildren(el('p',{class:'rapid-progress',text:(rapid.i+1)+' / '+ids.length+' 件'}),el('p',{class:'meta',text:(SOURCE_LABELS[c.source]||c.source)+' · '+c.genre}),el('h3',{text:c.name}),el('p',{class:'prize',text:'当選 '+(c.winnersText||'未確認')+' ・ 締切 '+(c.deadline?c.deadline.slice(5,10).replace('-','/'):'公式で確認')}),el('p',{class:'condition',text:simpleCondition(c)}),isAppOnly(c)?el('p',{class:'app-note',text:'LIPSはスマホのアプリからのみ応募できます'}):el('span'),href?el('a',{class:'rapid-open',href,target:'_blank',rel:'noopener noreferrer',text:(c.applyUrl?'応募フォームを開く':'応募ページを開く')+' ↗'}):el('span',{class:'disabled-link',text:'リンク確認中'}),el('div',{class:'rapid-actions'},[actionButton('✓ 応募した → 次へ',()=>markRapid('applied'),'primary'),actionButton('条件待ち',()=>markRapid('waiting')),actionButton('見送り',()=>markRapid('skipped')),actionButton('あとで →',()=>{rapid.i++;showRapid()})]))}
 const rapidStart=actionButton('▶ 連続応募',startRapid,'rapid-start');rapidStart.id='rapidStart';document.querySelector('.quick').prepend(rapidStart);
 `;
 
@@ -73,6 +75,8 @@ aside,.stat,.card,.empty{background:var(--card);border-color:var(--line)}
 #notice{background:#f3eee2;border-color:#e0d6c0}
 .link-check{display:none}
 #filters [hidden]{display:none!important}
+.tag.app-only{background:#efe6d6;color:#6e5431}
+.app-note{margin:8px 0 0;font-size:.85rem;color:#6e5431}
 dialog{border-color:var(--line);background:var(--card);color:var(--ink)}
 dialog::backdrop{background:#2e333766}
 dialog button{background:var(--blue)}
@@ -105,7 +109,7 @@ const replacements = [
   ["['今日締切',active.filter(c=>daysLeft(c)===0).length],", ""],
   ["['高優先度 SS・S・A',active.filter(c=>['SS','S','A'].includes(c.priority)).length],", ""],
   ["[['requiresPurchase','購入必要'],['requiresReview','レビュー'],['requiresApp','アプリ'],['requiresLogin','会員登録'],['isMonitor','モニター']]", "[['requiresPurchase','購入必要'],['isMonitor','モニター']]"],
-  ["if(c.requiresPurchase===false)tags.push(el('span',{class:'tag',text:'購入不要'}));", ""],
+  ["if(c.requiresPurchase===false)tags.push(el('span',{class:'tag',text:'購入不要'}));", "if(isAppOnly(c))tags.push(el('span',{class:'tag app-only',text:'アプリ限定'}));"],
   ["el('p',{class:'prize',text:`${c.source} · ${c.prize}`})", "el('p',{class:'prize',text:(SOURCE_LABELS[c.source]||c.source)+(c.prize&&c.prize!==c.name?' · '+c.prize:'')})"],
   ["el('p',{class:'condition',text:c.condition})", "el('p',{class:'condition',text:simpleCondition(c)})"],
   ["if('serviceWorker'in navigator)", BLOCK + "if('serviceWorker'in navigator)"],
