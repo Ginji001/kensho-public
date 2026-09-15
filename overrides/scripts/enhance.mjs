@@ -12,7 +12,7 @@ export const MARKER = '/*kensho-enhance-v2*/';
 
 const BLOCK = `${MARKER}
 const MYSITES_KEY='kensho-public-mysites-v1';
-const SOURCE_LABELS={atcosme:'@cosme',Monipla:'モニプラ',RoomClip:'RoomClip',LIPS:'LIPS',official:'公式サイト',SHARP:'SHARP',Makuake:'Makuake',PCWatch:'PC Watch',AudioTechnica:'オーディオテクニカ'};
+const SOURCE_LABELS={atcosme:'@cosme',Monipla:'モニプラ',RoomClip:'RoomClip',LIPS:'LIPS',official:'公式サイト',SHARP:'SHARP',Makuake:'Makuake',PCWatch:'PC Watch',AudioTechnica:'オーディオテクニカ',Tsukumo:'ツクモ',eEarphone:'e☆イヤホン'};
 const TOPICS={pc:/PC|パソコン|キーボード|マウス(?!ウォッシュ)|SSD|HDD|CPU|GPU|グラフィックボード|グラボ|マザーボード|電源ユニット|PCケース|ディスプレイ|(?:\\d+(?:\\.\\d+)?型|4K|ゲーミング|液晶|湾曲|ウルトラワイド)\\S*モニター|ルーター|Wi-?Fi|タブレット|ゲーミング|Chromebook|MacBook|iPad|USB|充電器|モバイルバッテリー/i,audio:/イヤホン|イヤフォン|ヘッドホン|ヘッドフォン|スピーカー|サウンドバー|オーディオ|TWS|マイク(?!ロ)|アンプ|DAP|ポータブルプレーヤー|ターンテーブル|レコードプレーヤー|Soundcore|AirPods|JBL|Bose|Shure|ゼンハイザー|audio-technica/i};
 let activeTopic='';
 function topicMatch(c,t){return TOPICS[t].test(c.name+' '+(c.prize||''))}
