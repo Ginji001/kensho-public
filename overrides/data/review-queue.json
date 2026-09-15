@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-15T09:33:17.203Z",
+  "updatedAt": "2026-09-15T09:43:45.947Z",
   "items": [
     {
       "url": "https://shop.tsukumo.co.jp/features/nagao-ss/",
       "source": "Tsukumo",
       "title": "長尾製作所特集",
       "status": "held",
-      "attempts": 3,
+      "attempts": 4,
       "firstSeenAt": "2026-09-15T09:24:14.433Z",
-      "updatedAt": "2026-09-15T09:33:17.203Z",
+      "updatedAt": "2026-09-15T09:43:45.947Z",
       "lastReason": "no-deadline"
     },
     {
