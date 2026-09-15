@@ -526,29 +526,5 @@
     "updatedAt": "2026-09-15T03:40:16.757Z",
     "autoPublished": true,
     "firstSeenAt": "2026-09-15T03:40:16.757Z"
-  },
-  {
-    "id": "campaign-auto-6e956833ef5e",
-    "source": "eEarphone",
-    "genre": "ガジェット・家電",
-    "name": "新生活応援!セール情報まとめ",
-    "prize": "新生活応援!セール情報まとめ",
-    "winners": 50,
-    "winnersText": "50名",
-    "deadline": "2027-04-06",
-    "condition": "会員登録・購入必要（自動抽出・詳細は公式で確認）",
-    "entryType": "purchase",
-    "requiresPurchase": true,
-    "requiresReview": false,
-    "requiresApp": false,
-    "requiresLogin": true,
-    "isMonitor": false,
-    "url": "https://www.e-earphone.jp/blogs/campaign-sale/flesh-start-sale",
-    "applyUrl": null,
-    "cost": "unknown",
-    "productType": "unknown",
-    "updatedAt": "2026-09-15T09:19:40.065Z",
-    "autoPublished": true,
-    "firstSeenAt": "2026-09-15T09:19:40.065Z"
   }
 ]
