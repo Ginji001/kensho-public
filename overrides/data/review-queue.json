@@ -1,17 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-16T17:03:47.134Z",
+  "updatedAt": "2026-09-16T21:22:01.016Z",
   "items": [
-    {
-      "url": "https://shop.tsukumo.co.jp/features/nagao-ss/",
-      "source": "Tsukumo",
-      "title": "長尾製作所特集",
-      "status": "held",
-      "attempts": 11,
-      "firstSeenAt": "2026-09-15T09:24:14.433Z",
-      "updatedAt": "2026-09-16T17:03:47.134Z",
-      "lastReason": "fetch:fetch failed"
-    },
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
       "source": "MynaviNews",
@@ -183,6 +173,26 @@
       "lastReason": "expired"
     },
     {
+      "url": "https://roomclip.jp/form/3798",
+      "source": "RoomClip",
+      "title": "＜9月募集＞はじめよう、小さな模様替え。RoomClipショッピングで使える10,000円分のポイントを20名様にプレゼント♪",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-16T21:22:01.016Z",
+      "updatedAt": "2026-09-16T21:22:01.016Z",
+      "lastReason": "expired"
+    },
+    {
+      "url": "https://roomclip.jp/mag/archives/93757",
+      "source": "RoomClip",
+      "title": "【無料モニター】毎日の暮らしに、心地よいうるおいを。cadoのオートクリーン加湿器を40名様にプレゼント！",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-16T21:22:01.016Z",
+      "updatedAt": "2026-09-16T21:22:01.016Z",
+      "lastReason": "expired"
+    },
+    {
       "url": "https://shop.tsukumo.co.jp/features/appletop/",
       "source": "Tsukumo",
       "title": "Mac ラインナップ - カテゴリートップ",
@@ -231,6 +241,16 @@
       "firstSeenAt": "2026-09-15T09:24:14.433Z",
       "updatedAt": "2026-09-15T09:24:14.433Z",
       "lastReason": "expired"
+    },
+    {
+      "url": "https://shop.tsukumo.co.jp/features/nagao-ss/",
+      "source": "Tsukumo",
+      "title": "長尾製作所特集",
+      "status": "rejected",
+      "attempts": 12,
+      "firstSeenAt": "2026-09-15T09:24:14.433Z",
+      "updatedAt": "2026-09-16T21:22:01.016Z",
+      "lastReason": "fetch:fetch failed"
     },
     {
       "url": "https://shop.tsukumo.co.jp/features/new-products/",
