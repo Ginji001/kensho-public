@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-15T21:25:05.756Z",
+  "updatedAt": "2026-09-16T04:54:21.953Z",
   "items": [
     {
       "url": "https://shop.tsukumo.co.jp/features/nagao-ss/",
       "source": "Tsukumo",
       "title": "長尾製作所特集",
       "status": "held",
-      "attempts": 8,
+      "attempts": 9,
       "firstSeenAt": "2026-09-15T09:24:14.433Z",
-      "updatedAt": "2026-09-15T21:25:05.756Z",
-      "lastReason": "fetch:fetch failed"
+      "updatedAt": "2026-09-16T04:54:21.953Z",
+      "lastReason": "no-deadline"
     },
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
@@ -700,6 +700,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-15T14:33:05.005Z",
       "updatedAt": "2026-09-15T14:33:05.005Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/991/G999106/20260910027/",
+      "source": "4Gamer",
+      "title": "ぬいの刺繍を“プロ任せ”にしてみたら，最強にかわいい子が爆誕した話。ぬいぐるみの刺繍屋さん「Nui＆Me」を利用してみた",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-16T04:54:21.953Z",
+      "updatedAt": "2026-09-16T04:54:21.953Z",
       "lastReason": "not-campaign"
     },
     {
