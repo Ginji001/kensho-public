@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-16T04:54:21.953Z",
+  "updatedAt": "2026-09-16T11:42:21.049Z",
   "items": [
     {
       "url": "https://shop.tsukumo.co.jp/features/nagao-ss/",
       "source": "Tsukumo",
       "title": "長尾製作所特集",
       "status": "held",
-      "attempts": 9,
+      "attempts": 10,
       "firstSeenAt": "2026-09-15T09:24:14.433Z",
-      "updatedAt": "2026-09-16T04:54:21.953Z",
-      "lastReason": "no-deadline"
+      "updatedAt": "2026-09-16T11:42:21.049Z",
+      "lastReason": "fetch:fetch failed"
     },
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
@@ -250,6 +250,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-15T14:33:05.005Z",
       "updatedAt": "2026-09-15T14:33:05.005Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/008/G100862/20260910039/",
+      "source": "4Gamer",
+      "title": "［インタビュー］ADVを作るうえで最も大切なこととは？ 「ミステリーの歩き方2」ディレクターの金沢十三男氏に聞く，“ミステリーアドベンチャーの作り方”",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-16T11:42:21.049Z",
+      "updatedAt": "2026-09-16T11:42:21.049Z",
       "lastReason": "not-campaign"
     },
     {
@@ -660,6 +670,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-15T14:33:05.005Z",
       "updatedAt": "2026-09-15T14:33:05.005Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/975/G097529/20260912001/",
+      "source": "4Gamer",
+      "title": "［インタビュー］Dynamis Oneが「アストラエ・オラティオ」で目指す，“新伝奇”のあるべき形とは。hwansangことKim In氏が，その狙いとオリジンを語る",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-16T11:42:21.049Z",
+      "updatedAt": "2026-09-16T11:42:21.049Z",
       "lastReason": "not-campaign"
     },
     {

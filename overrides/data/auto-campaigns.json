@@ -838,5 +838,29 @@
     "updatedAt": "2026-09-16T04:54:21.953Z",
     "autoPublished": true,
     "firstSeenAt": "2026-09-16T04:54:21.953Z"
+  },
+  {
+    "id": "campaign-auto-919ed5721462",
+    "source": "Monipla",
+    "genre": "コスメ",
+    "name": "【 秋の集中美容!話題のエクソソームに着目 】クコカルス培養エキスやナイアシンアミド配合の美容液「潤姫桃子コンプリートセラム」",
+    "prize": "【 秋の集中美容!話題のエクソソームに着目 】クコカルス培養エキスやナイアシンアミド配合の美容液「潤姫桃子コンプリートセラム」",
+    "winners": 50,
+    "winnersText": "50名",
+    "deadline": "2026-09-27",
+    "condition": "モニプラ会員・SNS・投稿・レビュー（自動抽出・詳細は公式で確認）",
+    "entryType": "sns",
+    "requiresPurchase": null,
+    "requiresReview": true,
+    "requiresApp": false,
+    "requiresLogin": true,
+    "isMonitor": true,
+    "url": "https://monipla.jp/wpets/20260916/",
+    "applyUrl": null,
+    "cost": "unknown",
+    "productType": "unknown",
+    "updatedAt": "2026-09-16T11:42:21.049Z",
+    "autoPublished": true,
+    "firstSeenAt": "2026-09-16T11:42:21.049Z"
   }
 ]
