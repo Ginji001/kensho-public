@@ -838,5 +838,29 @@
     "updatedAt": "2026-09-17T04:57:13.675Z",
     "autoPublished": true,
     "firstSeenAt": "2026-09-17T04:57:13.675Z"
+  },
+  {
+    "id": "campaign-auto-10b2890d8779",
+    "source": "Monipla",
+    "genre": "その他",
+    "name": "塩むすびを作って投稿してね★海の精 あらしお 6名様",
+    "prize": "塩むすびを作って投稿してね★海の精 あらしお 6名様",
+    "winners": 6,
+    "winnersText": "6名",
+    "deadline": "2026-10-01",
+    "condition": "モニプラ会員・購入必要・SNS・投稿・レビュー（自動抽出・詳細は公式で確認）",
+    "entryType": "purchase",
+    "requiresPurchase": true,
+    "requiresReview": true,
+    "requiresApp": false,
+    "requiresLogin": true,
+    "isMonitor": true,
+    "url": "https://monipla.jp/uminosei/20260917/",
+    "applyUrl": null,
+    "cost": "unknown",
+    "productType": "unknown",
+    "updatedAt": "2026-09-17T11:48:17.861Z",
+    "autoPublished": true,
+    "firstSeenAt": "2026-09-17T11:48:17.861Z"
   }
 ]

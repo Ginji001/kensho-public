@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-17T04:57:13.675Z",
+  "updatedAt": "2026-09-17T11:48:17.861Z",
   "items": [
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
@@ -290,6 +290,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-15T14:33:05.005Z",
       "updatedAt": "2026-09-15T14:33:05.005Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/010/G101087/20260917032/",
+      "source": "4Gamer",
+      "title": "「Call of Duty: Modern Warfare 4」開発者セッションのレポートをお届け。マルチプレイ，キャンペーン，DMZを開発担当者自らが語ってくれた",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-17T11:48:17.861Z",
+      "updatedAt": "2026-09-17T11:48:17.861Z",
       "lastReason": "not-campaign"
     },
     {
