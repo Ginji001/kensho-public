@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-17T11:48:17.861Z",
+  "updatedAt": "2026-09-17T17:04:17.262Z",
   "items": [
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
@@ -300,6 +300,26 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-17T11:48:17.861Z",
       "updatedAt": "2026-09-17T11:48:17.861Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/014/G101429/20260918005/",
+      "source": "4Gamer",
+      "title": "「Wo Long 2: Wings of Ember」インタビュー。オープンフィールドの戦場と新アクションで，濃密なプレイ体験を目指す［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-17T17:04:17.262Z",
+      "updatedAt": "2026-09-17T17:04:17.262Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/014/G101452/20260915002/",
+      "source": "4Gamer",
+      "title": "「クレイジータクシー：ワールドツアー」日本凱旋（？）インタビュー。“当時のノリ”を今どう届けるのか，その挑戦を開発陣に聞く［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-17T17:04:17.262Z",
+      "updatedAt": "2026-09-17T17:04:17.262Z",
       "lastReason": "not-campaign"
     },
     {
@@ -650,6 +670,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-15T14:33:05.005Z",
       "updatedAt": "2026-09-15T14:33:05.005Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/668/G066881/20260917087/",
+      "source": "4Gamer",
+      "title": "明解な結末は作らない。9月24日のリリースが迫る「CONTROL Resonant」インタビュー［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-17T17:04:17.262Z",
+      "updatedAt": "2026-09-17T17:04:17.262Z",
       "lastReason": "not-campaign"
     },
     {
