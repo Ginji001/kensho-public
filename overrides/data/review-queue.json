@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-16T21:22:01.016Z",
+  "updatedAt": "2026-09-17T04:57:13.675Z",
   "items": [
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
@@ -750,6 +750,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-16T04:54:21.953Z",
       "updatedAt": "2026-09-16T04:54:21.953Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/994/G099460/20260907022/",
+      "source": "4Gamer",
+      "title": "6人編成で挑む本格ダンジョンRPG×教え子たちとの絆。ゲーム「Aランクパーティを離脱した俺は、元教え子たちと迷宮深部を目指す。」開発者インタビュー【PR】",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-17T04:57:13.675Z",
+      "updatedAt": "2026-09-17T04:57:13.675Z",
       "lastReason": "not-campaign"
     },
     {
