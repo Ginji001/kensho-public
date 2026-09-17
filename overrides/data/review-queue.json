@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-17T17:04:17.262Z",
+  "updatedAt": "2026-09-17T21:26:12.251Z",
   "items": [
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
@@ -30,6 +30,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-15T14:33:05.005Z",
       "updatedAt": "2026-09-15T14:33:05.005Z",
+      "lastReason": "too-old"
+    },
+    {
+      "url": "https://news.mynavi.jp/article/20260424-present03/",
+      "source": "MynaviNews",
+      "title": "【5組10名様】初夏の風物詩を五感で楽しむ！アートアクアリウム美術館 GINZA「藤と紫陽花 初夏きんぎょ2026」ペアチケットをプレゼント",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-17T21:26:12.251Z",
+      "updatedAt": "2026-09-17T21:26:12.251Z",
       "lastReason": "too-old"
     },
     {

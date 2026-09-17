@@ -790,5 +790,29 @@
     "updatedAt": "2026-09-17T11:48:17.861Z",
     "autoPublished": true,
     "firstSeenAt": "2026-09-17T11:48:17.861Z"
+  },
+  {
+    "id": "campaign-auto-6eb6860d7dba",
+    "source": "Monipla",
+    "genre": "コスメ",
+    "name": "\\140余年の美顔水から待望の新商品/大人の肌のための薬用化粧水が登場!✨",
+    "prize": "\\140余年の美顔水から待望の新商品/大人の肌のための薬用化粧水が登場!✨",
+    "winners": 40,
+    "winnersText": "40名",
+    "deadline": "2026-09-18",
+    "condition": "モニプラ会員・SNS・投稿・レビュー（自動抽出・詳細は公式で確認）",
+    "entryType": "sns",
+    "requiresPurchase": null,
+    "requiresReview": true,
+    "requiresApp": false,
+    "requiresLogin": true,
+    "isMonitor": true,
+    "url": "https://monipla.jp/meishoku/20260910/",
+    "applyUrl": null,
+    "cost": "unknown",
+    "productType": "unknown",
+    "updatedAt": "2026-09-17T21:26:12.251Z",
+    "autoPublished": true,
+    "firstSeenAt": "2026-09-17T21:26:12.251Z"
   }
 ]
