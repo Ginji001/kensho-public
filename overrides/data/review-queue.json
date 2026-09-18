@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-17T21:26:12.251Z",
+  "updatedAt": "2026-09-18T04:49:17.214Z",
   "items": [
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
@@ -740,6 +740,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-15T14:33:05.005Z",
       "updatedAt": "2026-09-15T14:33:05.005Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/970/G097093/20260915012/",
+      "source": "4Gamer",
+      "title": "回避と反撃で途切れぬ攻防を生み出す。「ガチアクタ BREAKOUT」が描くアニメの追体験とサバイバルの仕組みを制作者に聞く【PR】",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-18T04:49:17.214Z",
+      "updatedAt": "2026-09-18T04:49:17.214Z",
       "lastReason": "not-campaign"
     },
     {
