@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-18T11:22:01.545Z",
+  "updatedAt": "2026-09-18T16:28:21.260Z",
   "items": [
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
@@ -280,6 +280,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-15T14:33:05.005Z",
       "updatedAt": "2026-09-15T14:33:05.005Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/002/G100248/20260918078/",
+      "source": "4Gamer",
+      "title": "最後の1年を開発に専念するため退社。メカSTG「OMEGA PHENEX」するめまんじゅう氏インタビュー［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-18T16:28:21.260Z",
+      "updatedAt": "2026-09-18T16:28:21.260Z",
       "lastReason": "not-campaign"
     },
     {
