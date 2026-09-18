@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-18T16:28:21.260Z",
+  "updatedAt": "2026-09-18T20:56:55.557Z",
   "items": [
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
@@ -333,6 +333,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/013/G101399/20260918089/",
+      "source": "4Gamer",
+      "title": "「モンスターハンターワイルズ：アセンダンス」でブーストブレイサーが目指す「チャンスを自分で作り出す」感覚，そしてテオを今出す理由［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-18T20:56:55.557Z",
+      "updatedAt": "2026-09-18T20:56:55.557Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/014/G101429/20260918005/",
       "source": "4Gamer",
       "title": "「Wo Long 2: Wings of Ember」インタビュー。オープンフィールドの戦場と新アクションで，濃密なプレイ体験を目指す［TGS2026］",
@@ -350,6 +360,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-17T17:04:17.262Z",
       "updatedAt": "2026-09-17T17:04:17.262Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/015/G101559/20260918090/",
+      "source": "4Gamer",
+      "title": "「ドラゴンズドグマ 2：ダークアリズン」インタビュー。滑らかに動作するSwitch2版の秘密や「侵食された魔物」など，気になるところを聞いた［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-18T20:56:55.557Z",
+      "updatedAt": "2026-09-18T20:56:55.557Z",
       "lastReason": "not-campaign"
     },
     {
@@ -713,6 +733,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/730/G073063/20260919011/",
+      "source": "4Gamer",
+      "title": "獣人化する少女と過ごす育成ADV「アニマロイドガール」開発者インタビュー。正解などない，プレイヤーと少女が築いていく“思い出”が物語を形作る［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-18T20:56:55.557Z",
+      "updatedAt": "2026-09-18T20:56:55.557Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/760/G076037/20250626027/",
       "source": "4Gamer",
       "title": "「シャドバWB」が200万ダウンロードを突破！ 記念して「奔放なる獄炎ケルベロス」×3枚が当たるキャンペーンを4Gamerの公式Xで実施中",
@@ -770,6 +800,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-15T14:33:05.005Z",
       "updatedAt": "2026-09-15T14:33:05.005Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/968/G096894/20260918098/",
+      "source": "4Gamer",
+      "title": "ブルースとロックマンのダブル主人公が明らかになった「ロックマン：デュアル オーバーライド」。異なる遊びごたえを目指した理由を開発陣に聞く［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-18T20:56:55.557Z",
+      "updatedAt": "2026-09-18T20:56:55.557Z",
       "lastReason": "not-campaign"
     },
     {
