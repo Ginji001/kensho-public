@@ -1078,5 +1078,29 @@
     "updatedAt": "2026-09-18T04:49:17.214Z",
     "autoPublished": true,
     "firstSeenAt": "2026-09-18T04:49:17.214Z"
+  },
+  {
+    "id": "campaign-auto-30a0ba71267b",
+    "source": "Monipla",
+    "genre": "日用品",
+    "name": "プロ推奨の超強力洗剤!家中の頑固な汚れを1本で解決!!『ウルトラハードクリーナー 多用途』 モニター募集",
+    "prize": "プロ推奨の超強力洗剤!家中の頑固な汚れを1本で解決!!『ウルトラハードクリーナー 多用途』 モニター募集",
+    "winners": 10,
+    "winnersText": "10名",
+    "deadline": "2026-09-23",
+    "condition": "モニプラ会員・SNS・投稿・レビュー（自動抽出・詳細は公式で確認）",
+    "entryType": "sns",
+    "requiresPurchase": null,
+    "requiresReview": true,
+    "requiresApp": false,
+    "requiresLogin": true,
+    "isMonitor": true,
+    "url": "https://monipla.jp/rinrei/20260827/",
+    "applyUrl": null,
+    "cost": "unknown",
+    "productType": "unknown",
+    "updatedAt": "2026-09-18T11:22:01.545Z",
+    "autoPublished": true,
+    "firstSeenAt": "2026-09-18T11:22:01.545Z"
   }
 ]

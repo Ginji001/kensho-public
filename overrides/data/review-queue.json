@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-18T04:49:17.214Z",
+  "updatedAt": "2026-09-18T11:22:01.545Z",
   "items": [
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
@@ -280,6 +280,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-15T14:33:05.005Z",
       "updatedAt": "2026-09-15T14:33:05.005Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/006/G100620/20260918018/",
+      "source": "4Gamer",
+      "title": "とにかくヤバいお食事のゲーム「満腹脱獄計画」ひときわ個性を放つ独房風ブースで，開発者のじぃーま氏に話を聞いた［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-18T11:22:01.545Z",
+      "updatedAt": "2026-09-18T11:22:01.545Z",
       "lastReason": "not-campaign"
     },
     {
@@ -733,6 +743,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/939/G093947/20260918030/",
+      "source": "4Gamer",
+      "title": "新しいジャンルを作りたい，という思いが出発点。「MIRESI：視えない未来」の開発陣に戦闘システムや世界観を聞いた［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-18T11:22:01.545Z",
+      "updatedAt": "2026-09-18T11:22:01.545Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/962/G096270/20260807016/",
       "source": "4Gamer",
       "title": "夏は七不思議ならぬ“七不穏”で暑さを忘却の彼方へ――涼しくチルアウトできる終末，陰鬱，ディストピアな7つのゲーム",
@@ -793,6 +813,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/991/G999104/20260918047/",
+      "source": "4Gamer",
+      "title": "「Twitch」CEO，ダン・クランシー氏が語るTwitchの個性と日本市場の重要性。メディア合同ラウンドテーブルの模様をレポート［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-18T11:22:01.545Z",
+      "updatedAt": "2026-09-18T11:22:01.545Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/991/G999106/20260820032/",
       "source": "4Gamer",
       "title": "買い切り型クラウドストレージ「myHPcloud」が全国のローソンで販売開始。AIによる写真自動整理を備え，容量は最大10TBまで買い足し可能だ。4Gamer読者向け20GBプレゼントと1TB抽選も実施【PR】",
@@ -810,6 +840,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-16T04:54:21.953Z",
       "updatedAt": "2026-09-16T04:54:21.953Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/991/G999110/20260918019/",
+      "source": "4Gamer",
+      "title": "決済でゲームを止めさせたくない。ペイディがゲームに注力する理由を副社長・橋本知周氏に聞く［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-18T11:22:01.545Z",
+      "updatedAt": "2026-09-18T11:22:01.545Z",
       "lastReason": "not-campaign"
     },
     {
