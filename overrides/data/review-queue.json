@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-19T04:42:20.621Z",
+  "updatedAt": "2026-09-19T11:05:20.551Z",
   "items": [
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
@@ -663,6 +663,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/044/G104433/20260919006/",
+      "source": "4Gamer",
+      "title": "アメリカのゲーム機販売でトップ3に入った「Nex Playground」が2027年に上陸。日本のIPでもゲームを開発中［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-19T11:05:20.551Z",
+      "updatedAt": "2026-09-19T11:05:20.551Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/209/G020915/20260914018/",
       "source": "4Gamer",
       "title": "「ハースストーン」の新拡張版「黒の帝国の君臨」は，旧神が支配する古代世界が舞台。開発陣に今後の展開を聞いた",
@@ -823,6 +833,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/948/G094814/20260919024/",
+      "source": "4Gamer",
+      "title": "IPを愛してもらうために，制作側がすべきこととは？ 「タイニーメタル2」の由良浩明氏に聞く［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-19T11:05:20.551Z",
+      "updatedAt": "2026-09-19T11:05:20.551Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/962/G096270/20260807016/",
       "source": "4Gamer",
       "title": "夏は七不思議ならぬ“七不穏”で暑さを忘却の彼方へ――涼しくチルアウトできる終末，陰鬱，ディストピアな7つのゲーム",
@@ -880,6 +900,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-15T14:33:05.005Z",
       "updatedAt": "2026-09-15T14:33:05.005Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/986/G098660/20260919021/",
+      "source": "4Gamer",
+      "title": "2人なら乗り越えられる！ レトロフューチャーな2人専用パズルアドベンチャー「We Were Here Tomorrow」試遊レポート［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-19T11:05:20.551Z",
+      "updatedAt": "2026-09-19T11:05:20.551Z",
       "lastReason": "not-campaign"
     },
     {
