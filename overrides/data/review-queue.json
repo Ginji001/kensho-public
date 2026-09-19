@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-19T15:55:47.785Z",
+  "updatedAt": "2026-09-19T20:45:14.453Z",
   "items": [
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
@@ -673,6 +673,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/203/G020311/20260919075/",
+      "source": "4Gamer",
+      "title": "PS5版の発売も控える「Euro Truck Simulator 2」。SCS Softwareにアジア展開を本格化する動きを聞いた［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-19T20:45:14.453Z",
+      "updatedAt": "2026-09-19T20:45:14.453Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/209/G020915/20260914018/",
       "source": "4Gamer",
       "title": "「ハースストーン」の新拡張版「黒の帝国の君臨」は，旧神が支配する古代世界が舞台。開発陣に今後の展開を聞いた",
@@ -770,6 +780,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-19T04:42:20.621Z",
       "updatedAt": "2026-09-19T04:42:20.621Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/865/G086590/20260920002/",
+      "source": "4Gamer",
+      "title": "“縛り”から創造された，そうだったかもしれない5つの時代。セガブースに出展された「STRANGER THAN HEAVEN」の見どころを，RGGスタジオのキーマンに聞いた［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-19T20:45:14.453Z",
+      "updatedAt": "2026-09-19T20:45:14.453Z",
       "lastReason": "not-campaign"
     },
     {
