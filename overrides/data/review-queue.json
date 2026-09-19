@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-18T20:56:55.557Z",
+  "updatedAt": "2026-09-19T04:42:20.621Z",
   "items": [
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
@@ -753,6 +753,36 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/794/G079439/20260918038/",
+      "source": "4Gamer",
+      "title": "「VRChat」が最近，日本の展開に積極的なのはなぜ？ ピクシブとの提携でどうなる？ 日本公式の“中の人”とピクシブにインタビュー［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-19T04:42:20.621Z",
+      "updatedAt": "2026-09-19T04:42:20.621Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/893/G089379/20260821029/",
+      "source": "4Gamer",
+      "title": "TVアニメ放送前に発表された「桃源暗鬼 Crimson Inferno」は今どこまでできているのか。開発陣に聞いたら，オリジナルキャラクターの話が具体的に出てきた【PR】",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-19T04:42:20.621Z",
+      "updatedAt": "2026-09-19T04:42:20.621Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/911/G091163/20260918093/",
+      "source": "4Gamer",
+      "title": "旧型新幹線や姫路城など，日本の乗り物やランドマークも登場。リリース直前の「トランスポートフィーバー3」について，パブリッシングマネージャーに聞いた［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-19T04:42:20.621Z",
+      "updatedAt": "2026-09-19T04:42:20.621Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/919/G091973/20260710016/",
       "source": "4Gamer",
       "title": "フェスで気になったはず？ 「スプラトゥーン レイダース」のスピード，パワー，テクニカル各タイプのガジェットをさっそく確かめてみた",
@@ -900,6 +930,26 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-18T11:22:01.545Z",
       "updatedAt": "2026-09-18T11:22:01.545Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/991/G999110/20260918081/",
+      "source": "4Gamer",
+      "title": "サイバーコネクトツーが東京ゲームショウに初出展？ 意外なような納得のような理由を，名物社長の松山 洋氏から聞く［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-19T04:42:20.621Z",
+      "updatedAt": "2026-09-19T04:42:20.621Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/991/G999110/20260919002/",
+      "source": "4Gamer",
+      "title": "東京ゲームショウに来たら“読みもの”を集めよう！ 雑誌にカタログ，新聞風。会場で見つけた＆もらった小冊子を紹介［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-19T04:42:20.621Z",
+      "updatedAt": "2026-09-19T04:42:20.621Z",
       "lastReason": "not-campaign"
     },
     {
