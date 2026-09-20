@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-20T04:58:11.552Z",
+  "updatedAt": "2026-09-20T11:30:11.399Z",
   "items": [
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
@@ -403,6 +403,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/035/G103535/20260919019/",
+      "source": "4Gamer",
+      "title": "「Stellar Blade」はコンプリートしたあともまだ続く！？ Switch2版出展で来日したキム・ヒョンテ氏にインタビュー［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-20T11:30:11.399Z",
+      "updatedAt": "2026-09-20T11:30:11.399Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/040/G004099/20241225013/",
       "source": "4Gamer",
       "title": "4Gamerの1年を振り返る，Annual 4Gamer 2024。一番読まれたのは“ローグライク meets アイマス”な話題作の攻略記事！",
@@ -703,6 +713,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/044/G104441/20260920020/",
+      "source": "4Gamer",
+      "title": "死に戻りで得た知識が，攻略の鍵になる。「ノロイあやし」を手がける新川宗平氏に，ホラーへのこだわりと制作スタイルを聞いた［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-20T11:30:11.399Z",
+      "updatedAt": "2026-09-20T11:30:11.399Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/047/G004755/20260920005/",
       "source": "4Gamer",
       "title": "720Hz表示でTN液晶の座を奪う？ ASUSのeスポーツ向け有機ELディスプレイの見どころと，ゲーミングディスプレイの未来［TGS2026］",
@@ -820,6 +840,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-19T04:42:20.621Z",
       "updatedAt": "2026-09-19T04:42:20.621Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/851/G085169/20260920014/",
+      "source": "4Gamer",
+      "title": "気楽な懐かしい異世界で，美少女たちと暮らす。「ファレイドリア」が目指すものを，キム・ヨンハ氏とサウンドのミツキヨ氏に聞いた［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-20T11:30:11.399Z",
+      "updatedAt": "2026-09-20T11:30:11.399Z",
       "lastReason": "not-campaign"
     },
     {
@@ -980,6 +1010,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-19T11:05:20.551Z",
       "updatedAt": "2026-09-19T11:05:20.551Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/991/G099198/20260919001/",
+      "source": "4Gamer",
+      "title": "ネットマーブルの新作シャンナナ」「俺カル」「初挑戦の美少女RPG」で狙うは，地道なコミュニケーションに尽きる［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-20T11:30:11.399Z",
+      "updatedAt": "2026-09-20T11:30:11.399Z",
       "lastReason": "not-campaign"
     },
     {
