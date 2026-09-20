@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-20T16:11:37.110Z",
+  "updatedAt": "2026-09-20T20:52:41.993Z",
   "items": [
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
@@ -200,6 +200,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-16T21:22:01.016Z",
       "updatedAt": "2026-09-16T21:22:01.016Z",
+      "lastReason": "expired"
+    },
+    {
+      "url": "https://roomclip.jp/form/3805",
+      "source": "RoomClip",
+      "title": "【無料モニター】夏は涼しく、冬は暖かく。エアコンの効率がぐんと上がる天井設置型スマートファン「エジソンスマート ダクトレールファン」を3名様にプレゼント！",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-20T20:52:41.993Z",
+      "updatedAt": "2026-09-20T20:52:41.993Z",
       "lastReason": "expired"
     },
     {
@@ -923,6 +933,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/944/G094489/20260920049/",
+      "source": "4Gamer",
+      "title": "英雄102体を全面再調整。フルボイス対応し，丁寧に作り直す「キングスレイド リバース」。IPを買収したMasangsoft副社長に聞く［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-20T20:52:41.993Z",
+      "updatedAt": "2026-09-20T20:52:41.993Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/948/G094814/20260919024/",
       "source": "4Gamer",
       "title": "IPを愛してもらうために，制作側がすべきこととは？ 「タイニーメタル2」の由良浩明氏に聞く［TGS2026］",
@@ -950,6 +970,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-20T04:58:11.552Z",
       "updatedAt": "2026-09-20T04:58:11.552Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/968/G096862/20260920050/",
+      "source": "4Gamer",
+      "title": "武器も魔法も自由自在！ イマーシブシムの魅力が詰まった「WARLOCK: DUNGEONS & DRAGONS」プレイデモ視聴レポート＆開発者インタビュー［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-20T20:52:41.993Z",
+      "updatedAt": "2026-09-20T20:52:41.993Z",
       "lastReason": "not-campaign"
     },
     {
