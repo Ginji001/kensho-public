@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-19T20:45:14.453Z",
+  "updatedAt": "2026-09-20T04:58:11.552Z",
   "items": [
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
@@ -40,6 +40,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-17T21:26:12.251Z",
       "updatedAt": "2026-09-17T21:26:12.251Z",
+      "lastReason": "too-old"
+    },
+    {
+      "url": "https://news.mynavi.jp/article/20260424-present04/",
+      "source": "MynaviNews",
+      "title": "【25名様】Vポイント100pt",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-20T04:58:11.552Z",
+      "updatedAt": "2026-09-20T04:58:11.552Z",
       "lastReason": "too-old"
     },
     {
@@ -333,6 +343,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/013/G101345/20260919078/",
+      "source": "4Gamer",
+      "title": "ムーミンたちを一枚一枚，手描きで動かした「ムーミン：ムーミン谷の夏まつり」試遊レポート＆開発者インタビュー［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-20T04:58:11.552Z",
+      "updatedAt": "2026-09-20T04:58:11.552Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/013/G101399/20260918089/",
       "source": "4Gamer",
       "title": "「モンスターハンターワイルズ：アセンダンス」でブーストブレイサーが目指す「チャンスを自分で作り出す」感覚，そしてテオを今出す理由［TGS2026］",
@@ -370,6 +390,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-18T20:56:55.557Z",
       "updatedAt": "2026-09-18T20:56:55.557Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/033/G103375/20260920011/",
+      "source": "4Gamer",
+      "title": "荷物や道具を頭に載せて配達へ。最大4人で楽しめるホラーゲーム「ハコアタマ」の開発者に，企画の出発点を聞いた［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-20T04:58:11.552Z",
+      "updatedAt": "2026-09-20T04:58:11.552Z",
       "lastReason": "not-campaign"
     },
     {
@@ -673,6 +703,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/047/G004755/20260920005/",
+      "source": "4Gamer",
+      "title": "720Hz表示でTN液晶の座を奪う？ ASUSのeスポーツ向け有機ELディスプレイの見どころと，ゲーミングディスプレイの未来［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-20T04:58:11.552Z",
+      "updatedAt": "2026-09-20T04:58:11.552Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/203/G020311/20260919075/",
       "source": "4Gamer",
       "title": "PS5版の発売も控える「Euro Truck Simulator 2」。SCS Softwareにアジア展開を本格化する動きを聞いた［TGS2026］",
@@ -870,6 +910,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-15T14:33:05.005Z",
       "updatedAt": "2026-09-15T14:33:05.005Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/968/G096854/20260919077/",
+      "source": "4Gamer",
+      "title": "「ステューピッド・ネバー・ダイズ」小林裕幸氏＆佐々木栄一郎氏にインタビュー。体験版の反響と発売に向けた取り組みを聞いた［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-20T04:58:11.552Z",
+      "updatedAt": "2026-09-20T04:58:11.552Z",
       "lastReason": "not-campaign"
     },
     {
