@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-21T05:02:27.325Z",
+  "updatedAt": "2026-09-21T12:54:55.512Z",
   "items": [
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
@@ -360,6 +360,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-20T04:58:11.552Z",
       "updatedAt": "2026-09-20T04:58:11.552Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/013/G101380/20260921041/",
+      "source": "4Gamer",
+      "title": "「ソニック・ザ・ヘッジホッグ」35周年記念インタビュー。総合プロデューサー飯塚 隆氏に聞く，これまでの道のりと未来の可能性。そしてまだ見ぬ新作に向けて［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-21T12:54:55.512Z",
+      "updatedAt": "2026-09-21T12:54:55.512Z",
       "lastReason": "not-campaign"
     },
     {
@@ -840,6 +850,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-18T20:56:55.557Z",
       "updatedAt": "2026-09-18T20:56:55.557Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/759/G075960/20260921026/",
+      "source": "4Gamer",
+      "title": "善悪では割り切れない選択の連続。「Mass Effect」の元開発陣が手掛ける「EXODUS」試遊レポート＆インタビュー［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-21T12:54:55.512Z",
+      "updatedAt": "2026-09-21T12:54:55.512Z",
       "lastReason": "not-campaign"
     },
     {
