@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-20T20:52:41.993Z",
+  "updatedAt": "2026-09-21T05:02:27.325Z",
   "items": [
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
@@ -813,6 +813,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/649/G064919/20260920007/",
+      "source": "4Gamer",
+      "title": "現実に存在するものから，誰も見たことがない世界を作る。「狐ト蛙ノ旅」を手がけるリアス氏へのインタビュー［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-21T05:02:27.325Z",
+      "updatedAt": "2026-09-21T05:02:27.325Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/668/G066881/20260917087/",
       "source": "4Gamer",
       "title": "明解な結末は作らない。9月24日のリリースが迫る「CONTROL Resonant」インタビュー［TGS2026］",
@@ -890,6 +900,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-19T04:42:20.621Z",
       "updatedAt": "2026-09-19T04:42:20.621Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/916/G091663/20260921008/",
+      "source": "4Gamer",
+      "title": "殺しのライセンスを持たない27歳のボンドをIO Interactiveはどう描いたのか。「007 ファースト・ライト」開発者インタビュー［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-21T05:02:27.325Z",
+      "updatedAt": "2026-09-21T05:02:27.325Z",
       "lastReason": "not-campaign"
     },
     {
