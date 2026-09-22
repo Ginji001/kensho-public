@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-22T05:03:25.088Z",
+  "updatedAt": "2026-09-22T11:44:44.538Z",
   "items": [
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
@@ -730,6 +730,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-15T14:33:05.005Z",
       "updatedAt": "2026-09-15T14:33:05.005Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/043/G104316/20260920036/",
+      "source": "4Gamer",
+      "title": "「水ダウ」の藤井健太郎氏が手がける「THE FIRST ZOMBIE」には，まだ明かせない“さまざまな仕掛け”が。制作チームに開発の裏側を聞いた［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-22T11:44:44.538Z",
+      "updatedAt": "2026-09-22T11:44:44.538Z",
       "lastReason": "not-campaign"
     },
     {
