@@ -21,7 +21,8 @@ a{color:inherit}
 .pagehead p{margin:0;color:var(--muted);font-size:14px;line-height:1.7}
 .card{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:16px;box-shadow:var(--shadow)}
 .capture{display:flex;gap:8px;margin-top:12px;align-items:stretch}
-.capture input{flex:1 1 auto;min-width:0}\n.capture button{flex:0 0 auto;white-space:nowrap}\n.capture input,.field input,.field textarea,.field select{width:100%;min-height:46px;border:1px solid var(--line);border-radius:12px;background:#fff;padding:10px 12px;outline:none}
+.capture input{flex:1 1 auto;min-width:0}
+.capture button{flex:0 0 80px;width:80px;min-width:80px;max-width:80px;white-space:nowrap!important;word-break:keep-all;overflow-wrap:normal;writing-mode:horizontal-tb}\n.capture input,.field input,.field textarea,.field select{width:100%;min-height:46px;border:1px solid var(--line);border-radius:12px;background:#fff;padding:10px 12px;outline:none}
 .capture input:focus,.field input:focus,.field textarea:focus,.field select:focus{border-color:#b79633;box-shadow:0 0 0 3px rgba(213,173,57,.16)}
 .capture button,.primary{min-height:46px;border:0;border-radius:12px;background:var(--ink);color:#fff;padding:0 16px;font-weight:800}
 .soft{min-height:44px;border:1px solid var(--line);border-radius:12px;background:var(--paper);padding:0 13px}
