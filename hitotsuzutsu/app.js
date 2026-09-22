@@ -314,7 +314,7 @@ function renderPage(){
 }
 function drawerHtml(){
   if(!drawerOpen)return "";
-  return '<div class="drawerback" onclick="if(event.target===this)toggleDrawer()"><aside class="drawer"><div class="drawerhead"><div><b>ひとつずつ</b><div class="small muted">COLLECT. CLEAR. DO.</div></div><button class="iconbtn" onclick="toggleDrawer()" aria-label="メニューを閉じる">×</button></div><nav>'
+  return '<div class="drawerback" onclick="if(event.target===this)toggleDrawer()"><aside class="drawer"><div class="drawerhead"><div><b>ハチワレたすくん</b><div class="small muted">COLLECT. CLEAR. DO.</div></div><button class="iconbtn" onclick="toggleDrawer()" aria-label="メニューを閉じる">×</button></div><nav>'
     +NAV.map(function(n){return '<button class="'+(currentView===n[0]?'active':'')+'" onclick="go(\''+n[0]+'\')">'+n[2]+'　'+esc(n[1])+'</button>'}).join("")
     +'</nav></aside></div>';
 }
@@ -343,7 +343,7 @@ function editorHtml(){
 }
 function render(){
   var root=q("#app");
-  root.innerHTML='<div class="shell"><header class="topbar"><div class="brandrow"><div class="brand"><div class="brandmark">✓</div><div>ひとつずつ<small>COLLECT. CLEAR. DO.</small></div></div><button class="iconbtn" onclick="toggleDrawer()" aria-label="メニュー">☰</button></div></header><main>'+renderPage()+'</main></div>'+bottomNavHtml()+drawerHtml()+editorHtml();
+  root.innerHTML='<div class="shell"><header class="topbar"><div class="brandrow"><div class="brand"><div class="brandmark">✓</div><div>ハチワレたすくん<small>COLLECT. CLEAR. DO.</small></div></div><button class="iconbtn" onclick="toggleDrawer()" aria-label="メニュー">☰</button></div></header><main>'+renderPage()+'</main></div>'+bottomNavHtml()+drawerHtml()+editorHtml();
 }
 function notify(msg){
   var old=q(".toast");if(old)old.remove();
