@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-21T22:00:55.065Z",
+  "updatedAt": "2026-09-22T01:59:58.418Z",
   "items": [
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
@@ -210,6 +210,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-20T20:52:41.993Z",
       "updatedAt": "2026-09-20T20:52:41.993Z",
+      "lastReason": "expired"
+    },
+    {
+      "url": "https://roomclip.jp/form/3807",
+      "source": "RoomClip",
+      "title": "【無料モニター】壁紙の上からそのまま塗れる！DIY用塗り壁材「ひとりで塗れるもん」を3名様にプレゼント！",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-22T01:59:58.418Z",
+      "updatedAt": "2026-09-22T01:59:58.418Z",
       "lastReason": "expired"
     },
     {
