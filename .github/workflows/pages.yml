@@ -89,6 +89,16 @@ jobs:
           test -f public/manifest.webmanifest
           test -f public/service-worker.js
 
+      - name: Add Hitotsuzutsu GTD PWA
+        shell: bash
+        run: |
+          rm -rf "$APP_DIR/public/hitotsuzutsu"
+          mkdir -p "$APP_DIR/public/hitotsuzutsu"
+          cp -R hitotsuzutsu/. "$APP_DIR/public/hitotsuzutsu"/
+          test -f "$APP_DIR/public/hitotsuzutsu/index.html"
+          test -f "$APP_DIR/public/hitotsuzutsu/manifest.webmanifest"
+          test -f "$APP_DIR/public/hitotsuzutsu/sw.js"
+
       - name: Reject private endpoints in published data
         shell: bash
         run: |
