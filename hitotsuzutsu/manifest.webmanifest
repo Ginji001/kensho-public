@@ -1,6 +1,6 @@
 {
-  "name":"ひとつずつ｜GTDタスク管理",
-  "short_name":"ひとつずつ",
+  "name":"ハチワレたすくん｜GTDタスク管理",
+  "short_name":"ハチワレたすくん",
   "description":"COLLECT. CLEAR. DO. 頭の中を集め、ひとつずつ整理して実行するGTDタスク管理PWA。",
   "start_url":"./",
   "scope":"./",
