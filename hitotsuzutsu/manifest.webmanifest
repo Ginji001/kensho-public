@@ -1,0 +1,14 @@
+{
+  "name":"ひとつずつ｜GTDタスク管理",
+  "short_name":"ひとつずつ",
+  "description":"COLLECT. CLEAR. DO. 頭の中を集め、ひとつずつ整理して実行するGTDタスク管理PWA。",
+  "start_url":"./",
+  "scope":"./",
+  "display":"standalone",
+  "background_color":"#f8f5ee",
+  "theme_color":"#f4e6a2",
+  "lang":"ja",
+  "icons":[
+    {"src":"./icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}
