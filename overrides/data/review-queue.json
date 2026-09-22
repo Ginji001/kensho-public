@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-22T02:04:51.684Z",
+  "updatedAt": "2026-09-22T03:54:17.001Z",
   "items": [
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
@@ -1000,6 +1000,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-19T11:05:20.551Z",
       "updatedAt": "2026-09-19T11:05:20.551Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/948/G094890/20260901029/",
+      "source": "4Gamer",
+      "title": "机の上のミニチュア世界で暮らすライフシム「リリのワールド」の新ベータ版を体験＆ディレクターが語る誕生のきっかけ",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-22T03:54:17.001Z",
+      "updatedAt": "2026-09-22T03:54:17.001Z",
       "lastReason": "not-campaign"
     },
     {
