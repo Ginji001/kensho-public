@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-22T21:23:09.339Z",
+  "updatedAt": "2026-09-23T04:50:06.285Z",
   "items": [
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
@@ -923,6 +923,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/872/G087214/20260918075/",
+      "source": "4Gamer",
+      "title": "［インタビュー］家庭用ゲーム機版も発表された「Shape of Dreams」。少人数チームが直面した外部協業の苦労やゲームデザインの裏側とは",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-23T04:50:06.285Z",
+      "updatedAt": "2026-09-23T04:50:06.285Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/893/G089379/20260821029/",
       "source": "4Gamer",
       "title": "TVアニメ放送前に発表された「桃源暗鬼 Crimson Inferno」は今どこまでできているのか。開発陣に聞いたら，オリジナルキャラクターの話が具体的に出てきた【PR】",
@@ -970,6 +980,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-15T14:33:05.005Z",
       "updatedAt": "2026-09-15T14:33:05.005Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/930/G093058/20260921022/",
+      "source": "4Gamer",
+      "title": "数々の賞に輝いた韓国インディー「MONOWAVE」は，いかにして日本のパブリッシャと出会い，世に出たのか。Phoenixxと開発元Studio BBBに聞く［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-23T04:50:06.285Z",
+      "updatedAt": "2026-09-23T04:50:06.285Z",
       "lastReason": "not-campaign"
     },
     {
@@ -1110,6 +1130,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-19T11:05:20.551Z",
       "updatedAt": "2026-09-19T11:05:20.551Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/988/G098872/20260920046/",
+      "source": "4Gamer",
+      "title": "キャラはあと2人くらい追加したい。すでに5人目の映像も――ローグライトアクション「Cinderia」，総括ディレクターインタビュー［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-23T04:50:06.285Z",
+      "updatedAt": "2026-09-23T04:50:06.285Z",
       "lastReason": "not-campaign"
     },
     {
