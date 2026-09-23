@@ -1150,5 +1150,29 @@
     "updatedAt": "2026-09-22T17:00:35.475Z",
     "autoPublished": true,
     "firstSeenAt": "2026-09-22T17:00:35.475Z"
+  },
+  {
+    "id": "campaign-auto-a921c189b57e",
+    "source": "Monipla",
+    "genre": "コスメ",
+    "name": "★20名募集★ニキビを防ぐ角質ケア洗顔!美容成分たっぷりの【赤いピーリング石けん】をお試ししませんか?",
+    "prize": "★20名募集★ニキビを防ぐ角質ケア洗顔!美容成分たっぷりの【赤いピーリング石けん】をお試ししませんか?",
+    "winners": 20,
+    "winnersText": "20名",
+    "deadline": "2026-09-30",
+    "condition": "モニプラ会員・SNS・投稿・レビュー（自動抽出・詳細は公式で確認）",
+    "entryType": "sns",
+    "requiresPurchase": null,
+    "requiresReview": true,
+    "requiresApp": false,
+    "requiresLogin": true,
+    "isMonitor": true,
+    "url": "https://monipla.jp/pycno/20260923/",
+    "applyUrl": null,
+    "cost": "unknown",
+    "productType": "unknown",
+    "updatedAt": "2026-09-23T11:43:49.708Z",
+    "autoPublished": true,
+    "firstSeenAt": "2026-09-23T11:43:49.708Z"
   }
 ]
