@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-24T04:57:38.886Z",
+  "updatedAt": "2026-09-24T11:52:38.142Z",
   "items": [
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
@@ -910,6 +910,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-19T04:42:20.621Z",
       "updatedAt": "2026-09-19T04:42:20.621Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/816/G081637/20260924042/",
+      "source": "4Gamer",
+      "title": "翻訳担当が泣きながらローカライズ！？ 好きと熱意が世界に届いた「でびるコネクショん」ばやちゃお氏＆ぽ氏インタビュー［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-24T11:52:38.142Z",
+      "updatedAt": "2026-09-24T11:52:38.142Z",
       "lastReason": "not-campaign"
     },
     {

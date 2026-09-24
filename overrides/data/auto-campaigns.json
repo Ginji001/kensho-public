@@ -1030,5 +1030,29 @@
     "updatedAt": "2026-09-24T04:57:38.886Z",
     "autoPublished": true,
     "firstSeenAt": "2026-09-24T04:57:38.886Z"
+  },
+  {
+    "id": "campaign-auto-3073ee495f78",
+    "source": "Monipla",
+    "genre": "コスメ",
+    "name": "\\新発売!/大人の毛穴悩みにエイジングケア特濃美容液を40名様にプレゼント✨",
+    "prize": "\\新発売!/大人の毛穴悩みにエイジングケア特濃美容液を40名様にプレゼント✨",
+    "winners": 40,
+    "winnersText": "40名",
+    "deadline": "2026-10-01",
+    "condition": "モニプラ会員・SNS・投稿・レビュー（自動抽出・詳細は公式で確認）",
+    "entryType": "sns",
+    "requiresPurchase": null,
+    "requiresReview": true,
+    "requiresApp": false,
+    "requiresLogin": true,
+    "isMonitor": true,
+    "url": "https://monipla.jp/meishoku/20260917/",
+    "applyUrl": null,
+    "cost": "unknown",
+    "productType": "unknown",
+    "updatedAt": "2026-09-24T11:52:38.142Z",
+    "autoPublished": true,
+    "firstSeenAt": "2026-09-24T11:52:38.142Z"
   }
 ]
