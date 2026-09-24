@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-24T17:15:36.417Z",
+  "updatedAt": "2026-09-24T21:33:54.684Z",
   "items": [
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
@@ -220,6 +220,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-22T01:59:58.418Z",
       "updatedAt": "2026-09-22T01:59:58.418Z",
+      "lastReason": "expired"
+    },
+    {
+      "url": "https://roomclip.jp/form/3816",
+      "source": "RoomClip",
+      "title": "【無料モニター】ダイニングからテラス、アウトドアシーンまで、日常に溶け込む屋内・屋外兼用チェアCOTONA「カーラ チェア」を3名様にプレゼント！",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-24T21:33:54.684Z",
+      "updatedAt": "2026-09-24T21:33:54.684Z",
       "lastReason": "expired"
     },
     {
