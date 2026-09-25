@@ -23,26 +23,31 @@
     {
       "source": "atcosme",
       "url": "https://www.cosme.net/present/",
-      "enabled": true
+      "enabled": true,
+      "bodyPattern": "プレゼント|抽選|当たる"
     },
     {
       "source": "Monipla",
       "url": "https://monipla.jp/",
-      "enabled": true
+      "enabled": true,
+      "bodyPattern": "プレゼント|抽選|当たる|モニター"
     },
     {
       "source": "RoomClip",
       "url": "https://roomclip.jp/monitor",
-      "enabled": true
+      "enabled": true,
+      "bodyPattern": "モニター|プレゼント|抽選",
+      "titleExclude": "お知らせ|発売|受賞|特集"
     },
     {
       "source": "PCWatch",
       "url": "https://pc.watch.impress.co.jp/",
-      "enabled": true,
+      "enabled": false,
       "linkPattern": "^https://pc\\.watch\\.impress\\.co\\.jp/docs/topic/present/\\d+\\.html$",
       "titlePattern": "プレゼント",
       "requireDeadline": true,
-      "genre": "ガジェット・家電"
+      "genre": "ガジェット・家電",
+      "disabledReason": "トップページから読者プレゼント記事のリンクを取得できず、一覧ページは自動アクセスを拒否するため停止（2026-09-25）"
     },
     {
       "source": "AudioTechnica",
