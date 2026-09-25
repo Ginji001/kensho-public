@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-25T08:29:10.638Z",
+  "updatedAt": "2026-09-25T08:38:21.417Z",
   "items": [
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
@@ -231,6 +231,16 @@
       "firstSeenAt": "2026-09-24T21:33:54.684Z",
       "updatedAt": "2026-09-24T21:33:54.684Z",
       "lastReason": "expired"
+    },
+    {
+      "url": "https://roomclip.jp/mag/archives/57472",
+      "source": "RoomClip",
+      "title": "『RoomClip 10000人の暮らし』一般発売のお知らせ！",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-25T08:38:21.417Z",
+      "updatedAt": "2026-09-25T08:38:21.417Z",
+      "lastReason": "not-campaign"
     },
     {
       "url": "https://roomclip.jp/mag/archives/93757",
