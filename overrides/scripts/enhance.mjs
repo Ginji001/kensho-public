@@ -31,7 +31,9 @@ form.querySelectorAll('p.small').forEach(p=>p.remove());
 document.querySelectorAll('[data-quick="lips"],[data-quick="monitor"],[data-quick="gadget"]').forEach(b=>b.remove());
 form.addEventListener('reset',()=>{activeTopic=''});form.addEventListener('input',()=>{activeTopic=''});
 {const fav=document.querySelector('[data-quick="favorite"]');for(const [t,label] of [['pc','PC関連'],['audio','オーディオ']]){const b=el('button',{type:'button','data-quick':'topic-'+t,'aria-pressed':'false',text:label});b.onclick=()=>{form.reset();queueMicrotask(()=>{activeTopic=t;document.querySelectorAll('[data-quick]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));render()})};fav.before(b)}}
-const extraFieldset=form.querySelector('fieldset');extraFieldset.querySelector('legend').textContent='かんたん絞り込み';
+for(const sel of ['.eyebrow','.heading h2','header p','.about']) document.querySelector(sel)?.remove();
+{const f=document.querySelector('footer');if(f)f.textContent='懸賞応募アシスト'}
+const extraFieldset=form.querySelector('fieldset');extraFieldset.querySelector('legend').textContent='条件';
 for(const [name,label] of [['onlyNew','未応募だけ'],['easyOnly','購入・モニター・SNSの記載なし'],['soon','締切7日以内'],['mySites','登録済みサイトだけ']])extraFieldset.append(el('label',{class:'check'},[el('input',{name,type:'checkbox'}),document.createTextNode(label)]));
 const sitesDialog=el('dialog',{class:'sites','aria-label':'登録済みサイト'});document.body.append(sitesDialog);
 function openSites(){const mine=mySites();const sources=[...new Set(catalog.campaigns.map(c=>c.source))].sort();const boxes=sources.map(s=>{const i=el('input',{type:'checkbox',value:s});i.checked=mine.includes(s);return el('label',{class:'check'},[i,document.createTextNode(SOURCE_LABELS[s]||s)])});sitesDialog.replaceChildren(el('h2',{text:'登録済みサイト'}),el('p',{class:'small',text:'ログイン済みのサイトを選んでください。この端末だけに保存されます。'}),...boxes,actionButton('保存',()=>{const v=boxes.map(l=>l.querySelector('input')).filter(i=>i.checked).map(i=>i.value);try{storage.setItem(MYSITES_KEY,JSON.stringify(v))}catch{notice='設定を保存できませんでした。'}sitesDialog.close();render()}));sitesDialog.showModal()}
@@ -77,6 +79,30 @@ aside,.stat,.card,.empty{background:var(--card);border-color:var(--line)}
 .link-check{display:none}
 #filters [hidden]{display:none!important}
 .tag.app-only{background:#efe6d6;color:#6e5431}
+.card{border-top:3px solid var(--genre,#cbd2d6)}
+.card[data-genre="コスメ"]{--genre:#c2879b}
+.card[data-genre="食品・飲料"]{--genre:#c59a63}
+.card[data-genre="ガジェット・家電"]{--genre:#6b8cae}
+.card[data-genre="日用品"]{--genre:#7fa287}
+.card[data-genre="ポイント・金券"]{--genre:#bb9a46}
+.card[data-genre="旅行・本"]{--genre:#8285b5}
+.card[data-genre="ペット"]{--genre:#b08668}
+.card-top .meta{color:var(--genre,var(--muted));font-weight:700}
+.badge{background:#e7e4de;color:#4a5359}
+.badge.SS{background:#b8933f;color:#fff}
+.badge.S{background:#d9c383;color:#4c3a10}
+.badge.A{background:#7f9db8;color:#fff}
+.badge.B{background:#9bbca1;color:#1d3a22}
+.badge.C{background:#ddd9d2;color:#5b6166}
+.prize{font-size:.8rem;margin-bottom:10px}
+.condition{min-height:0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin-bottom:12px}
+.card h3{margin:10px 0 8px}
+.numbers{padding:10px 0;margin-bottom:12px}
+.actions{grid-template-columns:1.2fr 1fr}
+.actions select{font-size:.8rem}
+footer{justify-content:center;color:var(--muted)}
+.heading{align-items:baseline;margin-bottom:0}
+.stats{margin:14px 0 22px}
 .app-note{margin:8px 0 0;font-size:.85rem;color:#6e5431}
 dialog{border-color:var(--line);background:var(--card);color:var(--ink)}
 dialog::backdrop{background:#2e333766}
@@ -106,7 +132,12 @@ dialog.sites button{margin-top:18px}
 
 const replacements = [
   ["const campaigns=selectCampaigns(catalog.campaigns,f,state);", "const campaigns=extraFilter(selectCampaigns(catalog.campaigns,f,state),f);"],
-  ["el('div',{class:'actions'},[entry,el('label',{text:'応募状態'},[status])])", "el('div',{class:'actions'},[entry,el('label',{text:'応募状態'},[status])]),quickDone(c,s,href)"],
+  ["el('div',{class:'actions'},[entry,el('label',{text:'応募状態'},[status])])", "el('div',{class:'actions'},[entry,status]),quickDone(c,s,href)"],
+  ["el('article',{class:'card','data-id':c.id}", "el('article',{class:'card','data-id':c.id,'data-genre':c.genre,'data-source':c.source}"],
+  ["el('span',{text:'当選人数'})", "el('span',{text:'当選'})"],
+  ["text:linkLabel(c)+' ↗'", "text:(c.applyUrl?'応募フォーム':'応募')+' ↗'"],
+  ["`${campaigns.length}件のキャンペーン`", "`${campaigns.length}件`"],
+  ["'最終更新：'+new Date(data.updatedAt).toLocaleString('ja-JP',{timeZone:'Asia/Tokyo'})", "'更新 '+new Date(data.updatedAt).toLocaleString('ja-JP',{timeZone:'Asia/Tokyo',month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'})"],
   ["['今日締切',active.filter(c=>daysLeft(c)===0).length],", ""],
   ["['高優先度 SS・S・A',active.filter(c=>['SS','S','A'].includes(c.priority)).length],", ""],
   ["[['requiresPurchase','購入必要'],['requiresReview','レビュー'],['requiresApp','アプリ'],['requiresLogin','会員登録'],['isMonitor','モニター']]", "[['requiresPurchase','購入必要'],['isMonitor','モニター']]"],
