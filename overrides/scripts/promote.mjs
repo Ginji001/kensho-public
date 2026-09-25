@@ -173,6 +173,9 @@ export function evaluate({source, url, html, now = new Date(), policy}) {
   if (!deadline && entry.requireDeadline) return {decision: 'hold', reason: 'no-deadline'};
   const winners = extractWinners(text);
   const cond = extractConditions(text, source);
+  if (cond.requiresPurchase === true) return {decision: 'reject', reason: 'needs-purchase'};
+  if (cond.isMonitor) return {decision: 'reject', reason: 'monitor'};
+  if (cond.entryType === 'sns' || cond.requiresReview) return {decision: 'reject', reason: 'needs-post'};
   const nowIso = now.toISOString();
   const raw = {
     id: 'campaign-auto-' + crypto.createHash('sha1').update(canonical(url)).digest('hex').slice(0, 12),
