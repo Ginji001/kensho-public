@@ -48,6 +48,10 @@ test('apply links are found for the real page shapes of each source', async () =
   assert.equal(findApplyUrl('<a href="https://www.4gamer.net/games/999/G999905/20260731044/">プレゼント応募ページ</a>',
     'https://www.4gamer.net/games/999/G999905/20260828015/', domains, 'https://www.4gamer.net/games/999/G999905/20260828015/'),
     'https://www.4gamer.net/games/999/G999905/20260731044/');
+  // マイナビ本番HTMLはJSONの中でタグがエスケープされている
+  assert.equal(findApplyUrl('{"body":"\\u003ca href=\\"https://news.mynavi.jp/mypage/member/enquete/jump/000090001-17515?argument=x\\u0026amp;dmai=y\\"\\u003e\\u003cimg\\u003e\\u003c/a\\u003e"}',
+    'https://news.mynavi.jp/article/20260911-present01/', domains, 'https://news.mynavi.jp/article/20260911-present01/', mynavi.applyUrlPattern),
+    'https://news.mynavi.jp/mypage/member/enquete/jump/000090001-17515?argument=x&dmai=y');
   // 紛らわしいリンクは拾わない
   assert.equal(findApplyUrl('<a href="https://www.4gamer.net/rules/">応募規約はこちら</a><a href="https://www.4gamer.net/secure/mail/form.php">問い合わせ</a>',
     'https://www.4gamer.net/games/999/G999905/1/', domains, 'https://www.4gamer.net/games/999/G999905/1/'), null);
