@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-25T05:02:20.838Z",
+  "updatedAt": "2026-09-25T08:29:10.638Z",
   "items": [
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
@@ -1080,6 +1080,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-15T14:33:05.005Z",
       "updatedAt": "2026-09-15T14:33:05.005Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/967/G096772/20260920037/",
+      "source": "4Gamer",
+      "title": "ソウル・トリアージADV「UN:Me」インタビュー。花守ゆみりさんの演技がもたらしたモーションキャプチャ採用への決断。そして人の感情から導かれた作品のカタチとは［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-25T08:29:10.638Z",
+      "updatedAt": "2026-09-25T08:29:10.638Z",
       "lastReason": "not-campaign"
     },
     {
