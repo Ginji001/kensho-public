@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-25T17:16:09.117Z",
+  "updatedAt": "2026-09-25T21:38:16.086Z",
   "items": [
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
@@ -120,6 +120,46 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-15T14:33:05.005Z",
       "updatedAt": "2026-09-15T14:33:05.005Z",
+      "lastReason": "expired"
+    },
+    {
+      "url": "https://news.mynavi.jp/article/20260911-present01/",
+      "source": "MynaviNews",
+      "title": "【5名様】だしのうま味を手軽に楽しむ！「つゆの素 300ml」と「フレッシュパック ソフト」セットをプレゼント",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-25T21:38:16.086Z",
+      "updatedAt": "2026-09-25T21:38:16.086Z",
+      "lastReason": "expired"
+    },
+    {
+      "url": "https://news.mynavi.jp/article/20260911-present02/",
+      "source": "MynaviNews",
+      "title": "【3名様】ノーラン監督史上最高興収を記録！映画『オデュッセイア』オリジナルグッズをプレゼント",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-25T21:38:16.086Z",
+      "updatedAt": "2026-09-25T21:38:16.086Z",
+      "lastReason": "expired"
+    },
+    {
+      "url": "https://news.mynavi.jp/article/20260911-present03/",
+      "source": "MynaviNews",
+      "title": "【2組4名様】横浜みなとみらいに誕生！「うんこミュージアム YOKOHAMA BAY」ペアチケットをプレゼント",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-25T21:38:16.086Z",
+      "updatedAt": "2026-09-25T21:38:16.086Z",
+      "lastReason": "expired"
+    },
+    {
+      "url": "https://news.mynavi.jp/article/20260911-present04/",
+      "source": "MynaviNews",
+      "title": "【25名様】Vポイント100pt",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-25T21:38:16.086Z",
+      "updatedAt": "2026-09-25T21:38:16.086Z",
       "lastReason": "expired"
     },
     {
