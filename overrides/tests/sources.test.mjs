@@ -30,3 +30,25 @@ test('sources that cannot be crawled stay disabled', () => {
     assert.ok(e.disabledReason, s + ' needs a reason');
   }
 });
+
+test('apply links are found for the real page shapes of each source', async () => {
+  const {findApplyUrl} = await import('../scripts/refresh.mjs');
+  const domains = policy.allowedDomains;
+  const mynavi = policy.discovery.find(d => d.source === 'MynaviNews');
+  const roomclip = policy.discovery.find(d => d.source === 'RoomClip');
+  // マイナビ：画像リンクなので文字では拾えず、URLの形で判定する
+  assert.equal(findApplyUrl('<a href="https://news.mynavi.jp/mypage/member/enquete/jump/000090001-17515?argument=x"><img src="a.png"></a>',
+    'https://news.mynavi.jp/article/20260911-present01/', domains, 'https://news.mynavi.jp/article/20260911-present01/', mynavi.applyUrlPattern),
+    'https://news.mynavi.jp/mypage/member/enquete/jump/000090001-17515?argument=x');
+  // RoomClip：記事から申し込みフォームへ
+  assert.equal(findApplyUrl('<a href="https://roomclip.jp/form/3804">申し込みフォームへ</a>',
+    'https://roomclip.jp/mag/archives/93856', domains, 'https://roomclip.jp/mag/archives/93856', roomclip.applyUrlPattern),
+    'https://roomclip.jp/form/3804');
+  // 4Gamer：本文中の応募ページリンク
+  assert.equal(findApplyUrl('<a href="https://www.4gamer.net/games/999/G999905/20260731044/">プレゼント応募ページ</a>',
+    'https://www.4gamer.net/games/999/G999905/20260828015/', domains, 'https://www.4gamer.net/games/999/G999905/20260828015/'),
+    'https://www.4gamer.net/games/999/G999905/20260731044/');
+  // 紛らわしいリンクは拾わない
+  assert.equal(findApplyUrl('<a href="https://www.4gamer.net/rules/">応募規約はこちら</a><a href="https://www.4gamer.net/secure/mail/form.php">問い合わせ</a>',
+    'https://www.4gamer.net/games/999/G999905/1/', domains, 'https://www.4gamer.net/games/999/G999905/1/'), null);
+});
