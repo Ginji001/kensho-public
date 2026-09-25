@@ -37,7 +37,8 @@
       "url": "https://roomclip.jp/monitor",
       "enabled": true,
       "bodyPattern": "モニター|プレゼント|抽選",
-      "titleExclude": "お知らせ|発売|受賞|特集"
+      "titleExclude": "お知らせ|発売|受賞|特集",
+      "applyUrlPattern": "^https://roomclip\\.jp/form/\\d+"
     },
     {
       "source": "PCWatch",
@@ -100,7 +101,8 @@
       "requireDeadline": true,
       "maxDeadlineDays": 120,
       "urlDatePattern": "/article/(\\d{8})-",
-      "maxArticleAgeDays": 60
+      "maxArticleAgeDays": 60,
+      "applyUrlPattern": "^https://news\\.mynavi\\.jp/mypage/member/enquete/jump/"
     }
   ],
   "note": "新規候補は6時間ごとに自動収集し、scripts/promote.mjs が締切・当選人数・条件を抽出して安全基準を満たすものを自動公開する。判定できない候補は data/review-queue.json に保留し自動で再判定する。LIPSは自動アクセスせず管理者確認を維持する。"
