@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-24T21:33:54.684Z",
+  "updatedAt": "2026-09-25T05:02:20.838Z",
   "items": [
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
@@ -1100,6 +1100,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-20T20:52:41.993Z",
       "updatedAt": "2026-09-20T20:52:41.993Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/968/G096877/20260924059/",
+      "source": "4Gamer",
+      "title": "「トータルウォー：ウォーハンマー40,000」開発者インタビュー。銀河を舞台にした新時代のTotal Warはどうなるのか［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-25T05:02:20.838Z",
+      "updatedAt": "2026-09-25T05:02:20.838Z",
       "lastReason": "not-campaign"
     },
     {
