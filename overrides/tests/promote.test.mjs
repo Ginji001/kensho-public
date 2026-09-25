@@ -38,15 +38,19 @@ test('conditions and genre', () => {
 
 const page = (title, body) => `<html><head><title>${title} ｜ RoomClip</title></head><body><main>${body}</main></body></html>`;
 
-test('evaluate publishes a valid live campaign', () => {
-  const r = evaluate({source: 'RoomClip', url: 'https://roomclip.jp/form/3807?utm_source=x', now, policy,
-    html: page('【無料モニター】塗り壁材を3名様にプレゼント！', '募集期間：2026年09月15日(火)〜2026年09月21日(月) 3名様 投稿していただくこと')});
+test('evaluate publishes a plain prize draw', () => {
+  const r = evaluate({source: 'official', url: 'https://www.cosme.net/present/detail/present_id/9?utm_source=x', now, policy,
+    html: page('【プレゼント】詰め合わせを3名様に', '募集期間：2026年09月15日(火)〜2026年09月21日(月) 抽選で3名様にプレゼント')});
   assert.equal(r.decision, 'publish');
   assert.equal(r.campaign.deadline, '2026-09-21');
   assert.equal(r.campaign.winners, 3);
-  assert.equal(r.campaign.url, 'https://roomclip.jp/form/3807');
+  assert.equal(r.campaign.url, 'https://www.cosme.net/present/detail/present_id/9');
   assert.match(r.campaign.id, /^campaign-auto-[0-9a-f]{12}$/);
   assert.equal(r.campaign.autoPublished, true);
+});
+test('purchase, monitor and SNS campaigns are rejected', () => {
+  assert.equal(evaluate({source: 'RoomClip', url: 'https://roomclip.jp/form/1', now, policy,
+    html: page('モニター募集', '募集期間：2026年09月21日 3名様 モニター')}).reason, 'monitor');
 });
 test('evaluate rejects ended, expired and manual-only sources', () => {
   assert.equal(evaluate({source: 'RoomClip', url: 'https://roomclip.jp/form/1', now, policy, html: page('募集終了しました', '')}).decision, 'reject');
