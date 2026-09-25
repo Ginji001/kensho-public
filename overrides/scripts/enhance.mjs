@@ -34,7 +34,7 @@ form.addEventListener('reset',()=>{activeTopic=''});form.addEventListener('input
 for(const sel of ['.eyebrow','.heading h2','header p','.about']) document.querySelector(sel)?.remove();
 {const f=document.querySelector('footer');if(f)f.textContent='懸賞応募アシスト'}
 const extraFieldset=form.querySelector('fieldset');extraFieldset.querySelector('legend').textContent='条件';
-for(const [name,label] of [['onlyNew','未応募だけ'],['easyOnly','購入・モニター・SNSの記載なし'],['soon','締切7日以内'],['mySites','登録済みサイトだけ']])extraFieldset.append(el('label',{class:'check'},[el('input',{name,type:'checkbox'}),document.createTextNode(label)]));
+for(const [name,label] of [['onlyNew','未応募だけ'],['soon','締切7日以内'],['mySites','登録済みサイトだけ']])extraFieldset.append(el('label',{class:'check'},[el('input',{name,type:'checkbox'}),document.createTextNode(label)]));
 const sitesDialog=el('dialog',{class:'sites','aria-label':'登録済みサイト'});document.body.append(sitesDialog);
 function openSites(){const mine=mySites();const sources=[...new Set(catalog.campaigns.map(c=>c.source))].sort();const boxes=sources.map(s=>{const i=el('input',{type:'checkbox',value:s});i.checked=mine.includes(s);return el('label',{class:'check'},[i,document.createTextNode(SOURCE_LABELS[s]||s)])});sitesDialog.replaceChildren(el('h2',{text:'登録済みサイト'}),el('p',{class:'small',text:'ログイン済みのサイトを選んでください。この端末だけに保存されます。'}),...boxes,actionButton('保存',()=>{const v=boxes.map(l=>l.querySelector('input')).filter(i=>i.checked).map(i=>i.value);try{storage.setItem(MYSITES_KEY,JSON.stringify(v))}catch{notice='設定を保存できませんでした。'}sitesDialog.close();render()}));sitesDialog.showModal()}
 extraFieldset.append(actionButton('登録済みサイトを設定',openSites,'text-button sites-button'));
