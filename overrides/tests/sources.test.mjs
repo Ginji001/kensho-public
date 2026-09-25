@@ -14,13 +14,9 @@ test('non-campaign articles are rejected on every discovery source', () => {
     html: page('@cosmeのお知らせ', '会員規約の改定について')}).reason, 'not-campaign');
 });
 
-test('real campaigns on those sources still publish', () => {
-  assert.equal(evaluate({source: 'RoomClip', url: 'https://roomclip.jp/mag/archives/93856', now, policy,
-    html: page('【無料モニター】ウルトラファインバブル発生装置', '募集期間：2026年09月20日〜2026年10月01日 3名様 モニター 投稿')}).decision, 'publish');
+test('plain prize draws still publish', () => {
   assert.equal(evaluate({source: 'atcosme', url: 'https://www.cosme.net/present/detail/present_id/1', now, policy,
     html: page('ニベア ボディスクラブをプレゼント! -@cosme(アットコスメ)-', '応募期間 9/20~9/30 当選人数 200名 プレゼント')}).decision, 'publish');
-  assert.equal(evaluate({source: 'Monipla', url: 'https://monipla.jp/a/b/', now, policy,
-    html: page('新商品モニター募集', '参加〆切 3日前 モニター数 40名 プレゼント')}).decision, 'publish');
 });
 
 test('sources that cannot be crawled stay disabled', () => {
@@ -55,4 +51,24 @@ test('apply links are found for the real page shapes of each source', async () =
   // 紛らわしいリンクは拾わない
   assert.equal(findApplyUrl('<a href="https://www.4gamer.net/rules/">応募規約はこちら</a><a href="https://www.4gamer.net/secure/mail/form.php">問い合わせ</a>',
     'https://www.4gamer.net/games/999/G999905/1/', domains, 'https://www.4gamer.net/games/999/G999905/1/'), null);
+});
+
+test('campaigns that need a purchase, monitoring or an SNS post are never published', () => {
+  const cases = [
+    ['対象商品を購入してレシートを送付 応募期間 2026/10/1~2026/10/20 抽選で10名様', 'needs-purchase'],
+    ['モニター募集 応募期間 2026/10/1~2026/10/20 抽選で10名様 プレゼント', 'monitor'],
+    ['Instagramをフォローして投稿 応募期間 2026/10/1~2026/10/20 抽選で10名様 プレゼント', 'needs-post'],
+  ];
+  for (const [body, reason] of cases) {
+    assert.equal(evaluate({source: 'MynaviNews', url: 'https://news.mynavi.jp/article/20261001-present01/', now, policy,
+      html: page('【10名様】プレゼント', body)}).reason, reason, body.slice(0, 12));
+  }
+});
+
+test('sources whose campaigns are all monitor or SNS work are turned off', () => {
+  for (const s of ['RoomClip', 'Monipla']) {
+    const e = policy.discovery.find(d => d.source === s);
+    assert.equal(e.enabled, false, s);
+    assert.ok(e.disabledReason, s);
+  }
 });
