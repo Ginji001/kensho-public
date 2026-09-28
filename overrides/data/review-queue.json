@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-28T05:29:40.056Z",
+  "updatedAt": "2026-09-28T14:02:58.701Z",
   "items": [
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
@@ -923,6 +923,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/550/G055070/20260919046/",
+      "source": "4Gamer",
+      "title": "大手PCメーカーの参入やメモリ価格の高騰は，ONEXPLAYERの携帯型ゲームPCに影響を与えたのか？ 来日したCEOに直撃取材［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-28T14:02:58.701Z",
+      "updatedAt": "2026-09-28T14:02:58.701Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/649/G064919/20260920007/",
       "source": "4Gamer",
       "title": "現実に存在するものから，誰も見たことがない世界を作る。「狐ト蛙ノ旅」を手がけるリアス氏へのインタビュー［TGS2026］",
@@ -950,6 +960,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-18T20:56:55.557Z",
       "updatedAt": "2026-09-18T20:56:55.557Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/745/G074550/20260803013/",
+      "source": "4Gamer",
+      "title": "［インタビュー］「フラガリアメモリーズ」，ついに「ロストキティ編」が完結！ 梶原岳人さんが語る，ハルリットの揺れ動く心とハルリット・シャドウの存在",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-28T14:02:58.701Z",
+      "updatedAt": "2026-09-28T14:02:58.701Z",
       "lastReason": "not-campaign"
     },
     {
