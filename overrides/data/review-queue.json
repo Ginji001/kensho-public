@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-27T21:23:52.906Z",
+  "updatedAt": "2026-09-28T05:29:40.056Z",
   "items": [
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
@@ -390,6 +390,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-18T11:22:01.545Z",
       "updatedAt": "2026-09-18T11:22:01.545Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/006/G100620/20260925015/",
+      "source": "4Gamer",
+      "title": "［インタビュー］監獄の食事がとにかくヤバい―――吉田修平氏のTGS2026イチオシは，「満腹脱獄計画」",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-28T05:29:40.056Z",
+      "updatedAt": "2026-09-28T05:29:40.056Z",
       "lastReason": "not-campaign"
     },
     {
