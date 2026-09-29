@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-29T12:59:05.849Z",
+  "updatedAt": "2026-09-29T22:19:45.568Z",
   "items": [
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
@@ -1581,6 +1581,16 @@
       "firstSeenAt": "2026-09-15T17:03:46.590Z",
       "updatedAt": "2026-09-15T17:03:46.590Z",
       "lastReason": "expired"
+    },
+    {
+      "url": "https://www.cosme.net/brandcollection/present/detail/present_id/12200",
+      "source": "atcosme",
+      "title": "エピステーム / エピステーム アイパーフェクトショットbをプレゼント！",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-29T22:19:45.568Z",
+      "updatedAt": "2026-09-29T22:19:45.568Z",
+      "lastReason": "monitor"
     },
     {
       "url": "https://www.e-earphone.jp/blogs/campaign-sale/26spring_pointpresent-cp",
