@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-28T23:19:30.693Z",
+  "updatedAt": "2026-09-29T05:48:32.573Z",
   "items": [
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
@@ -843,6 +843,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/045/G104561/20260925033/",
+      "source": "4Gamer",
+      "title": "「Putty World 35th Anniversary」をひっさげて来日した伝説的ゲームクリエイターMark Cale氏に聞く，ゲーム業界サバイバル術［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-29T05:48:32.573Z",
+      "updatedAt": "2026-09-29T05:48:32.573Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/047/G004755/20260920005/",
       "source": "4Gamer",
       "title": "720Hz表示でTN液晶の座を奪う？ ASUSのeスポーツ向け有機ELディスプレイの見どころと，ゲーミングディスプレイの未来［TGS2026］",
@@ -943,6 +953,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/667/G066758/20260920056/",
+      "source": "4Gamer",
+      "title": "「モンスターハンターアウトランダーズ」の新モンスター“ルガ・エアルダ”に挑む。スマホで広がる“冒険者”による新たな狩猟体験",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-29T05:48:32.573Z",
+      "updatedAt": "2026-09-29T05:48:32.573Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/668/G066881/20260917087/",
       "source": "4Gamer",
       "title": "明解な結末は作らない。9月24日のリリースが迫る「CONTROL Resonant」インタビュー［TGS2026］",
@@ -1040,6 +1060,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-23T04:50:06.285Z",
       "updatedAt": "2026-09-23T04:50:06.285Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/883/G088337/20260924002/",
+      "source": "4Gamer",
+      "title": "［インタビュー］「俺はこの業界を，SEKIROの最高難度でプレイしてるんだ」―――Red Dunes Gamesの“CKO”であるSultan Al Darmaki氏が，フロム脳の超本音トークで業界をぶった切り",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-29T05:48:32.573Z",
+      "updatedAt": "2026-09-29T05:48:32.573Z",
       "lastReason": "not-campaign"
     },
     {
