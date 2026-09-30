@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-30T05:38:07.662Z",
+  "updatedAt": "2026-09-30T12:41:18.960Z",
   "items": [
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
@@ -1590,6 +1590,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-15T14:33:05.005Z",
       "updatedAt": "2026-09-15T14:33:05.005Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/999/G999905/20260930017/",
+      "source": "4Gamer",
+      "title": "プレゼント企画「2026 Summer Special Present」の当選者を発表します。たくさんのご応募，ありがとうございました",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-30T12:41:18.960Z",
+      "updatedAt": "2026-09-30T12:41:18.960Z",
       "lastReason": "not-campaign"
     },
     {
