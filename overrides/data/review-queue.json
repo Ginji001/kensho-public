@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-29T22:19:45.568Z",
+  "updatedAt": "2026-09-30T05:38:07.662Z",
   "items": [
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
@@ -1023,6 +1023,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/810/G081093/20260821034/",
+      "source": "4Gamer",
+      "title": "作品のアニマはどこに宿るのか。「リベンジオブザセブン」と「サガフロ2 リマスター」，ふたつの“伝承”のかたち",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-30T05:38:07.662Z",
+      "updatedAt": "2026-09-30T05:38:07.662Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/816/G081637/20260924042/",
       "source": "4Gamer",
       "title": "翻訳担当が泣きながらローカライズ！？ 好きと熱意が世界に届いた「でびるコネクショん」ばやちゃお氏＆ぽ氏インタビュー［TGS2026］",
@@ -1260,6 +1270,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-16T11:42:21.049Z",
       "updatedAt": "2026-09-16T11:42:21.049Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/975/G097529/20260921028/",
+      "source": "4Gamer",
+      "title": "［インタビュー］スマホで本当に楽しいゲームを作りたかった。「アストラエ・オラティオ」の開発は，アート/シナリオ/ゲームが同時に走る「溶接」で突き進む",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-09-30T05:38:07.662Z",
+      "updatedAt": "2026-09-30T05:38:07.662Z",
       "lastReason": "not-campaign"
     },
     {
