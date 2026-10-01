@@ -124,11 +124,11 @@ export function classifyGenre(title, source) {
 export function extractConditions(text, source) {
   const purchase = /(?:対象)?(?:商品|製品)(?:を|の)?(?:ご)?購入|レシート|納品書|購入証明|購入期間|お買い上げ|購入者限定|購入が必要|以上(?:の)?(?:ご)?購入/.test(text);
   const noPurchase = /購入不要|購入の必要はありません/.test(text);
-  const sns = /Instagram|インスタグラム|TikTok|X\s*\(旧Twitter\)|Twitter|フォロー(?:&|＆|して)|リポスト|リツイート/i.test(text);
-  const review = /レビュー|口コミ|クチコミ|投稿(?:して|いただ|する)|感想/.test(text);
+  const sns = /(?:Instagram|インスタグラム|TikTok|Twitter|X\s*\(旧Twitter\))[^。]{0,30}(?:フォロー|投稿|シェア|応募)|フォロー\s*(?:&|＆|and|\+)?\s*(?:リポスト|リツイート|投稿)|フォローして応募|ハッシュタグ[^。]{0,20}投稿|SNS[^。]{0,10}投稿/i.test(text);
+  const review = /(?:レビュー|口コミ|クチコミ|感想|写真)(?:を|の)(?:投稿|記入|提出)(?:を)?(?:し|す|が必要|が条件|をお願い|いただ)|投稿(?:していただ|してくださる|が条件|が必須|をお願いします)|レビュー投稿|モニターレポート/.test(text);
   const app = /アプリ(?:を|の)?(?:ダウンロード|インストール|から応募)/.test(text);
   const line = /LINE(?:友だち|で応募|公式アカウント)/.test(text);
-  const monitor = /モニター/.test(text) || source === 'RoomClip';
+  const monitor = /(?:無料|商品|製品|現品)?モニター(?:募集|に応募|として|体験|レポート|数|参加)|モニタープレゼント|モニター当選|モニターになっ/.test(text) || source === 'RoomClip';
   const labels = [source === 'atcosme' ? '@cosme会員' : source === 'Monipla' ? 'モニプラ会員' : source === 'RoomClip' ? 'RoomClip会員' : '会員登録'];
   if (purchase) labels.push('購入必要');
   if (sns) labels.push('SNS');
