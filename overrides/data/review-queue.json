@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-30T22:20:19.951Z",
+  "updatedAt": "2026-10-01T06:02:19.164Z",
   "items": [
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
@@ -370,6 +370,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-15T14:33:05.005Z",
       "updatedAt": "2026-09-15T14:33:05.005Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/000/G100047/20260926004/",
+      "source": "4Gamer",
+      "title": "［インタビュー］「面白いインディーゲームを作っていれば，我々が必ず見つけ出す」。NeoWiz出身の3人が設立した，韓国初のインディーゲーム専門パブリッシャ「Red Brick House」の思想",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-01T06:02:19.164Z",
+      "updatedAt": "2026-10-01T06:02:19.164Z",
       "lastReason": "not-campaign"
     },
     {
@@ -1283,6 +1293,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/978/G097828/20260925024/",
+      "source": "4Gamer",
+      "title": "［インタビュー］「真・三國無双２ with 猛将伝 Remastered」本日発売。“原作”のプレイ感覚を再現するために施された工夫とは",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-01T06:02:19.164Z",
+      "updatedAt": "2026-10-01T06:02:19.164Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/981/G098195/20260909042/",
       "source": "4Gamer",
       "title": "［インタビュー］「アナザーエデン ビギンズ」は，新規も古参ファンも楽しめる新作コンシューマRPGに。プロデューサーが語る，その魅力とは",
@@ -1591,6 +1611,26 @@
       "firstSeenAt": "2026-09-15T14:33:05.005Z",
       "updatedAt": "2026-09-15T14:33:05.005Z",
       "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/999/G999905/20260821012/",
+      "source": "4Gamer",
+      "title": "［プレゼント］A賞はMSIの携帯型ゲームPC「Claw 8 AI+ A2VM」。Alienwareのウルトラワイドゲーミングディスプレイなども当たるプレゼント企画を実施中",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-01T06:02:19.164Z",
+      "updatedAt": "2026-10-01T06:02:19.164Z",
+      "lastReason": "expired"
+    },
+    {
+      "url": "https://www.4gamer.net/games/999/G999905/20260828015/",
+      "source": "4Gamer",
+      "title": "［プレゼント］携帯型ゲームPCやフライトスティック，サングラス型ディスプレイなどが当たるプレゼント企画を実施中",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-01T06:02:19.164Z",
+      "updatedAt": "2026-10-01T06:02:19.164Z",
+      "lastReason": "expired"
     },
     {
       "url": "https://www.4gamer.net/games/999/G999905/20260930017/",
