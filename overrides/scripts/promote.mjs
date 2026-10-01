@@ -76,7 +76,7 @@ export function extractDeadline(text, now = new Date()) {
   const rel = text.match(/(?:締切|〆切|締め切り)(?:まで)?\s*(?:あと|残り)?\s*(\d{1,3})\s*日/);
   if (rel) return fmt(todayMs + +rel[1] * DAY);
 
-  const label = /(応募期間|募集期間|エントリー期間|応募締切|応募締め切り|締切|〆切|受付期間|実施期間|キャンペーン期間|開催期間|参加期限|応募期限)/g;
+  const label = /(応募期間|募集期間|エントリー期間|応募受付|応募締切|応募締め切り|締め切り|締切|〆切|受付期間|実施期間|キャンペーン期間|開催期間|参加期限|応募期限)/g;
   let lm, best = NaN;
   while ((lm = label.exec(text))) {
     const window = text.slice(lm.index, lm.index + 90);
@@ -146,6 +146,21 @@ export function extractConditions(text, source) {
   };
 }
 
+// 純粋な「プレゼント（抽選応募）」だけを残す。サイト共通の飾り文句は先に取り除く。
+const BOILERPLATE = [
+  /プレゼント\s*[＆&]\s*モニター/g,
+  /クチコミ[^。]{0,20}投稿[^。]{0,40}。/g,
+  /投稿者の感想[^。]{0,40}。/g,
+  /モニタートップ[^。]{0,10}/g,
+  /読者モニター募集中/g,
+];
+export function stripBoilerplate(text) {
+  let out = String(text || '');
+  for (const re of BOILERPLATE) out = out.replace(re, ' ');
+  return out;
+}
+export const NOT_PLAIN = /モニター|案件|フォローして|投稿/;
+
 const CLOSED_TITLE = /当選者発表|結果発表|募集終了|応募終了|受付終了|終了しました|見つかりません|エラー/;
 
 // 候補1件を判定。{decision:'publish'|'hold'|'reject', reason, campaign?}
@@ -176,6 +191,7 @@ export function evaluate({source, url, html, now = new Date(), policy}) {
   if (cond.requiresPurchase === true) return {decision: 'reject', reason: 'needs-purchase'};
   if (cond.isMonitor) return {decision: 'reject', reason: 'monitor'};
   if (cond.entryType === 'sns' || cond.requiresReview) return {decision: 'reject', reason: 'needs-post'};
+  if (NOT_PLAIN.test(stripBoilerplate(text))) return {decision: 'reject', reason: 'not-plain-present'};
   const nowIso = now.toISOString();
   const raw = {
     id: 'campaign-auto-' + crypto.createHash('sha1').update(canonical(url)).digest('hex').slice(0, 12),
