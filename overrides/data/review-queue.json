@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-01T06:02:19.164Z",
+  "updatedAt": "2026-10-01T06:18:52.641Z",
   "items": [
     {
       "url": "https://news.mynavi.jp/article/20260410-present01/",
@@ -1651,6 +1651,26 @@
       "firstSeenAt": "2026-09-15T17:03:46.590Z",
       "updatedAt": "2026-09-15T17:03:46.590Z",
       "lastReason": "expired"
+    },
+    {
+      "url": "https://www.cosme.net/brandcollection/present/detail/present_id/12200",
+      "source": "atcosme",
+      "title": "エピステーム / エピステーム アイパーフェクトショットbをプレゼント！",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-01T06:18:52.641Z",
+      "updatedAt": "2026-10-01T06:18:52.641Z",
+      "lastReason": "monitor"
+    },
+    {
+      "url": "https://www.cosme.net/brandcollection/present/detail/present_id/12207",
+      "source": "atcosme",
+      "title": "Sulwhasoo(雪花秀, ソルファス) / 滋陰生（ジャウムセン）コンセントレート GR クリーム リッチをプレゼント！",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-01T06:18:52.641Z",
+      "updatedAt": "2026-10-01T06:18:52.641Z",
+      "lastReason": "monitor"
     },
     {
       "url": "https://www.e-earphone.jp/blogs/campaign-sale/26spring_pointpresent-cp",
