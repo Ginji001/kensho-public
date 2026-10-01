@@ -72,3 +72,11 @@ test('sources whose campaigns are all monitor or SNS work are turned off', () =>
     assert.ok(e.disabledReason, s);
   }
 });
+
+test('site furniture does not count as a monitor or SNS condition', () => {
+  const cosme = '<title>【無料応募】バスソルトをプレゼント｜アットコスメ</title><body>アットコスメ > プレゼント＆モニター > HACCI 応募期間 2026/10/1~2026/10/15 当選人数 100名 クチコミなどの投稿はあくまで投稿者の感想です。 プレゼント＆モニタートップへ戻る</body>';
+  const r = evaluate({source: 'atcosme', url: 'https://www.cosme.net/present/detail/present_id/19629', html: cosme, now: new Date('2026-10-01T03:00:00Z'), policy});
+  assert.equal(r.decision, 'publish', r.reason);
+  assert.equal(r.campaign.isMonitor, false);
+  assert.equal(r.campaign.requiresReview, false);
+});
