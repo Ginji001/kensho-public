@@ -80,3 +80,24 @@ test('site furniture does not count as a monitor or SNS condition', () => {
   assert.equal(r.campaign.isMonitor, false);
   assert.equal(r.campaign.requiresReview, false);
 });
+
+test('only plain prize draws survive: monitor, SNS and post wording are excluded', () => {
+  const now2 = new Date('2026-10-01T03:00:00Z');
+  const ng = (body) => evaluate({source: 'CREA', url: 'https://crea.bunshun.jp/articles/-/1', now: now2, policy,
+    html: page('プレゼント', '応募期間：2026年10月1日〜2026年10月20日 1名様 ' + body)}).reason;
+  assert.equal(ng('Xをフォローしてご応募ください'), 'not-plain-present');
+  assert.equal(ng('この案件はモニター募集です'), 'monitor');
+  assert.equal(ng('当選後に写真を提出していただく案件です'), 'needs-post');
+});
+
+test('magazine reader presents publish', () => {
+  const now2 = new Date('2026-10-01T03:00:00Z');
+  const crea = evaluate({source: 'CREA', url: 'https://crea.bunshun.jp/articles/-/60092', now: now2, policy,
+    html: page('マナラ ホットクレンジングゲルを1名様にプレゼント', '応募期間：2026年9月18日（金）11:00～2026年10月18日（日）23:59 1名様 応募に際し、CREA WEBメンバーの登録が必要です')});
+  assert.equal(crea.decision, 'publish', crea.reason);
+  assert.equal(crea.campaign.deadline, '2026-10-18');
+  const lee = evaluate({source: 'LEE', url: 'https://lee.hpplus.jp/present/3711946/', now: now2, policy,
+    html: page('スカルプセラムを3名に【LEEweb 9月のプレゼント】', '締め切り:2026.10.06 10時 3名 LEEメンバー登録が必要です')});
+  assert.equal(lee.decision, 'publish', lee.reason);
+  assert.equal(lee.campaign.deadline, '2026-10-06');
+});
