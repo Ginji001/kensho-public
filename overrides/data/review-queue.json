@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-04T12:28:14.220Z",
+  "updatedAt": "2026-10-04T21:32:53.984Z",
   "items": [
     {
       "url": "https://crea.bunshun.jp/articles/-/60099",
       "source": "CREA",
       "title": "それは異端か、正統か――お釈迦様は本当に発光していた? 怪談和尚・三木大雲が説く、お経に秘められたスペクタクル・ワールド",
       "status": "held",
-      "attempts": 6,
+      "attempts": 7,
       "firstSeenAt": "2026-10-03T05:23:56.368Z",
-      "updatedAt": "2026-10-04T12:28:14.220Z",
+      "updatedAt": "2026-10-04T21:32:53.984Z",
       "lastReason": "no-deadline"
     },
     {
@@ -17,9 +17,9 @@
       "source": "CREA",
       "title": "お経が示す「永久に尽きることのない法の宝が詰まった蔵」とは？ 三木大雲が読み解く神秘の記号と、苦しみを減らし穏やかに生きるための智慧",
       "status": "held",
-      "attempts": 6,
+      "attempts": 7,
       "firstSeenAt": "2026-10-03T05:23:56.368Z",
-      "updatedAt": "2026-10-04T12:28:14.220Z",
+      "updatedAt": "2026-10-04T21:32:53.984Z",
       "lastReason": "no-deadline"
     },
     {
@@ -27,9 +27,9 @@
       "source": "CREA",
       "title": "「本当にこんな世界があったの？」と驚いて…綾瀬はるかが語る、違和感への向き合い方「否定せず、声をあげ…」《バブル期の“生きづらさ”と女性たちの“戦い”》",
       "status": "held",
-      "attempts": 9,
+      "attempts": 10,
       "firstSeenAt": "2026-10-02T05:45:38.182Z",
-      "updatedAt": "2026-10-04T12:28:14.220Z",
+      "updatedAt": "2026-10-04T21:32:53.984Z",
       "lastReason": "no-deadline"
     },
     {
@@ -37,9 +37,9 @@
       "source": "CREA",
       "title": "「明日が来なきゃいいのにと思うことも」綾瀬はるかが今も抱く緊張感。多忙な日々をととのえる“休日の過ごし方”と海外旅行での“必需品”",
       "status": "held",
-      "attempts": 9,
+      "attempts": 10,
       "firstSeenAt": "2026-10-02T05:45:38.182Z",
-      "updatedAt": "2026-10-04T12:28:14.220Z",
+      "updatedAt": "2026-10-04T21:32:53.984Z",
       "lastReason": "no-deadline"
     },
     {
@@ -47,9 +47,9 @@
       "source": "CREA",
       "title": "【クイーン・メリー２】海の女王に導かれて旅する心豊かなフィヨルド・クルーズ",
       "status": "held",
-      "attempts": 9,
+      "attempts": 10,
       "firstSeenAt": "2026-10-02T05:45:38.182Z",
-      "updatedAt": "2026-10-04T12:28:14.220Z",
+      "updatedAt": "2026-10-04T21:32:53.984Z",
       "lastReason": "no-deadline"
     },
     {
@@ -57,9 +57,9 @@
       "source": "CREA",
       "title": "",
       "status": "held",
-      "attempts": 5,
+      "attempts": 6,
       "firstSeenAt": "2026-10-03T11:44:36.830Z",
-      "updatedAt": "2026-10-04T12:28:14.220Z",
+      "updatedAt": "2026-10-04T21:32:53.984Z",
       "lastReason": "fetch:unapproved-url"
     },
     {
@@ -67,9 +67,9 @@
       "source": "CREA",
       "title": "",
       "status": "held",
-      "attempts": 5,
+      "attempts": 6,
       "firstSeenAt": "2026-10-03T11:44:36.830Z",
-      "updatedAt": "2026-10-04T12:28:14.220Z",
+      "updatedAt": "2026-10-04T21:32:53.984Z",
       "lastReason": "fetch:unapproved-url"
     },
     {
@@ -77,9 +77,9 @@
       "source": "CREA",
       "title": "",
       "status": "held",
-      "attempts": 5,
+      "attempts": 6,
       "firstSeenAt": "2026-10-03T11:44:36.830Z",
-      "updatedAt": "2026-10-04T12:28:14.220Z",
+      "updatedAt": "2026-10-04T21:32:53.984Z",
       "lastReason": "fetch:unapproved-url"
     },
     {
@@ -2121,6 +2121,16 @@
       "firstSeenAt": "2026-09-15T17:03:46.590Z",
       "updatedAt": "2026-09-15T17:03:46.590Z",
       "lastReason": "expired"
+    },
+    {
+      "url": "https://www.cosme.net/brandcollection/present/detail/present_id/12169",
+      "source": "atcosme",
+      "title": "Ｎ organic(エヌオーガニック) / N organic Basic バランシング エッセンスミルク[医薬部外品]をプレゼント！",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-04T21:32:53.984Z",
+      "updatedAt": "2026-10-04T21:32:53.984Z",
+      "lastReason": "monitor"
     },
     {
       "url": "https://www.cosme.net/brandcollection/present/detail/present_id/12200",
