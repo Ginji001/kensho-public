@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-05T05:47:58.279Z",
+  "updatedAt": "2026-10-05T14:48:29.555Z",
   "items": [
     {
       "url": "https://crea.bunshun.jp/articles/-/60014",
       "source": "CREA",
       "title": "「社会が下品になって上品な人が困っている」哲学者・國分功一郎が語る、経歴アピールに溢れた“はしたない社会”の歩き方",
       "status": "held",
-      "attempts": 1,
+      "attempts": 2,
       "firstSeenAt": "2026-10-05T05:47:58.279Z",
-      "updatedAt": "2026-10-05T05:47:58.279Z",
+      "updatedAt": "2026-10-05T14:48:29.555Z",
       "lastReason": "no-deadline"
     },
     {
@@ -17,9 +17,9 @@
       "source": "CREA",
       "title": "それは異端か、正統か――お釈迦様は本当に発光していた? 怪談和尚・三木大雲が説く、お経に秘められたスペクタクル・ワールド",
       "status": "held",
-      "attempts": 8,
+      "attempts": 9,
       "firstSeenAt": "2026-10-03T05:23:56.368Z",
-      "updatedAt": "2026-10-05T05:47:58.279Z",
+      "updatedAt": "2026-10-05T14:48:29.555Z",
       "lastReason": "no-deadline"
     },
     {
@@ -27,39 +27,9 @@
       "source": "CREA",
       "title": "お経が示す「永久に尽きることのない法の宝が詰まった蔵」とは？ 三木大雲が読み解く神秘の記号と、苦しみを減らし穏やかに生きるための智慧",
       "status": "held",
-      "attempts": 8,
+      "attempts": 9,
       "firstSeenAt": "2026-10-03T05:23:56.368Z",
-      "updatedAt": "2026-10-05T05:47:58.279Z",
-      "lastReason": "no-deadline"
-    },
-    {
-      "url": "https://crea.bunshun.jp/articles/-/60268",
-      "source": "CREA",
-      "title": "「本当にこんな世界があったの？」と驚いて…綾瀬はるかが語る、違和感への向き合い方「否定せず、声をあげ…」《バブル期の“生きづらさ”と女性たちの“戦い”》",
-      "status": "held",
-      "attempts": 11,
-      "firstSeenAt": "2026-10-02T05:45:38.182Z",
-      "updatedAt": "2026-10-05T05:47:58.279Z",
-      "lastReason": "no-deadline"
-    },
-    {
-      "url": "https://crea.bunshun.jp/articles/-/60269",
-      "source": "CREA",
-      "title": "「明日が来なきゃいいのにと思うことも」綾瀬はるかが今も抱く緊張感。多忙な日々をととのえる“休日の過ごし方”と海外旅行での“必需品”",
-      "status": "held",
-      "attempts": 11,
-      "firstSeenAt": "2026-10-02T05:45:38.182Z",
-      "updatedAt": "2026-10-05T05:47:58.279Z",
-      "lastReason": "no-deadline"
-    },
-    {
-      "url": "https://crea.bunshun.jp/articles/-/60275",
-      "source": "CREA",
-      "title": "【クイーン・メリー２】海の女王に導かれて旅する心豊かなフィヨルド・クルーズ",
-      "status": "held",
-      "attempts": 11,
-      "firstSeenAt": "2026-10-02T05:45:38.182Z",
-      "updatedAt": "2026-10-05T05:47:58.279Z",
+      "updatedAt": "2026-10-05T14:48:29.555Z",
       "lastReason": "no-deadline"
     },
     {
@@ -67,9 +37,9 @@
       "source": "CREA",
       "title": "",
       "status": "held",
-      "attempts": 7,
+      "attempts": 8,
       "firstSeenAt": "2026-10-03T11:44:36.830Z",
-      "updatedAt": "2026-10-05T05:47:58.279Z",
+      "updatedAt": "2026-10-05T14:48:29.555Z",
       "lastReason": "fetch:unapproved-url"
     },
     {
@@ -77,9 +47,9 @@
       "source": "CREA",
       "title": "",
       "status": "held",
-      "attempts": 7,
+      "attempts": 8,
       "firstSeenAt": "2026-10-03T11:44:36.830Z",
-      "updatedAt": "2026-10-05T05:47:58.279Z",
+      "updatedAt": "2026-10-05T14:48:29.555Z",
       "lastReason": "fetch:unapproved-url"
     },
     {
@@ -87,9 +57,9 @@
       "source": "CREA",
       "title": "",
       "status": "held",
-      "attempts": 7,
+      "attempts": 8,
       "firstSeenAt": "2026-10-03T11:44:36.830Z",
-      "updatedAt": "2026-10-05T05:47:58.279Z",
+      "updatedAt": "2026-10-05T14:48:29.555Z",
       "lastReason": "fetch:unapproved-url"
     },
     {
@@ -97,9 +67,9 @@
       "source": "eEarphone",
       "title": "30万ポイントプレゼントキャンペーン！【~2026/11/16(月)まで】 – e☆イヤホン",
       "status": "held",
-      "attempts": 1,
+      "attempts": 2,
       "firstSeenAt": "2026-10-05T05:47:58.279Z",
-      "updatedAt": "2026-10-05T05:47:58.279Z",
+      "updatedAt": "2026-10-05T14:48:29.555Z",
       "lastReason": "no-deadline"
     },
     {
@@ -440,6 +410,36 @@
       "attempts": 12,
       "firstSeenAt": "2026-10-01T08:17:49.631Z",
       "updatedAt": "2026-10-04T12:28:14.220Z",
+      "lastReason": "no-deadline"
+    },
+    {
+      "url": "https://crea.bunshun.jp/articles/-/60268",
+      "source": "CREA",
+      "title": "「本当にこんな世界があったの？」と驚いて…綾瀬はるかが語る、違和感への向き合い方「否定せず、声をあげ…」《バブル期の“生きづらさ”と女性たちの“戦い”》",
+      "status": "rejected",
+      "attempts": 12,
+      "firstSeenAt": "2026-10-02T05:45:38.182Z",
+      "updatedAt": "2026-10-05T14:48:29.555Z",
+      "lastReason": "no-deadline"
+    },
+    {
+      "url": "https://crea.bunshun.jp/articles/-/60269",
+      "source": "CREA",
+      "title": "「明日が来なきゃいいのにと思うことも」綾瀬はるかが今も抱く緊張感。多忙な日々をととのえる“休日の過ごし方”と海外旅行での“必需品”",
+      "status": "rejected",
+      "attempts": 12,
+      "firstSeenAt": "2026-10-02T05:45:38.182Z",
+      "updatedAt": "2026-10-05T14:48:29.555Z",
+      "lastReason": "no-deadline"
+    },
+    {
+      "url": "https://crea.bunshun.jp/articles/-/60275",
+      "source": "CREA",
+      "title": "【クイーン・メリー２】海の女王に導かれて旅する心豊かなフィヨルド・クルーズ",
+      "status": "rejected",
+      "attempts": 12,
+      "firstSeenAt": "2026-10-02T05:45:38.182Z",
+      "updatedAt": "2026-10-05T14:48:29.555Z",
       "lastReason": "no-deadline"
     },
     {
