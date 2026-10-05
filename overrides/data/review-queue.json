@@ -1,15 +1,25 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-04T21:32:53.984Z",
+  "updatedAt": "2026-10-05T05:47:58.279Z",
   "items": [
+    {
+      "url": "https://crea.bunshun.jp/articles/-/60014",
+      "source": "CREA",
+      "title": "「社会が下品になって上品な人が困っている」哲学者・國分功一郎が語る、経歴アピールに溢れた“はしたない社会”の歩き方",
+      "status": "held",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-05T05:47:58.279Z",
+      "updatedAt": "2026-10-05T05:47:58.279Z",
+      "lastReason": "no-deadline"
+    },
     {
       "url": "https://crea.bunshun.jp/articles/-/60099",
       "source": "CREA",
       "title": "それは異端か、正統か――お釈迦様は本当に発光していた? 怪談和尚・三木大雲が説く、お経に秘められたスペクタクル・ワールド",
       "status": "held",
-      "attempts": 7,
+      "attempts": 8,
       "firstSeenAt": "2026-10-03T05:23:56.368Z",
-      "updatedAt": "2026-10-04T21:32:53.984Z",
+      "updatedAt": "2026-10-05T05:47:58.279Z",
       "lastReason": "no-deadline"
     },
     {
@@ -17,9 +27,9 @@
       "source": "CREA",
       "title": "お経が示す「永久に尽きることのない法の宝が詰まった蔵」とは？ 三木大雲が読み解く神秘の記号と、苦しみを減らし穏やかに生きるための智慧",
       "status": "held",
-      "attempts": 7,
+      "attempts": 8,
       "firstSeenAt": "2026-10-03T05:23:56.368Z",
-      "updatedAt": "2026-10-04T21:32:53.984Z",
+      "updatedAt": "2026-10-05T05:47:58.279Z",
       "lastReason": "no-deadline"
     },
     {
@@ -27,9 +37,9 @@
       "source": "CREA",
       "title": "「本当にこんな世界があったの？」と驚いて…綾瀬はるかが語る、違和感への向き合い方「否定せず、声をあげ…」《バブル期の“生きづらさ”と女性たちの“戦い”》",
       "status": "held",
-      "attempts": 10,
+      "attempts": 11,
       "firstSeenAt": "2026-10-02T05:45:38.182Z",
-      "updatedAt": "2026-10-04T21:32:53.984Z",
+      "updatedAt": "2026-10-05T05:47:58.279Z",
       "lastReason": "no-deadline"
     },
     {
@@ -37,9 +47,9 @@
       "source": "CREA",
       "title": "「明日が来なきゃいいのにと思うことも」綾瀬はるかが今も抱く緊張感。多忙な日々をととのえる“休日の過ごし方”と海外旅行での“必需品”",
       "status": "held",
-      "attempts": 10,
+      "attempts": 11,
       "firstSeenAt": "2026-10-02T05:45:38.182Z",
-      "updatedAt": "2026-10-04T21:32:53.984Z",
+      "updatedAt": "2026-10-05T05:47:58.279Z",
       "lastReason": "no-deadline"
     },
     {
@@ -47,9 +57,9 @@
       "source": "CREA",
       "title": "【クイーン・メリー２】海の女王に導かれて旅する心豊かなフィヨルド・クルーズ",
       "status": "held",
-      "attempts": 10,
+      "attempts": 11,
       "firstSeenAt": "2026-10-02T05:45:38.182Z",
-      "updatedAt": "2026-10-04T21:32:53.984Z",
+      "updatedAt": "2026-10-05T05:47:58.279Z",
       "lastReason": "no-deadline"
     },
     {
@@ -57,9 +67,9 @@
       "source": "CREA",
       "title": "",
       "status": "held",
-      "attempts": 6,
+      "attempts": 7,
       "firstSeenAt": "2026-10-03T11:44:36.830Z",
-      "updatedAt": "2026-10-04T21:32:53.984Z",
+      "updatedAt": "2026-10-05T05:47:58.279Z",
       "lastReason": "fetch:unapproved-url"
     },
     {
@@ -67,9 +77,9 @@
       "source": "CREA",
       "title": "",
       "status": "held",
-      "attempts": 6,
+      "attempts": 7,
       "firstSeenAt": "2026-10-03T11:44:36.830Z",
-      "updatedAt": "2026-10-04T21:32:53.984Z",
+      "updatedAt": "2026-10-05T05:47:58.279Z",
       "lastReason": "fetch:unapproved-url"
     },
     {
@@ -77,10 +87,20 @@
       "source": "CREA",
       "title": "",
       "status": "held",
-      "attempts": 6,
+      "attempts": 7,
       "firstSeenAt": "2026-10-03T11:44:36.830Z",
-      "updatedAt": "2026-10-04T21:32:53.984Z",
+      "updatedAt": "2026-10-05T05:47:58.279Z",
       "lastReason": "fetch:unapproved-url"
+    },
+    {
+      "url": "https://www.e-earphone.jp/blogs/campaign-sale/e-earpoint_presentcp-3",
+      "source": "eEarphone",
+      "title": "30万ポイントプレゼントキャンペーン！【~2026/11/16(月)まで】 – e☆イヤホン",
+      "status": "held",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-05T05:47:58.279Z",
+      "updatedAt": "2026-10-05T05:47:58.279Z",
+      "lastReason": "no-deadline"
     },
     {
       "url": "https://crea.bunshun.jp/articles/-/58526",
@@ -1323,6 +1343,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/047/G104761/20261004011/",
+      "source": "4Gamer",
+      "title": "アルファベット牌で英単語を作る麻雀風対戦ゲーム「WORJONG」。手牌が次の局へ残る独自ルールや，麻雀との違いについて聞いた［OIGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-05T05:47:58.279Z",
+      "updatedAt": "2026-10-05T05:47:58.279Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/203/G020311/20260919075/",
       "source": "4Gamer",
       "title": "PS5版の発売も控える「Euro Truck Simulator 2」。SCS Softwareにアジア展開を本格化する動きを聞いた［TGS2026］",
@@ -1350,6 +1380,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-15T14:33:05.005Z",
       "updatedAt": "2026-09-15T14:33:05.005Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/387/G038732/20260920038/",
+      "source": "4Gamer",
+      "title": "［プレイレポ］オシャレと交流，そして現代的な程よい距離感を楽しむ，「マビノギモバイル」での異世界暮らし",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-05T05:47:58.279Z",
+      "updatedAt": "2026-10-05T05:47:58.279Z",
       "lastReason": "not-campaign"
     },
     {
@@ -1493,6 +1533,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/810/G081026/20261005002/",
+      "source": "4Gamer",
+      "title": "連続空中ダッシュで駆け抜ける爽快感。2Dアクション「Near The Sun」イベント用デモ版の試遊レポートを掲載［OIGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-05T05:47:58.279Z",
+      "updatedAt": "2026-10-05T05:47:58.279Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/810/G081093/20260821034/",
       "source": "4Gamer",
       "title": "作品のアニマはどこに宿るのか。「リベンジオブザセブン」と「サガフロ2 リマスター」，ふたつの“伝承”のかたち",
@@ -1530,6 +1580,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-19T20:45:14.453Z",
       "updatedAt": "2026-09-19T20:45:14.453Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/865/G086591/20260921049/",
+      "source": "4Gamer",
+      "title": "恐竜やエイリアンが待ち受ける惑星が舞台。PvEシューティング「Turok: Origins」の開発陣に，環境デザインや戦闘システムについて聞いた",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-05T05:47:58.279Z",
+      "updatedAt": "2026-10-05T05:47:58.279Z",
       "lastReason": "not-campaign"
     },
     {
@@ -1680,6 +1740,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-15T14:33:05.005Z",
       "updatedAt": "2026-09-15T14:33:05.005Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/964/G096416/20261004010/",
+      "source": "4Gamer",
+      "title": "80年代への郷愁と文学的世界が溶け合うコマンド入力式ADV「駅前のカフカ」をプレイ。なぜコマンド入力式を選んだのか開発者に聞いた［OIGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-05T05:47:58.279Z",
+      "updatedAt": "2026-10-05T05:47:58.279Z",
       "lastReason": "not-campaign"
     },
     {
