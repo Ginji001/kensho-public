@@ -1,25 +1,35 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T23:08:40.224Z",
+  "updatedAt": "2026-10-08T06:11:41.875Z",
   "items": [
     {
       "url": "https://crea.bunshun.jp/articles/-/60014",
       "source": "CREA",
       "title": "「社会が下品になって上品な人が困っている」哲学者・國分功一郎が語る、経歴アピールに溢れた“はしたない社会”の歩き方",
       "status": "held",
-      "attempts": 8,
+      "attempts": 9,
       "firstSeenAt": "2026-10-05T05:47:58.279Z",
-      "updatedAt": "2026-10-07T23:08:40.224Z",
+      "updatedAt": "2026-10-08T06:11:41.875Z",
       "lastReason": "fetch:http-404"
+    },
+    {
+      "url": "https://crea.bunshun.jp/articles/-/60266",
+      "source": "CREA",
+      "title": "「劇的な死に方がしたい」「ひっそりと死ぬのは考えられない」“万バズ”してデビューした文筆家（29）が明かす、“自分のすべて”をコンテンツにしたいと切望する理由",
+      "status": "held",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-08T06:11:41.875Z",
+      "updatedAt": "2026-10-08T06:11:41.875Z",
+      "lastReason": "no-deadline"
     },
     {
       "url": "https://www.e-earphone.jp/blogs/campaign-sale/e-earpoint_presentcp-3",
       "source": "eEarphone",
       "title": "30万ポイントプレゼントキャンペーン！【~2026/11/16(月)まで】 – e☆イヤホン",
       "status": "held",
-      "attempts": 8,
+      "attempts": 9,
       "firstSeenAt": "2026-10-05T05:47:58.279Z",
-      "updatedAt": "2026-10-07T23:08:40.224Z",
+      "updatedAt": "2026-10-08T06:11:41.875Z",
       "lastReason": "no-deadline"
     },
     {
