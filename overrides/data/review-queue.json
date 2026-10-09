@@ -1,35 +1,15 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-08T23:24:15.528Z",
+  "updatedAt": "2026-10-09T06:15:53.434Z",
   "items": [
-    {
-      "url": "https://crea.bunshun.jp/articles/-/60014",
-      "source": "CREA",
-      "title": "「社会が下品になって上品な人が困っている」哲学者・國分功一郎が語る、経歴アピールに溢れた“はしたない社会”の歩き方",
-      "status": "held",
-      "attempts": 11,
-      "firstSeenAt": "2026-10-05T05:47:58.279Z",
-      "updatedAt": "2026-10-08T23:24:15.528Z",
-      "lastReason": "fetch:http-404"
-    },
     {
       "url": "https://crea.bunshun.jp/articles/-/60266",
       "source": "CREA",
       "title": "「劇的な死に方がしたい」「ひっそりと死ぬのは考えられない」“万バズ”してデビューした文筆家（29）が明かす、“自分のすべて”をコンテンツにしたいと切望する理由",
       "status": "held",
-      "attempts": 3,
+      "attempts": 4,
       "firstSeenAt": "2026-10-08T06:11:41.875Z",
-      "updatedAt": "2026-10-08T23:24:15.528Z",
-      "lastReason": "no-deadline"
-    },
-    {
-      "url": "https://www.e-earphone.jp/blogs/campaign-sale/e-earpoint_presentcp-3",
-      "source": "eEarphone",
-      "title": "30万ポイントプレゼントキャンペーン！【~2026/11/16(月)まで】 – e☆イヤホン",
-      "status": "held",
-      "attempts": 11,
-      "firstSeenAt": "2026-10-05T05:47:58.279Z",
-      "updatedAt": "2026-10-08T23:24:15.528Z",
+      "updatedAt": "2026-10-09T06:15:53.434Z",
       "lastReason": "no-deadline"
     },
     {
@@ -211,6 +191,16 @@
       "firstSeenAt": "2026-10-01T08:17:49.631Z",
       "updatedAt": "2026-10-04T12:28:14.220Z",
       "lastReason": "no-deadline"
+    },
+    {
+      "url": "https://crea.bunshun.jp/articles/-/60014",
+      "source": "CREA",
+      "title": "「社会が下品になって上品な人が困っている」哲学者・國分功一郎が語る、経歴アピールに溢れた“はしたない社会”の歩き方",
+      "status": "rejected",
+      "attempts": 12,
+      "firstSeenAt": "2026-10-05T05:47:58.279Z",
+      "updatedAt": "2026-10-09T06:15:53.434Z",
+      "lastReason": "fetch:http-404"
     },
     {
       "url": "https://crea.bunshun.jp/articles/-/60045",
@@ -1523,6 +1513,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/709/G070944/20261006038/",
+      "source": "4Gamer",
+      "title": "「Phantom Blade Zero」はハイスピードアクションをRPGの土台に載せた“ピラミッド構造”［インタビュー］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-09T06:15:53.434Z",
+      "updatedAt": "2026-10-09T06:15:53.434Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/730/G073063/20260919011/",
       "source": "4Gamer",
       "title": "獣人化する少女と過ごす育成ADV「アニマロイドガール」開発者インタビュー。正解などない，プレイヤーと少女が築いていく“思い出”が物語を形作る［TGS2026］",
@@ -1983,6 +1983,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/991/G999104/20261006020/",
+      "source": "4Gamer",
+      "title": "妄想がコンテンツに変わる時代がすぐそこに。PlayStationの生みの親，久夛良木 健氏が語るAI時代のエンタテインメント［インタビュー］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-09T06:15:53.434Z",
+      "updatedAt": "2026-10-09T06:15:53.434Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/991/G999106/20260820032/",
       "source": "4Gamer",
       "title": "買い切り型クラウドストレージ「myHPcloud」が全国のローソンで販売開始。AIによる写真自動整理を備え，容量は最大10TBまで買い足し可能だ。4Gamer読者向け20GBプレゼントと1TB抽選も実施【PR】",
@@ -2391,6 +2401,16 @@
       "firstSeenAt": "2026-09-15T09:24:14.433Z",
       "updatedAt": "2026-09-15T09:24:14.433Z",
       "lastReason": "expired"
+    },
+    {
+      "url": "https://www.e-earphone.jp/blogs/campaign-sale/e-earpoint_presentcp-3",
+      "source": "eEarphone",
+      "title": "30万ポイントプレゼントキャンペーン！【~2026/11/16(月)まで】 – e☆イヤホン",
+      "status": "rejected",
+      "attempts": 12,
+      "firstSeenAt": "2026-10-05T05:47:58.279Z",
+      "updatedAt": "2026-10-09T06:15:53.434Z",
+      "lastReason": "no-deadline"
     },
     {
       "url": "https://www.e-earphone.jp/blogs/campaign-sale/eear-point-yamawake",
