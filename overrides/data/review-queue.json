@@ -1,15 +1,35 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-09T22:42:13.610Z",
+  "updatedAt": "2026-10-10T05:58:22.435Z",
   "items": [
     {
       "url": "https://crea.bunshun.jp/articles/-/60266",
       "source": "CREA",
       "title": "「劇的な死に方がしたい」「ひっそりと死ぬのは考えられない」“万バズ”してデビューした文筆家（29）が明かす、“自分のすべて”をコンテンツにしたいと切望する理由",
       "status": "held",
-      "attempts": 6,
+      "attempts": 7,
       "firstSeenAt": "2026-10-08T06:11:41.875Z",
-      "updatedAt": "2026-10-09T22:42:13.610Z",
+      "updatedAt": "2026-10-10T05:58:22.435Z",
+      "lastReason": "no-deadline"
+    },
+    {
+      "url": "https://crea.bunshun.jp/articles/-/60362",
+      "source": "CREA",
+      "title": "「私にも本音を隠してしまうナイーヴさがある」本木雅弘が朗読劇で手繰り寄せる、四十年の恋歌に宿る“人間と夫婦の本質”",
+      "status": "held",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-10T05:58:22.435Z",
+      "updatedAt": "2026-10-10T05:58:22.435Z",
+      "lastReason": "no-deadline"
+    },
+    {
+      "url": "https://crea.bunshun.jp/articles/-/60363",
+      "source": "CREA",
+      "title": "「傷をただ撫でてほしい妻と、原因を分析してしまう私」本木雅弘が明かす、内田也哉子との夫婦喧嘩と、樹木希林を看取った日の記憶",
+      "status": "held",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-10T05:58:22.435Z",
+      "updatedAt": "2026-10-10T05:58:22.435Z",
       "lastReason": "no-deadline"
     },
     {
