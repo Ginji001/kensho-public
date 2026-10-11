@@ -1,25 +1,15 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-11T12:57:12.027Z",
+  "updatedAt": "2026-10-11T22:02:11.432Z",
   "items": [
     {
       "url": "https://crea.bunshun.jp/articles/-/59902",
       "source": "CREA",
       "title": "「実は、アルバムが完成した後に…」BOYNEXTDOORが明かした、ZICOからの「忘れられない一言」",
       "status": "held",
-      "attempts": 1,
+      "attempts": 2,
       "firstSeenAt": "2026-10-11T12:57:12.027Z",
-      "updatedAt": "2026-10-11T12:57:12.027Z",
-      "lastReason": "no-deadline"
-    },
-    {
-      "url": "https://crea.bunshun.jp/articles/-/60266",
-      "source": "CREA",
-      "title": "「劇的な死に方がしたい」「ひっそりと死ぬのは考えられない」“万バズ”してデビューした文筆家（29）が明かす、“自分のすべて”をコンテンツにしたいと切望する理由",
-      "status": "held",
-      "attempts": 11,
-      "firstSeenAt": "2026-10-08T06:11:41.875Z",
-      "updatedAt": "2026-10-11T12:57:12.027Z",
+      "updatedAt": "2026-10-11T22:02:11.432Z",
       "lastReason": "no-deadline"
     },
     {
@@ -27,9 +17,9 @@
       "source": "CREA",
       "title": "「私にも本音を隠してしまうナイーヴさがある」本木雅弘が朗読劇で手繰り寄せる、四十年の恋歌に宿る“人間と夫婦の本質”",
       "status": "held",
-      "attempts": 5,
+      "attempts": 6,
       "firstSeenAt": "2026-10-10T05:58:22.435Z",
-      "updatedAt": "2026-10-11T12:57:12.027Z",
+      "updatedAt": "2026-10-11T22:02:11.432Z",
       "lastReason": "no-deadline"
     },
     {
@@ -37,9 +27,9 @@
       "source": "CREA",
       "title": "「傷をただ撫でてほしい妻と、原因を分析してしまう私」本木雅弘が明かす、内田也哉子との夫婦喧嘩と、樹木希林を看取った日の記憶",
       "status": "held",
-      "attempts": 5,
+      "attempts": 6,
       "firstSeenAt": "2026-10-10T05:58:22.435Z",
-      "updatedAt": "2026-10-11T12:57:12.027Z",
+      "updatedAt": "2026-10-11T22:02:11.432Z",
       "lastReason": "no-deadline"
     },
     {
@@ -410,6 +400,16 @@
       "attempts": 12,
       "firstSeenAt": "2026-10-01T08:17:49.631Z",
       "updatedAt": "2026-10-04T12:28:14.220Z",
+      "lastReason": "no-deadline"
+    },
+    {
+      "url": "https://crea.bunshun.jp/articles/-/60266",
+      "source": "CREA",
+      "title": "「劇的な死に方がしたい」「ひっそりと死ぬのは考えられない」“万バズ”してデビューした文筆家（29）が明かす、“自分のすべて”をコンテンツにしたいと切望する理由",
+      "status": "rejected",
+      "attempts": 12,
+      "firstSeenAt": "2026-10-08T06:11:41.875Z",
+      "updatedAt": "2026-10-11T22:02:11.432Z",
       "lastReason": "no-deadline"
     },
     {
