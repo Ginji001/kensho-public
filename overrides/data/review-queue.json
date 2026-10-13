@@ -1,15 +1,55 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-13T00:46:07.120Z",
+  "updatedAt": "2026-10-13T14:17:49.927Z",
   "items": [
     {
       "url": "https://crea.bunshun.jp/articles/-/59902",
       "source": "CREA",
       "title": "「実は、アルバムが完成した後に…」BOYNEXTDOORが明かした、ZICOからの「忘れられない一言」",
       "status": "held",
-      "attempts": 6,
+      "attempts": 7,
       "firstSeenAt": "2026-10-11T12:57:12.027Z",
-      "updatedAt": "2026-10-13T00:46:07.120Z",
+      "updatedAt": "2026-10-13T14:17:49.927Z",
+      "lastReason": "no-deadline"
+    },
+    {
+      "url": "https://crea.bunshun.jp/articles/-/59988",
+      "source": "CREA",
+      "title": "「もうお金の心配なんてしたくない！」お金にまつわる読者からの人生相談に、投資歴30年以上を誇るパックンの回答は？",
+      "status": "held",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-13T14:17:49.927Z",
+      "updatedAt": "2026-10-13T14:17:49.927Z",
+      "lastReason": "no-deadline"
+    },
+    {
+      "url": "https://crea.bunshun.jp/articles/-/59989",
+      "source": "CREA",
+      "title": "「資産形成、はじめの一歩はどうすれば？」「老後が心配で夜も眠れません…」リアルなお金の悩みに、パックンが回答！",
+      "status": "held",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-13T14:17:49.927Z",
+      "updatedAt": "2026-10-13T14:17:49.927Z",
+      "lastReason": "no-deadline"
+    },
+    {
+      "url": "https://crea.bunshun.jp/articles/-/60353",
+      "source": "CREA",
+      "title": "「甘くない菓子なんか勧めない！」作家・千早茜×菓子研究家・福田里香が語るサロショへの愛",
+      "status": "held",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-13T14:17:49.927Z",
+      "updatedAt": "2026-10-13T14:17:49.927Z",
+      "lastReason": "no-deadline"
+    },
+    {
+      "url": "https://crea.bunshun.jp/articles/-/60354",
+      "source": "CREA",
+      "title": "「横から見てるやつはだいたい変態」千早茜と福田里香が共鳴するケーキの断面と、これからのチョコレート",
+      "status": "held",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-13T14:17:49.927Z",
+      "updatedAt": "2026-10-13T14:17:49.927Z",
       "lastReason": "no-deadline"
     },
     {
@@ -17,9 +57,9 @@
       "source": "CREA",
       "title": "韓国の若者がいま30年前の“問題作”に熱狂しているのはなぜ？ 破壊力に満ちたフェミニズム文学の“原点”に待望の日本語訳",
       "status": "held",
-      "attempts": 4,
+      "attempts": 5,
       "firstSeenAt": "2026-10-12T06:04:42.307Z",
-      "updatedAt": "2026-10-13T00:46:07.120Z",
+      "updatedAt": "2026-10-13T14:17:49.927Z",
       "lastReason": "no-deadline"
     },
     {
@@ -27,9 +67,9 @@
       "source": "CREA",
       "title": "「本を読む自分がかっこいい」だけじゃない？ 韓国で空前の「テキスト・ヒップ」ブームが起きている本当の理由",
       "status": "held",
-      "attempts": 4,
+      "attempts": 5,
       "firstSeenAt": "2026-10-12T06:04:42.307Z",
-      "updatedAt": "2026-10-13T00:46:07.120Z",
+      "updatedAt": "2026-10-13T14:17:49.927Z",
       "lastReason": "no-deadline"
     },
     {
@@ -37,9 +77,9 @@
       "source": "CREA",
       "title": "「私にも本音を隠してしまうナイーヴさがある」本木雅弘が朗読劇で手繰り寄せる、四十年の恋歌に宿る“人間と夫婦の本質”",
       "status": "held",
-      "attempts": 10,
+      "attempts": 11,
       "firstSeenAt": "2026-10-10T05:58:22.435Z",
-      "updatedAt": "2026-10-13T00:46:07.120Z",
+      "updatedAt": "2026-10-13T14:17:49.927Z",
       "lastReason": "no-deadline"
     },
     {
@@ -47,9 +87,9 @@
       "source": "CREA",
       "title": "「傷をただ撫でてほしい妻と、原因を分析してしまう私」本木雅弘が明かす、内田也哉子との夫婦喧嘩と、樹木希林を看取った日の記憶",
       "status": "held",
-      "attempts": 10,
+      "attempts": 11,
       "firstSeenAt": "2026-10-10T05:58:22.435Z",
-      "updatedAt": "2026-10-13T00:46:07.120Z",
+      "updatedAt": "2026-10-13T14:17:49.927Z",
       "lastReason": "no-deadline"
     },
     {
@@ -2100,6 +2140,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-19T04:42:20.621Z",
       "updatedAt": "2026-09-19T04:42:20.621Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/991/G999110/20261006028/",
+      "source": "4Gamer",
+      "title": "吉田修平氏も4Gamerもちょっと舐めていた。2回目の「OSAKA INDIE GAMES SUMMIT」は，“見逃していいゲーム”がないイベントだった［インタビュー］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-13T14:17:49.927Z",
+      "updatedAt": "2026-10-13T14:17:49.927Z",
       "lastReason": "not-campaign"
     },
     {
