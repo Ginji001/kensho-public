@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-13T22:49:45.341Z",
+  "updatedAt": "2026-10-14T04:59:10.653Z",
   "items": [
     {
       "url": "https://crea.bunshun.jp/articles/-/59902",
       "source": "CREA",
       "title": "「実は、アルバムが完成した後に…」BOYNEXTDOORが明かした、ZICOからの「忘れられない一言」",
       "status": "held",
-      "attempts": 8,
+      "attempts": 9,
       "firstSeenAt": "2026-10-11T12:57:12.027Z",
-      "updatedAt": "2026-10-13T22:49:45.341Z",
+      "updatedAt": "2026-10-14T04:59:10.653Z",
       "lastReason": "no-deadline"
     },
     {
@@ -17,9 +17,9 @@
       "source": "CREA",
       "title": "「もうお金の心配なんてしたくない！」お金にまつわる読者からの人生相談に、投資歴30年以上を誇るパックンの回答は？",
       "status": "held",
-      "attempts": 2,
+      "attempts": 3,
       "firstSeenAt": "2026-10-13T14:17:49.927Z",
-      "updatedAt": "2026-10-13T22:49:45.341Z",
+      "updatedAt": "2026-10-14T04:59:10.653Z",
       "lastReason": "no-deadline"
     },
     {
@@ -27,9 +27,9 @@
       "source": "CREA",
       "title": "「資産形成、はじめの一歩はどうすれば？」「老後が心配で夜も眠れません…」リアルなお金の悩みに、パックンが回答！",
       "status": "held",
-      "attempts": 2,
+      "attempts": 3,
       "firstSeenAt": "2026-10-13T14:17:49.927Z",
-      "updatedAt": "2026-10-13T22:49:45.341Z",
+      "updatedAt": "2026-10-14T04:59:10.653Z",
       "lastReason": "no-deadline"
     },
     {
@@ -37,9 +37,9 @@
       "source": "CREA",
       "title": "「甘くない菓子なんか勧めない！」作家・千早茜×菓子研究家・福田里香が語るサロショへの愛",
       "status": "held",
-      "attempts": 2,
+      "attempts": 3,
       "firstSeenAt": "2026-10-13T14:17:49.927Z",
-      "updatedAt": "2026-10-13T22:49:45.341Z",
+      "updatedAt": "2026-10-14T04:59:10.653Z",
       "lastReason": "no-deadline"
     },
     {
@@ -47,9 +47,9 @@
       "source": "CREA",
       "title": "「横から見てるやつはだいたい変態」千早茜と福田里香が共鳴するケーキの断面と、これからのチョコレート",
       "status": "held",
-      "attempts": 2,
+      "attempts": 3,
       "firstSeenAt": "2026-10-13T14:17:49.927Z",
-      "updatedAt": "2026-10-13T22:49:45.341Z",
+      "updatedAt": "2026-10-14T04:59:10.653Z",
       "lastReason": "no-deadline"
     },
     {
@@ -57,9 +57,9 @@
       "source": "CREA",
       "title": "韓国の若者がいま30年前の“問題作”に熱狂しているのはなぜ？ 破壊力に満ちたフェミニズム文学の“原点”に待望の日本語訳",
       "status": "held",
-      "attempts": 6,
+      "attempts": 7,
       "firstSeenAt": "2026-10-12T06:04:42.307Z",
-      "updatedAt": "2026-10-13T22:49:45.341Z",
+      "updatedAt": "2026-10-14T04:59:10.653Z",
       "lastReason": "no-deadline"
     },
     {
@@ -67,9 +67,29 @@
       "source": "CREA",
       "title": "「本を読む自分がかっこいい」だけじゃない？ 韓国で空前の「テキスト・ヒップ」ブームが起きている本当の理由",
       "status": "held",
-      "attempts": 6,
+      "attempts": 7,
       "firstSeenAt": "2026-10-12T06:04:42.307Z",
-      "updatedAt": "2026-10-13T22:49:45.341Z",
+      "updatedAt": "2026-10-14T04:59:10.653Z",
+      "lastReason": "no-deadline"
+    },
+    {
+      "url": "https://crea.bunshun.jp/articles/-/60399",
+      "source": "CREA",
+      "title": "「どんなにへこんでいても…」ももクロ・佐々木彩夏（30）が明かす、食へのこだわりと下積み時代の“1食600円”ルール「予算オーバーのスイーツは却下されて（笑）」",
+      "status": "held",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-14T04:59:10.653Z",
+      "updatedAt": "2026-10-14T04:59:10.653Z",
+      "lastReason": "no-deadline"
+    },
+    {
+      "url": "https://crea.bunshun.jp/articles/-/60400",
+      "source": "CREA",
+      "title": "「お酒を飲む姿も見せられるように」ももクロ・佐々木彩夏（30）が語る、アイドル“らしくない”瞬間も“長所”に変えてくれた存在",
+      "status": "held",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-14T04:59:10.653Z",
+      "updatedAt": "2026-10-14T04:59:10.653Z",
       "lastReason": "no-deadline"
     },
     {
@@ -821,6 +841,16 @@
       "firstSeenAt": "2026-09-16T21:22:01.016Z",
       "updatedAt": "2026-09-16T21:22:01.016Z",
       "lastReason": "expired"
+    },
+    {
+      "url": "https://shop.tsukumo.co.jp/features/amdgame_2026vol2/",
+      "source": "Tsukumo",
+      "title": "AMD ゲームがもらえるキャンペーン 2026 第2弾",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-14T04:59:10.653Z",
+      "updatedAt": "2026-10-14T04:59:10.653Z",
+      "lastReason": "needs-purchase"
     },
     {
       "url": "https://shop.tsukumo.co.jp/features/appletop/",
@@ -2060,6 +2090,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-20T11:30:11.399Z",
       "updatedAt": "2026-09-20T11:30:11.399Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/991/G999101/20261006030/",
+      "source": "4Gamer",
+      "title": "賞金総額10億円のゲームコンテストをスクウェア・エニックスが開催する理由。齊藤陽介氏と時田貴司氏に狙いと審査基準，求めるクリエイター像を聞く［インタビュー］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-14T04:59:10.653Z",
+      "updatedAt": "2026-10-14T04:59:10.653Z",
       "lastReason": "not-campaign"
     },
     {
