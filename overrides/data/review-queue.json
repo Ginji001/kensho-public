@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-14T21:45:21.139Z",
+  "updatedAt": "2026-10-15T04:47:33.873Z",
   "items": [
     {
       "url": "https://crea.bunshun.jp/articles/-/59988",
       "source": "CREA",
       "title": "「もうお金の心配なんてしたくない！」お金にまつわる読者からの人生相談に、投資歴30年以上を誇るパックンの回答は？",
       "status": "held",
-      "attempts": 6,
+      "attempts": 7,
       "firstSeenAt": "2026-10-13T14:17:49.927Z",
-      "updatedAt": "2026-10-14T21:45:21.139Z",
+      "updatedAt": "2026-10-15T04:47:33.873Z",
       "lastReason": "no-deadline"
     },
     {
@@ -17,9 +17,9 @@
       "source": "CREA",
       "title": "「資産形成、はじめの一歩はどうすれば？」「老後が心配で夜も眠れません…」リアルなお金の悩みに、パックンが回答！",
       "status": "held",
-      "attempts": 6,
+      "attempts": 7,
       "firstSeenAt": "2026-10-13T14:17:49.927Z",
-      "updatedAt": "2026-10-14T21:45:21.139Z",
+      "updatedAt": "2026-10-15T04:47:33.873Z",
       "lastReason": "no-deadline"
     },
     {
@@ -27,9 +27,19 @@
       "source": "CREA",
       "title": "川添愛「言葉のセンス研究所」（10）M!LK『好きすぎて滅！』に見る、「好き」を表現する手法の多様性と進化",
       "status": "held",
-      "attempts": 3,
+      "attempts": 4,
       "firstSeenAt": "2026-10-14T11:59:30.980Z",
-      "updatedAt": "2026-10-14T21:45:21.139Z",
+      "updatedAt": "2026-10-15T04:47:33.873Z",
+      "lastReason": "no-deadline"
+    },
+    {
+      "url": "https://crea.bunshun.jp/articles/-/60331",
+      "source": "CREA",
+      "title": "《スプマンテの最高峰・フェッラーリ》ミシュラン店でも、大自然のピクニックでも美味しい。イタリアの奥深い味が生み出された原点とは？",
+      "status": "held",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-15T04:47:33.873Z",
+      "updatedAt": "2026-10-15T04:47:33.873Z",
       "lastReason": "no-deadline"
     },
     {
@@ -37,9 +47,9 @@
       "source": "CREA",
       "title": "「甘くない菓子なんか勧めない！」作家・千早茜×菓子研究家・福田里香が語るサロショへの愛",
       "status": "held",
-      "attempts": 6,
+      "attempts": 7,
       "firstSeenAt": "2026-10-13T14:17:49.927Z",
-      "updatedAt": "2026-10-14T21:45:21.139Z",
+      "updatedAt": "2026-10-15T04:47:33.873Z",
       "lastReason": "no-deadline"
     },
     {
@@ -47,9 +57,9 @@
       "source": "CREA",
       "title": "「横から見てるやつはだいたい変態」千早茜と福田里香が共鳴するケーキの断面と、これからのチョコレート",
       "status": "held",
-      "attempts": 6,
+      "attempts": 7,
       "firstSeenAt": "2026-10-13T14:17:49.927Z",
-      "updatedAt": "2026-10-14T21:45:21.139Z",
+      "updatedAt": "2026-10-15T04:47:33.873Z",
       "lastReason": "no-deadline"
     },
     {
@@ -57,9 +67,9 @@
       "source": "CREA",
       "title": "韓国の若者がいま30年前の“問題作”に熱狂しているのはなぜ？ 破壊力に満ちたフェミニズム文学の“原点”に待望の日本語訳",
       "status": "held",
-      "attempts": 10,
+      "attempts": 11,
       "firstSeenAt": "2026-10-12T06:04:42.307Z",
-      "updatedAt": "2026-10-14T21:45:21.139Z",
+      "updatedAt": "2026-10-15T04:47:33.873Z",
       "lastReason": "no-deadline"
     },
     {
@@ -67,9 +77,49 @@
       "source": "CREA",
       "title": "「本を読む自分がかっこいい」だけじゃない？ 韓国で空前の「テキスト・ヒップ」ブームが起きている本当の理由",
       "status": "held",
-      "attempts": 10,
+      "attempts": 11,
       "firstSeenAt": "2026-10-12T06:04:42.307Z",
-      "updatedAt": "2026-10-14T21:45:21.139Z",
+      "updatedAt": "2026-10-15T04:47:33.873Z",
+      "lastReason": "no-deadline"
+    },
+    {
+      "url": "https://crea.bunshun.jp/articles/-/60380",
+      "source": "CREA",
+      "title": "「全世代のピルが出揃った」「天然型で低リスクな薬も」体質や費用で諦めていた人も使える？産婦人科医に聞く“低用量ピル最新情報”",
+      "status": "held",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-15T04:47:33.873Z",
+      "updatedAt": "2026-10-15T04:47:33.873Z",
+      "lastReason": "no-deadline"
+    },
+    {
+      "url": "https://crea.bunshun.jp/articles/-/60381",
+      "source": "CREA",
+      "title": "「安心して使える画期的な薬が」「今後、承認されてほしい治療法は…」産婦人科医に聞く、“低用量ピルを服用できない人”も使える最新の避妊・治療法とは？",
+      "status": "held",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-15T04:47:33.873Z",
+      "updatedAt": "2026-10-15T04:47:33.873Z",
+      "lastReason": "no-deadline"
+    },
+    {
+      "url": "https://crea.bunshun.jp/articles/-/60382",
+      "source": "CREA",
+      "title": "黒木華（36）がいま明かす「芸能界を理解できていなかった」デビュー当時の“焦りと不安”",
+      "status": "held",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-15T04:47:33.873Z",
+      "updatedAt": "2026-10-15T04:47:33.873Z",
+      "lastReason": "no-deadline"
+    },
+    {
+      "url": "https://crea.bunshun.jp/articles/-/60383",
+      "source": "CREA",
+      "title": "朝4時におにぎりをにぎって現場へ向かうことも。「レシピを送って」と黒木華（36）が頼る実家の母の手料理",
+      "status": "held",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-15T04:47:33.873Z",
+      "updatedAt": "2026-10-15T04:47:33.873Z",
       "lastReason": "no-deadline"
     },
     {
@@ -77,9 +127,9 @@
       "source": "CREA",
       "title": "「どんなにへこんでいても…」ももクロ・佐々木彩夏（30）が明かす、食へのこだわりと下積み時代の“1食600円”ルール「予算オーバーのスイーツは却下されて（笑）」",
       "status": "held",
-      "attempts": 4,
+      "attempts": 5,
       "firstSeenAt": "2026-10-14T04:59:10.653Z",
-      "updatedAt": "2026-10-14T21:45:21.139Z",
+      "updatedAt": "2026-10-15T04:47:33.873Z",
       "lastReason": "no-deadline"
     },
     {
@@ -87,9 +137,9 @@
       "source": "CREA",
       "title": "「お酒を飲む姿も見せられるように」ももクロ・佐々木彩夏（30）が語る、アイドル“らしくない”瞬間も“長所”に変えてくれた存在",
       "status": "held",
-      "attempts": 4,
+      "attempts": 5,
       "firstSeenAt": "2026-10-14T04:59:10.653Z",
-      "updatedAt": "2026-10-14T21:45:21.139Z",
+      "updatedAt": "2026-10-15T04:47:33.873Z",
       "lastReason": "no-deadline"
     },
     {
@@ -723,66 +773,6 @@
       "lastReason": "expired"
     },
     {
-      "url": "https://roomclip.jp/form/3776",
-      "source": "RoomClip",
-      "title": "【無料モニター】出しっぱなしでもレトロ可愛い♪コンパクトミシン「Épolku（エポルク）」を3名様にプレゼント！",
-      "status": "rejected",
-      "attempts": 1,
-      "firstSeenAt": "2026-09-15T03:40:16.757Z",
-      "updatedAt": "2026-09-15T03:40:16.757Z",
-      "lastReason": "expired"
-    },
-    {
-      "url": "https://roomclip.jp/form/3779",
-      "source": "RoomClip",
-      "title": "＜8月募集＞おうちの見直しを応援！RoomClipショッピングで使える10,000円分のポイントを20名様にプレゼント♪",
-      "status": "rejected",
-      "attempts": 1,
-      "firstSeenAt": "2026-09-15T03:40:16.757Z",
-      "updatedAt": "2026-09-15T03:40:16.757Z",
-      "lastReason": "expired"
-    },
-    {
-      "url": "https://roomclip.jp/form/3783",
-      "source": "RoomClip",
-      "title": "【無料モニター】高火力でおいしく炊き上げる。使いやすく、スタイリッシュに進化したロングセラー「象印 IH炊飯ジャー」を10名様にプレゼント！",
-      "status": "rejected",
-      "attempts": 1,
-      "firstSeenAt": "2026-09-15T03:40:16.757Z",
-      "updatedAt": "2026-09-15T03:40:16.757Z",
-      "lastReason": "expired"
-    },
-    {
-      "url": "https://roomclip.jp/form/3785",
-      "source": "RoomClip",
-      "title": "【無料モニター】水道水を注ぐだけでいつでもおいしい！手軽でエコなマイボトル「クリアイン浄水ボトル」を3名様にプレゼント！",
-      "status": "rejected",
-      "attempts": 1,
-      "firstSeenAt": "2026-09-15T03:40:16.757Z",
-      "updatedAt": "2026-09-15T03:40:16.757Z",
-      "lastReason": "expired"
-    },
-    {
-      "url": "https://roomclip.jp/form/3787",
-      "source": "RoomClip",
-      "title": "【無料モニター】お部屋でもお庭でも大活躍♪屋内・屋外兼用のおしゃれなデザインチェア「COTONA（コトナ）」のチェアを3名様にプレゼント！",
-      "status": "rejected",
-      "attempts": 1,
-      "firstSeenAt": "2026-09-15T03:40:16.757Z",
-      "updatedAt": "2026-09-15T03:40:16.757Z",
-      "lastReason": "expired"
-    },
-    {
-      "url": "https://roomclip.jp/form/3788",
-      "source": "RoomClip",
-      "title": "【無料モニター】まるで雲の上にいるような座り心地♪多機能オフィスチェア 「HC4」を3名様にプレゼント！",
-      "status": "rejected",
-      "attempts": 1,
-      "firstSeenAt": "2026-09-15T03:40:16.757Z",
-      "updatedAt": "2026-09-15T03:40:16.757Z",
-      "lastReason": "expired"
-    },
-    {
       "url": "https://roomclip.jp/form/3797",
       "source": "RoomClip",
       "title": "【無料モニター】大事なグッズをホコリから守ってキレイに飾る！「ガラスコレクションケース」を3名様にプレゼント！",
@@ -1403,6 +1393,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/041/G104191/20261008029/",
+      "source": "4Gamer",
+      "title": "かわいい猫の温泉宿。その奥に待つ宇宙的恐怖？ 宮路洋一氏＆にしだあつこ氏に聞く，ファンと共に作る「Under Mythos」の挑戦［インタビュー］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-15T04:47:33.873Z",
+      "updatedAt": "2026-10-15T04:47:33.873Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/043/G104316/20260920036/",
       "source": "4Gamer",
       "title": "「水ダウ」の藤井健太郎氏が手がける「THE FIRST ZOMBIE」には，まだ明かせない“さまざまな仕掛け”が。制作チームに開発の裏側を聞いた［TGS2026］",
@@ -1870,6 +1870,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-15T14:33:05.005Z",
       "updatedAt": "2026-09-15T14:33:05.005Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/921/G092147/20261007001/",
+      "source": "4Gamer",
+      "title": "好きなものを詰め込んでも，ちゃんと“自分のゲーム”になる。カナヲ氏が「DRAPLINE」に持ち込んだ，これまで使ってこなかった引き出し",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-15T04:47:33.873Z",
+      "updatedAt": "2026-10-15T04:47:33.873Z",
       "lastReason": "not-campaign"
     },
     {
