@@ -406,5 +406,29 @@
     "updatedAt": "2026-10-09T06:15:53.434Z",
     "autoPublished": true,
     "firstSeenAt": "2026-10-09T06:15:53.434Z"
+  },
+  {
+    "id": "campaign-auto-1143e8ea1498",
+    "source": "CREA",
+    "genre": "その他",
+    "name": "貝印から、切れ味と利便性を兼ね備えた「スライサー(厚み調整機能付き)」を3名様にプレゼント",
+    "prize": "貝印から、切れ味と利便性を兼ね備えた「スライサー(厚み調整機能付き)」を3名様にプレゼント",
+    "winners": 3,
+    "winnersText": "3名",
+    "deadline": "2026-11-15",
+    "condition": "会員登録（自動抽出・詳細は公式で確認）",
+    "entryType": "member",
+    "requiresPurchase": null,
+    "requiresReview": false,
+    "requiresApp": false,
+    "requiresLogin": true,
+    "isMonitor": false,
+    "url": "https://crea.bunshun.jp/articles/-/60430",
+    "applyUrl": null,
+    "cost": "unknown",
+    "productType": "unknown",
+    "updatedAt": "2026-10-16T04:37:35.048Z",
+    "autoPublished": true,
+    "firstSeenAt": "2026-10-16T04:37:35.048Z"
   }
 ]
