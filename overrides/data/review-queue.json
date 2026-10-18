@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-18T11:14:13.546Z",
+  "updatedAt": "2026-10-18T15:55:23.960Z",
   "items": [
     {
       "url": "https://crea.bunshun.jp/articles/-/60317",
       "source": "CREA",
       "title": "「銀次さんの顔は舐めて喜ぶのに、益田さんは…」からし蓮根・伊織ラッキーの愛犬もずくと吉本芸人の“相性相関図”",
       "status": "held",
-      "attempts": 6,
+      "attempts": 7,
       "firstSeenAt": "2026-10-17T04:34:12.933Z",
-      "updatedAt": "2026-10-18T11:14:13.546Z",
+      "updatedAt": "2026-10-18T15:55:23.960Z",
       "lastReason": "no-deadline"
     },
     {
@@ -17,9 +17,9 @@
       "source": "CREA",
       "title": "「プレッシャーに支配されるくらいなら…」磯村勇斗が“あえて”手放したことと“究極の夢”「お金はかかるけれど日本で…」",
       "status": "held",
-      "attempts": 10,
+      "attempts": 11,
       "firstSeenAt": "2026-10-16T04:37:35.048Z",
-      "updatedAt": "2026-10-18T11:14:13.546Z",
+      "updatedAt": "2026-10-18T15:55:23.960Z",
       "lastReason": "no-deadline"
     },
     {
@@ -27,9 +27,9 @@
       "source": "CREA",
       "title": "「思い立ったときには映画館から人が離れていて。でも…」磯村勇斗が自ら営業も「しずおか映画祭」を立ち上げた理由と“映画鑑賞のこだわり”",
       "status": "held",
-      "attempts": 10,
+      "attempts": 11,
       "firstSeenAt": "2026-10-16T04:37:35.048Z",
-      "updatedAt": "2026-10-18T11:14:13.546Z",
+      "updatedAt": "2026-10-18T15:55:23.960Z",
       "lastReason": "no-deadline"
     },
     {
@@ -37,9 +37,9 @@
       "source": "CREA",
       "title": "松たか子自らが「スープ作ったよ」と共演者へ持っていく。酷寒のなか“助け合いながら生きた”1カ月を経て完成した映画とは？",
       "status": "held",
-      "attempts": 6,
+      "attempts": 7,
       "firstSeenAt": "2026-10-17T04:34:12.933Z",
-      "updatedAt": "2026-10-18T11:14:13.546Z",
+      "updatedAt": "2026-10-18T15:55:23.960Z",
       "lastReason": "no-deadline"
     },
     {
@@ -47,9 +47,9 @@
       "source": "CREA",
       "title": "「20代からやり直せても、あんまり面白くない」松たか子（49）が語る、“するっと、ぬるっと50代”を迎えたいという願望",
       "status": "held",
-      "attempts": 6,
+      "attempts": 7,
       "firstSeenAt": "2026-10-17T04:34:12.933Z",
-      "updatedAt": "2026-10-18T11:14:13.546Z",
+      "updatedAt": "2026-10-18T15:55:23.960Z",
       "lastReason": "no-deadline"
     },
     {
@@ -57,9 +57,9 @@
       "source": "CREA",
       "title": "「戦争は真っ先に文化芸術を奪い、歪める」「岡田准一さんに助けていただいて…」映画監督・西川美和が語る“いま敗戦直後を描いた理由”",
       "status": "held",
-      "attempts": 9,
+      "attempts": 10,
       "firstSeenAt": "2026-10-16T11:30:30.701Z",
-      "updatedAt": "2026-10-18T11:14:13.546Z",
+      "updatedAt": "2026-10-18T15:55:23.960Z",
       "lastReason": "no-deadline"
     },
     {
@@ -67,9 +67,9 @@
       "source": "CREA",
       "title": "「無責任さに“この国らしさ”を感じてしまう」戦争孤児を描いた監督・西川美和が向ける、搾取される女性、在日コリアン、ガザの子どもたちへのまなざし",
       "status": "held",
-      "attempts": 9,
+      "attempts": 10,
       "firstSeenAt": "2026-10-16T11:30:30.701Z",
-      "updatedAt": "2026-10-18T11:14:13.546Z",
+      "updatedAt": "2026-10-18T15:55:23.960Z",
       "lastReason": "no-deadline"
     },
     {
@@ -77,9 +77,9 @@
       "source": "CREA",
       "title": "「一度は出演をやめたいと思った」尾上眞秀（14）が『連獅子』の稽古を乗り越え、歌舞伎座の舞台で挑む『屋敷娘』",
       "status": "held",
-      "attempts": 5,
+      "attempts": 6,
       "firstSeenAt": "2026-10-17T10:50:27.800Z",
-      "updatedAt": "2026-10-18T11:14:13.546Z",
+      "updatedAt": "2026-10-18T15:55:23.960Z",
       "lastReason": "no-deadline"
     },
     {
@@ -87,9 +87,9 @@
       "source": "Tsukumo",
       "title": "長尾製作所特集",
       "status": "held",
-      "attempts": 5,
+      "attempts": 6,
       "firstSeenAt": "2026-10-17T10:50:27.800Z",
-      "updatedAt": "2026-10-18T11:14:13.546Z",
+      "updatedAt": "2026-10-18T15:55:23.960Z",
       "lastReason": "fetch:fetch failed"
     },
     {
@@ -880,16 +880,6 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-18T16:28:21.260Z",
       "updatedAt": "2026-09-18T16:28:21.260Z",
-      "lastReason": "not-campaign"
-    },
-    {
-      "url": "https://www.4gamer.net/games/006/G100620/20260918018/",
-      "source": "4Gamer",
-      "title": "とにかくヤバいお食事のゲーム「満腹脱獄計画」ひときわ個性を放つ独房風ブースで，開発者のじぃーま氏に話を聞いた［TGS2026］",
-      "status": "rejected",
-      "attempts": 1,
-      "firstSeenAt": "2026-09-18T11:22:01.545Z",
-      "updatedAt": "2026-09-18T11:22:01.545Z",
       "lastReason": "not-campaign"
     },
     {
@@ -1763,16 +1753,6 @@
       "lastReason": "not-campaign"
     },
     {
-      "url": "https://www.4gamer.net/games/939/G093947/20260918030/",
-      "source": "4Gamer",
-      "title": "新しいジャンルを作りたい，という思いが出発点。「MIRESI：視えない未来」の開発陣に戦闘システムや世界観を聞いた［TGS2026］",
-      "status": "rejected",
-      "attempts": 1,
-      "firstSeenAt": "2026-09-18T11:22:01.545Z",
-      "updatedAt": "2026-09-18T11:22:01.545Z",
-      "lastReason": "not-campaign"
-    },
-    {
       "url": "https://www.4gamer.net/games/944/G094489/20260920049/",
       "source": "4Gamer",
       "title": "英雄102体を全面再調整。フルボイス対応し，丁寧に作り直す「キングスレイド リバース」。IPを買収したMasangsoft副社長に聞く［TGS2026］",
@@ -1963,16 +1943,6 @@
       "lastReason": "not-campaign"
     },
     {
-      "url": "https://www.4gamer.net/games/991/G999104/20260918047/",
-      "source": "4Gamer",
-      "title": "「Twitch」CEO，ダン・クランシー氏が語るTwitchの個性と日本市場の重要性。メディア合同ラウンドテーブルの模様をレポート［TGS2026］",
-      "status": "rejected",
-      "attempts": 1,
-      "firstSeenAt": "2026-09-18T11:22:01.545Z",
-      "updatedAt": "2026-09-18T11:22:01.545Z",
-      "lastReason": "not-campaign"
-    },
-    {
       "url": "https://www.4gamer.net/games/991/G999104/20261006020/",
       "source": "4Gamer",
       "title": "妄想がコンテンツに変わる時代がすぐそこに。PlayStationの生みの親，久夛良木 健氏が語るAI時代のエンタテインメント［インタビュー］",
@@ -2000,16 +1970,6 @@
       "attempts": 1,
       "firstSeenAt": "2026-10-16T16:43:23.000Z",
       "updatedAt": "2026-10-16T16:43:23.000Z",
-      "lastReason": "not-campaign"
-    },
-    {
-      "url": "https://www.4gamer.net/games/991/G999110/20260918019/",
-      "source": "4Gamer",
-      "title": "決済でゲームを止めさせたくない。ペイディがゲームに注力する理由を副社長・橋本知周氏に聞く［TGS2026］",
-      "status": "rejected",
-      "attempts": 1,
-      "firstSeenAt": "2026-09-18T11:22:01.545Z",
-      "updatedAt": "2026-09-18T11:22:01.545Z",
       "lastReason": "not-campaign"
     },
     {
