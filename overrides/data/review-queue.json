@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T13:26:09.012Z",
+  "updatedAt": "2026-10-19T22:24:15.982Z",
   "items": [
     {
       "url": "https://crea.bunshun.jp/articles/-/60317",
       "source": "CREA",
       "title": "「銀次さんの顔は舐めて喜ぶのに、益田さんは…」からし蓮根・伊織ラッキーの愛犬もずくと吉本芸人の“相性相関図”",
       "status": "held",
-      "attempts": 10,
+      "attempts": 11,
       "firstSeenAt": "2026-10-17T04:34:12.933Z",
-      "updatedAt": "2026-10-19T13:26:09.012Z",
+      "updatedAt": "2026-10-19T22:24:15.982Z",
       "lastReason": "no-deadline"
     },
     {
@@ -17,9 +17,9 @@
       "source": "CREA",
       "title": "松たか子自らが「スープ作ったよ」と共演者へ持っていく。酷寒のなか“助け合いながら生きた”1カ月を経て完成した映画とは？",
       "status": "held",
-      "attempts": 10,
+      "attempts": 11,
       "firstSeenAt": "2026-10-17T04:34:12.933Z",
-      "updatedAt": "2026-10-19T13:26:09.012Z",
+      "updatedAt": "2026-10-19T22:24:15.982Z",
       "lastReason": "no-deadline"
     },
     {
@@ -27,9 +27,9 @@
       "source": "CREA",
       "title": "「20代からやり直せても、あんまり面白くない」松たか子（49）が語る、“するっと、ぬるっと50代”を迎えたいという願望",
       "status": "held",
-      "attempts": 10,
+      "attempts": 11,
       "firstSeenAt": "2026-10-17T04:34:12.933Z",
-      "updatedAt": "2026-10-19T13:26:09.012Z",
+      "updatedAt": "2026-10-19T22:24:15.982Z",
       "lastReason": "no-deadline"
     },
     {
@@ -37,9 +37,9 @@
       "source": "CREA",
       "title": "「一度は出演をやめたいと思った」尾上眞秀（14）が『連獅子』の稽古を乗り越え、歌舞伎座の舞台で挑む『屋敷娘』",
       "status": "held",
-      "attempts": 9,
+      "attempts": 10,
       "firstSeenAt": "2026-10-17T10:50:27.800Z",
-      "updatedAt": "2026-10-19T13:26:09.012Z",
+      "updatedAt": "2026-10-19T22:24:15.982Z",
       "lastReason": "no-deadline"
     },
     {
@@ -47,9 +47,9 @@
       "source": "Tsukumo",
       "title": "長尾製作所特集",
       "status": "held",
-      "attempts": 9,
+      "attempts": 10,
       "firstSeenAt": "2026-10-17T10:50:27.800Z",
-      "updatedAt": "2026-10-19T13:26:09.012Z",
+      "updatedAt": "2026-10-19T22:24:15.982Z",
       "lastReason": "no-deadline"
     },
     {
@@ -933,6 +933,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/024/G102471/20261007003/",
+      "source": "4Gamer",
+      "title": "ポケモン新作ボドゲ「お前、もしかしてロケット団？」を先行プレイ。バトルを通じて正体を暴く，かなり“ガチ”な正体隠匿系ゲーム",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-19T22:24:15.982Z",
+      "updatedAt": "2026-10-19T22:24:15.982Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/033/G103375/20260920011/",
       "source": "4Gamer",
       "title": "荷物や道具を頭に載せて配達へ。最大4人で楽しめるホラーゲーム「ハコアタマ」の開発者に，企画の出発点を聞いた［TGS2026］",
@@ -1423,16 +1433,6 @@
       "lastReason": "not-campaign"
     },
     {
-      "url": "https://www.4gamer.net/games/203/G020311/20260919075/",
-      "source": "4Gamer",
-      "title": "PS5版の発売も控える「Euro Truck Simulator 2」。SCS Softwareにアジア展開を本格化する動きを聞いた［TGS2026］",
-      "status": "rejected",
-      "attempts": 1,
-      "firstSeenAt": "2026-09-19T20:45:14.453Z",
-      "updatedAt": "2026-09-19T20:45:14.453Z",
-      "lastReason": "not-campaign"
-    },
-    {
       "url": "https://www.4gamer.net/games/387/G038732/20260920038/",
       "source": "4Gamer",
       "title": "［プレイレポ］オシャレと交流，そして現代的な程よい距離感を楽しむ，「マビノギモバイル」での異世界暮らし",
@@ -1490,6 +1490,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-28T14:02:58.701Z",
       "updatedAt": "2026-09-28T14:02:58.701Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/554/G055489/20261019013/",
+      "source": "4Gamer",
+      "title": "「ウマ娘」，ロサンゼルスでのイベントの開催可否を10月20日に発表。半年以上前から準備を進めるも，現時点でビザの承認が下りず",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-19T22:24:15.982Z",
+      "updatedAt": "2026-10-19T22:24:15.982Z",
       "lastReason": "not-campaign"
     },
     {
@@ -1613,6 +1623,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/784/G078489/20261019005/",
+      "source": "4Gamer",
+      "title": "「アズールプロミリア」，グローバル事前登録者数が2500万人を突破。ヒーラー「アニス」を全プレイヤーに配布決定",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-19T22:24:15.982Z",
+      "updatedAt": "2026-10-19T22:24:15.982Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/810/G081026/20261005002/",
       "source": "4Gamer",
       "title": "連続空中ダッシュで駆け抜ける爽快感。2Dアクション「Near The Sun」イベント用デモ版の試遊レポートを掲載［OIGS2026］",
@@ -1660,16 +1680,6 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-20T11:30:11.399Z",
       "updatedAt": "2026-09-20T11:30:11.399Z",
-      "lastReason": "not-campaign"
-    },
-    {
-      "url": "https://www.4gamer.net/games/865/G086590/20260920002/",
-      "source": "4Gamer",
-      "title": "“縛り”から創造された，そうだったかもしれない5つの時代。セガブースに出展された「STRANGER THAN HEAVEN」の見どころを，RGGスタジオのキーマンに聞いた［TGS2026］",
-      "status": "rejected",
-      "attempts": 1,
-      "firstSeenAt": "2026-09-19T20:45:14.453Z",
-      "updatedAt": "2026-09-19T20:45:14.453Z",
       "lastReason": "not-campaign"
     },
     {
@@ -1810,6 +1820,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-22T03:54:17.001Z",
       "updatedAt": "2026-09-22T03:54:17.001Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/949/G094998/20261016042/",
+      "source": "4Gamer",
+      "title": "癖のある仲間たちとともに，犯罪がはびこる最前線へ身を投じる。本格クライムサスペンス恋愛ADV「アストライアの罪咎」，2027年3月25日に発売決定",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-19T22:24:15.982Z",
+      "updatedAt": "2026-10-19T22:24:15.982Z",
       "lastReason": "not-campaign"
     },
     {
