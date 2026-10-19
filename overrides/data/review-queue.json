@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T04:47:55.329Z",
+  "updatedAt": "2026-10-19T13:26:09.012Z",
   "items": [
     {
       "url": "https://crea.bunshun.jp/articles/-/60317",
       "source": "CREA",
       "title": "「銀次さんの顔は舐めて喜ぶのに、益田さんは…」からし蓮根・伊織ラッキーの愛犬もずくと吉本芸人の“相性相関図”",
       "status": "held",
-      "attempts": 9,
+      "attempts": 10,
       "firstSeenAt": "2026-10-17T04:34:12.933Z",
-      "updatedAt": "2026-10-19T04:47:55.329Z",
+      "updatedAt": "2026-10-19T13:26:09.012Z",
       "lastReason": "no-deadline"
     },
     {
@@ -17,9 +17,9 @@
       "source": "CREA",
       "title": "松たか子自らが「スープ作ったよ」と共演者へ持っていく。酷寒のなか“助け合いながら生きた”1カ月を経て完成した映画とは？",
       "status": "held",
-      "attempts": 9,
+      "attempts": 10,
       "firstSeenAt": "2026-10-17T04:34:12.933Z",
-      "updatedAt": "2026-10-19T04:47:55.329Z",
+      "updatedAt": "2026-10-19T13:26:09.012Z",
       "lastReason": "no-deadline"
     },
     {
@@ -27,9 +27,9 @@
       "source": "CREA",
       "title": "「20代からやり直せても、あんまり面白くない」松たか子（49）が語る、“するっと、ぬるっと50代”を迎えたいという願望",
       "status": "held",
-      "attempts": 9,
+      "attempts": 10,
       "firstSeenAt": "2026-10-17T04:34:12.933Z",
-      "updatedAt": "2026-10-19T04:47:55.329Z",
+      "updatedAt": "2026-10-19T13:26:09.012Z",
       "lastReason": "no-deadline"
     },
     {
@@ -37,9 +37,9 @@
       "source": "CREA",
       "title": "「一度は出演をやめたいと思った」尾上眞秀（14）が『連獅子』の稽古を乗り越え、歌舞伎座の舞台で挑む『屋敷娘』",
       "status": "held",
-      "attempts": 8,
+      "attempts": 9,
       "firstSeenAt": "2026-10-17T10:50:27.800Z",
-      "updatedAt": "2026-10-19T04:47:55.329Z",
+      "updatedAt": "2026-10-19T13:26:09.012Z",
       "lastReason": "no-deadline"
     },
     {
@@ -47,9 +47,9 @@
       "source": "Tsukumo",
       "title": "長尾製作所特集",
       "status": "held",
-      "attempts": 8,
+      "attempts": 9,
       "firstSeenAt": "2026-10-17T10:50:27.800Z",
-      "updatedAt": "2026-10-19T04:47:55.329Z",
+      "updatedAt": "2026-10-19T13:26:09.012Z",
       "lastReason": "no-deadline"
     },
     {
@@ -1313,16 +1313,6 @@
       "lastReason": "not-campaign"
     },
     {
-      "url": "https://www.4gamer.net/games/044/G104433/20260919006/",
-      "source": "4Gamer",
-      "title": "アメリカのゲーム機販売でトップ3に入った「Nex Playground」が2027年に上陸。日本のIPでもゲームを開発中［TGS2026］",
-      "status": "rejected",
-      "attempts": 1,
-      "firstSeenAt": "2026-09-19T11:05:20.551Z",
-      "updatedAt": "2026-09-19T11:05:20.551Z",
-      "lastReason": "not-campaign"
-    },
-    {
       "url": "https://www.4gamer.net/games/044/G104441/20260920020/",
       "source": "4Gamer",
       "title": "死に戻りで得た知識が，攻略の鍵になる。「ノロイあやし」を手がける新川宗平氏に，ホラーへのこだわりと制作スタイルを聞いた［TGS2026］",
@@ -1410,6 +1400,26 @@
       "attempts": 1,
       "firstSeenAt": "2026-10-19T04:47:55.329Z",
       "updatedAt": "2026-10-19T04:47:55.329Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/051/G105111/20261019006/",
+      "source": "4Gamer",
+      "title": "短編ゾンビサバイバルアドベンチャー「Terminus: Day Zero」，11月18日にSteamで無料配信",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-19T13:26:09.012Z",
+      "updatedAt": "2026-10-19T13:26:09.012Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/051/G105112/20261019007/",
+      "source": "4Gamer",
+      "title": "アライグマたちが“資金洗浄”を勘違いして，現金を丸洗い。ランドリー経営ゲーム「Money Laundering Raccoon」，2027年第3四半期に発売",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-19T13:26:09.012Z",
+      "updatedAt": "2026-10-19T13:26:09.012Z",
       "lastReason": "not-campaign"
     },
     {
@@ -1793,16 +1803,6 @@
       "lastReason": "not-campaign"
     },
     {
-      "url": "https://www.4gamer.net/games/948/G094814/20260919024/",
-      "source": "4Gamer",
-      "title": "IPを愛してもらうために，制作側がすべきこととは？ 「タイニーメタル2」の由良浩明氏に聞く［TGS2026］",
-      "status": "rejected",
-      "attempts": 1,
-      "firstSeenAt": "2026-09-19T11:05:20.551Z",
-      "updatedAt": "2026-09-19T11:05:20.551Z",
-      "lastReason": "not-campaign"
-    },
-    {
       "url": "https://www.4gamer.net/games/948/G094890/20260901029/",
       "source": "4Gamer",
       "title": "机の上のミニチュア世界で暮らすライフシム「リリのワールド」の新ベータ版を体験＆ディレクターが語る誕生のきっかけ",
@@ -1810,6 +1810,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-22T03:54:17.001Z",
       "updatedAt": "2026-09-22T03:54:17.001Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/954/G095479/20261018001/",
+      "source": "4Gamer",
+      "title": "【今週のモチベ】「ファイナルファンタジー レゾナンス」や「Call of Duty: Modern Warfare 4」が発売される 2026年10月19日〜10月25日",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-19T13:26:09.012Z",
+      "updatedAt": "2026-10-19T13:26:09.012Z",
       "lastReason": "not-campaign"
     },
     {
@@ -1913,16 +1923,6 @@
       "lastReason": "not-campaign"
     },
     {
-      "url": "https://www.4gamer.net/games/986/G098660/20260919021/",
-      "source": "4Gamer",
-      "title": "2人なら乗り越えられる！ レトロフューチャーな2人専用パズルアドベンチャー「We Were Here Tomorrow」試遊レポート［TGS2026］",
-      "status": "rejected",
-      "attempts": 1,
-      "firstSeenAt": "2026-09-19T11:05:20.551Z",
-      "updatedAt": "2026-09-19T11:05:20.551Z",
-      "lastReason": "not-campaign"
-    },
-    {
       "url": "https://www.4gamer.net/games/988/G098872/20260920046/",
       "source": "4Gamer",
       "title": "キャラはあと2人くらい追加したい。すでに5人目の映像も――ローグライトアクション「Cinderia」，総括ディレクターインタビュー［TGS2026］",
@@ -1990,6 +1990,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-10-16T16:43:23.000Z",
       "updatedAt": "2026-10-16T16:43:23.000Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/991/G999110/20260919002/",
+      "source": "4Gamer",
+      "title": "東京ゲームショウに来たら“読みもの”を集めよう！ 雑誌にカタログ，新聞風。会場で見つけた＆もらった小冊子を紹介［TGS2026］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-19T13:26:09.012Z",
+      "updatedAt": "2026-10-19T13:26:09.012Z",
       "lastReason": "not-campaign"
     },
     {
@@ -2190,6 +2200,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-30T12:41:18.960Z",
       "updatedAt": "2026-09-30T12:41:18.960Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/999/G999905/20261019018/",
+      "source": "4Gamer",
+      "title": "スクウェア・エニックス アカウントに不正ログインが発生。パスワードの変更など注意喚起",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-19T13:26:09.012Z",
+      "updatedAt": "2026-10-19T13:26:09.012Z",
       "lastReason": "not-campaign"
     },
     {
