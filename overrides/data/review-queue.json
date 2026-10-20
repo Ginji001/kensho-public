@@ -1,35 +1,25 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T22:24:15.982Z",
+  "updatedAt": "2026-10-20T04:56:38.487Z",
   "items": [
     {
-      "url": "https://crea.bunshun.jp/articles/-/60317",
+      "url": "https://crea.bunshun.jp/articles/-/60465",
       "source": "CREA",
-      "title": "「銀次さんの顔は舐めて喜ぶのに、益田さんは…」からし蓮根・伊織ラッキーの愛犬もずくと吉本芸人の“相性相関図”",
+      "title": "「この上司、腹立つ！」「めっちゃ面白い」話題のドラマ『会社員』“50歳本部長”役の吉田羊「よもや私には渡り歩けそうもない世界」会社員未経験で挑んだ役作り",
       "status": "held",
-      "attempts": 11,
-      "firstSeenAt": "2026-10-17T04:34:12.933Z",
-      "updatedAt": "2026-10-19T22:24:15.982Z",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-20T04:56:38.487Z",
+      "updatedAt": "2026-10-20T04:56:38.487Z",
       "lastReason": "no-deadline"
     },
     {
-      "url": "https://crea.bunshun.jp/articles/-/60447",
+      "url": "https://crea.bunshun.jp/articles/-/60466",
       "source": "CREA",
-      "title": "松たか子自らが「スープ作ったよ」と共演者へ持っていく。酷寒のなか“助け合いながら生きた”1カ月を経て完成した映画とは？",
+      "title": "“バリキャリ女性管理職”を演じた吉田羊が語る「結婚を選ばなかった人生」について思うこと、そして「役柄と重なる部分」",
       "status": "held",
-      "attempts": 11,
-      "firstSeenAt": "2026-10-17T04:34:12.933Z",
-      "updatedAt": "2026-10-19T22:24:15.982Z",
-      "lastReason": "no-deadline"
-    },
-    {
-      "url": "https://crea.bunshun.jp/articles/-/60448",
-      "source": "CREA",
-      "title": "「20代からやり直せても、あんまり面白くない」松たか子（49）が語る、“するっと、ぬるっと50代”を迎えたいという願望",
-      "status": "held",
-      "attempts": 11,
-      "firstSeenAt": "2026-10-17T04:34:12.933Z",
-      "updatedAt": "2026-10-19T22:24:15.982Z",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-20T04:56:38.487Z",
+      "updatedAt": "2026-10-20T04:56:38.487Z",
       "lastReason": "no-deadline"
     },
     {
@@ -37,9 +27,9 @@
       "source": "CREA",
       "title": "「一度は出演をやめたいと思った」尾上眞秀（14）が『連獅子』の稽古を乗り越え、歌舞伎座の舞台で挑む『屋敷娘』",
       "status": "held",
-      "attempts": 10,
+      "attempts": 11,
       "firstSeenAt": "2026-10-17T10:50:27.800Z",
-      "updatedAt": "2026-10-19T22:24:15.982Z",
+      "updatedAt": "2026-10-20T04:56:38.487Z",
       "lastReason": "no-deadline"
     },
     {
@@ -47,10 +37,10 @@
       "source": "Tsukumo",
       "title": "長尾製作所特集",
       "status": "held",
-      "attempts": 10,
+      "attempts": 11,
       "firstSeenAt": "2026-10-17T10:50:27.800Z",
-      "updatedAt": "2026-10-19T22:24:15.982Z",
-      "lastReason": "no-deadline"
+      "updatedAt": "2026-10-20T04:56:38.487Z",
+      "lastReason": "fetch:fetch failed"
     },
     {
       "url": "https://crea.bunshun.jp/articles/-/58526",
@@ -533,6 +523,16 @@
       "lastReason": "fetch:unapproved-url"
     },
     {
+      "url": "https://crea.bunshun.jp/articles/-/60317",
+      "source": "CREA",
+      "title": "「銀次さんの顔は舐めて喜ぶのに、益田さんは…」からし蓮根・伊織ラッキーの愛犬もずくと吉本芸人の“相性相関図”",
+      "status": "rejected",
+      "attempts": 12,
+      "firstSeenAt": "2026-10-17T04:34:12.933Z",
+      "updatedAt": "2026-10-20T04:56:38.487Z",
+      "lastReason": "no-deadline"
+    },
+    {
       "url": "https://crea.bunshun.jp/articles/-/60331",
       "source": "CREA",
       "title": "《スプマンテの最高峰・フェッラーリ》ミシュラン店でも、大自然のピクニックでも美味しい。イタリアの奥深い味が生み出された原点とは？",
@@ -680,6 +680,26 @@
       "attempts": 12,
       "firstSeenAt": "2026-10-16T04:37:35.048Z",
       "updatedAt": "2026-10-18T20:49:36.645Z",
+      "lastReason": "no-deadline"
+    },
+    {
+      "url": "https://crea.bunshun.jp/articles/-/60447",
+      "source": "CREA",
+      "title": "松たか子自らが「スープ作ったよ」と共演者へ持っていく。酷寒のなか“助け合いながら生きた”1カ月を経て完成した映画とは？",
+      "status": "rejected",
+      "attempts": 12,
+      "firstSeenAt": "2026-10-17T04:34:12.933Z",
+      "updatedAt": "2026-10-20T04:56:38.487Z",
+      "lastReason": "no-deadline"
+    },
+    {
+      "url": "https://crea.bunshun.jp/articles/-/60448",
+      "source": "CREA",
+      "title": "「20代からやり直せても、あんまり面白くない」松たか子（49）が語る、“するっと、ぬるっと50代”を迎えたいという願望",
+      "status": "rejected",
+      "attempts": 12,
+      "firstSeenAt": "2026-10-17T04:34:12.933Z",
+      "updatedAt": "2026-10-20T04:56:38.487Z",
       "lastReason": "no-deadline"
     },
     {
@@ -870,6 +890,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-10-01T06:02:19.164Z",
       "updatedAt": "2026-10-01T06:02:19.164Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/004/G100451/20261019046/",
+      "source": "4Gamer",
+      "title": "にじさんじライバーがガチで挑むゲーム大会「NIJISANJI Extreme Match / Overwatch」，10月25日に開催",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-20T04:56:38.487Z",
+      "updatedAt": "2026-10-20T04:56:38.487Z",
       "lastReason": "not-campaign"
     },
     {
@@ -1840,6 +1870,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-10-19T13:26:09.012Z",
       "updatedAt": "2026-10-19T13:26:09.012Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/958/G095874/20261019047/",
+      "source": "4Gamer",
+      "title": "“催眠”でお客を従業員に変えちゃう音楽ゲーム「HYPNOSYNC」，日本時間の10月28日にリリース決定",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-20T04:56:38.487Z",
+      "updatedAt": "2026-10-20T04:56:38.487Z",
       "lastReason": "not-campaign"
     },
     {
