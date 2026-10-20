@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20T04:56:38.487Z",
+  "updatedAt": "2026-10-20T11:45:04.944Z",
   "items": [
     {
       "url": "https://crea.bunshun.jp/articles/-/60465",
       "source": "CREA",
       "title": "「この上司、腹立つ！」「めっちゃ面白い」話題のドラマ『会社員』“50歳本部長”役の吉田羊「よもや私には渡り歩けそうもない世界」会社員未経験で挑んだ役作り",
       "status": "held",
-      "attempts": 1,
+      "attempts": 2,
       "firstSeenAt": "2026-10-20T04:56:38.487Z",
-      "updatedAt": "2026-10-20T04:56:38.487Z",
+      "updatedAt": "2026-10-20T11:45:04.944Z",
       "lastReason": "no-deadline"
     },
     {
@@ -17,30 +17,10 @@
       "source": "CREA",
       "title": "“バリキャリ女性管理職”を演じた吉田羊が語る「結婚を選ばなかった人生」について思うこと、そして「役柄と重なる部分」",
       "status": "held",
-      "attempts": 1,
+      "attempts": 2,
       "firstSeenAt": "2026-10-20T04:56:38.487Z",
-      "updatedAt": "2026-10-20T04:56:38.487Z",
+      "updatedAt": "2026-10-20T11:45:04.944Z",
       "lastReason": "no-deadline"
-    },
-    {
-      "url": "https://crea.bunshun.jp/articles/-/60474",
-      "source": "CREA",
-      "title": "「一度は出演をやめたいと思った」尾上眞秀（14）が『連獅子』の稽古を乗り越え、歌舞伎座の舞台で挑む『屋敷娘』",
-      "status": "held",
-      "attempts": 11,
-      "firstSeenAt": "2026-10-17T10:50:27.800Z",
-      "updatedAt": "2026-10-20T04:56:38.487Z",
-      "lastReason": "no-deadline"
-    },
-    {
-      "url": "https://shop.tsukumo.co.jp/features/nagao-ss/",
-      "source": "Tsukumo",
-      "title": "長尾製作所特集",
-      "status": "held",
-      "attempts": 11,
-      "firstSeenAt": "2026-10-17T10:50:27.800Z",
-      "updatedAt": "2026-10-20T04:56:38.487Z",
-      "lastReason": "fetch:fetch failed"
     },
     {
       "url": "https://crea.bunshun.jp/articles/-/58526",
@@ -723,6 +703,16 @@
       "lastReason": "no-deadline"
     },
     {
+      "url": "https://crea.bunshun.jp/articles/-/60474",
+      "source": "CREA",
+      "title": "「一度は出演をやめたいと思った」尾上眞秀（14）が『連獅子』の稽古を乗り越え、歌舞伎座の舞台で挑む『屋敷娘』",
+      "status": "rejected",
+      "attempts": 12,
+      "firstSeenAt": "2026-10-17T10:50:27.800Z",
+      "updatedAt": "2026-10-20T11:45:04.944Z",
+      "lastReason": "no-deadline"
+    },
+    {
       "url": "https://crea.bunshun.jp/articles/-/60475",
       "source": "CREA",
       "title": "函館のソウルフードを湯気の立つ出来立てで提供！ 究極のいかめしを【OMO5函館】に食べに行こう！",
@@ -731,16 +721,6 @@
       "firstSeenAt": "2026-10-16T04:37:35.048Z",
       "updatedAt": "2026-10-16T04:37:35.048Z",
       "lastReason": "deadline-too-far"
-    },
-    {
-      "url": "https://news.mynavi.jp/article/20260424-present04/",
-      "source": "MynaviNews",
-      "title": "【25名様】Vポイント100pt",
-      "status": "rejected",
-      "attempts": 1,
-      "firstSeenAt": "2026-09-20T04:58:11.552Z",
-      "updatedAt": "2026-09-20T04:58:11.552Z",
-      "lastReason": "too-old"
     },
     {
       "url": "https://news.mynavi.jp/article/20260911-present01/",
@@ -863,6 +843,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://shop.tsukumo.co.jp/features/nagao-ss/",
+      "source": "Tsukumo",
+      "title": "長尾製作所特集",
+      "status": "rejected",
+      "attempts": 12,
+      "firstSeenAt": "2026-10-17T10:50:27.800Z",
+      "updatedAt": "2026-10-20T11:45:04.944Z",
+      "lastReason": "no-deadline"
+    },
+    {
       "url": "https://shop.tsukumo.co.jp/features/new-products/",
       "source": "Tsukumo",
       "title": "新着商品",
@@ -923,16 +913,6 @@
       "lastReason": "not-campaign"
     },
     {
-      "url": "https://www.4gamer.net/games/013/G101345/20260919078/",
-      "source": "4Gamer",
-      "title": "ムーミンたちを一枚一枚，手描きで動かした「ムーミン：ムーミン谷の夏まつり」試遊レポート＆開発者インタビュー［TGS2026］",
-      "status": "rejected",
-      "attempts": 1,
-      "firstSeenAt": "2026-09-20T04:58:11.552Z",
-      "updatedAt": "2026-09-20T04:58:11.552Z",
-      "lastReason": "not-campaign"
-    },
-    {
       "url": "https://www.4gamer.net/games/013/G101380/20260921041/",
       "source": "4Gamer",
       "title": "「ソニック・ザ・ヘッジホッグ」35周年記念インタビュー。総合プロデューサー飯塚 隆氏に聞く，これまでの道のりと未来の可能性。そしてまだ見ぬ新作に向けて［TGS2026］",
@@ -970,26 +950,6 @@
       "attempts": 1,
       "firstSeenAt": "2026-10-19T22:24:15.982Z",
       "updatedAt": "2026-10-19T22:24:15.982Z",
-      "lastReason": "not-campaign"
-    },
-    {
-      "url": "https://www.4gamer.net/games/033/G103375/20260920011/",
-      "source": "4Gamer",
-      "title": "荷物や道具を頭に載せて配達へ。最大4人で楽しめるホラーゲーム「ハコアタマ」の開発者に，企画の出発点を聞いた［TGS2026］",
-      "status": "rejected",
-      "attempts": 1,
-      "firstSeenAt": "2026-09-20T04:58:11.552Z",
-      "updatedAt": "2026-09-20T04:58:11.552Z",
-      "lastReason": "not-campaign"
-    },
-    {
-      "url": "https://www.4gamer.net/games/035/G103535/20260919019/",
-      "source": "4Gamer",
-      "title": "「Stellar Blade」はコンプリートしたあともまだ続く！？ Switch2版出展で来日したキム・ヒョンテ氏にインタビュー［TGS2026］",
-      "status": "rejected",
-      "attempts": 1,
-      "firstSeenAt": "2026-09-20T11:30:11.399Z",
-      "updatedAt": "2026-09-20T11:30:11.399Z",
       "lastReason": "not-campaign"
     },
     {
@@ -1353,16 +1313,6 @@
       "lastReason": "not-campaign"
     },
     {
-      "url": "https://www.4gamer.net/games/044/G104441/20260920020/",
-      "source": "4Gamer",
-      "title": "死に戻りで得た知識が，攻略の鍵になる。「ノロイあやし」を手がける新川宗平氏に，ホラーへのこだわりと制作スタイルを聞いた［TGS2026］",
-      "status": "rejected",
-      "attempts": 1,
-      "firstSeenAt": "2026-09-20T11:30:11.399Z",
-      "updatedAt": "2026-09-20T11:30:11.399Z",
-      "lastReason": "not-campaign"
-    },
-    {
       "url": "https://www.4gamer.net/games/045/G104561/20260925033/",
       "source": "4Gamer",
       "title": "「Putty World 35th Anniversary」をひっさげて来日した伝説的ゲームクリエイターMark Cale氏に聞く，ゲーム業界サバイバル術［TGS2026］",
@@ -1370,16 +1320,6 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-29T05:48:32.573Z",
       "updatedAt": "2026-09-29T05:48:32.573Z",
-      "lastReason": "not-campaign"
-    },
-    {
-      "url": "https://www.4gamer.net/games/047/G004755/20260920005/",
-      "source": "4Gamer",
-      "title": "720Hz表示でTN液晶の座を奪う？ ASUSのeスポーツ向け有機ELディスプレイの見どころと，ゲーミングディスプレイの未来［TGS2026］",
-      "status": "rejected",
-      "attempts": 1,
-      "firstSeenAt": "2026-09-20T04:58:11.552Z",
-      "updatedAt": "2026-09-20T04:58:11.552Z",
       "lastReason": "not-campaign"
     },
     {
@@ -1460,6 +1400,26 @@
       "attempts": 1,
       "firstSeenAt": "2026-10-19T13:26:09.012Z",
       "updatedAt": "2026-10-19T13:26:09.012Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/051/G105141/20261019040/",
+      "source": "4Gamer",
+      "title": "大作SRPGも1人で作れる時代が来た？ 個人制作の骨太インディーSRPG「Verdant Requiem」をいち早くプレイしてみた【PR】",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-20T11:45:04.944Z",
+      "updatedAt": "2026-10-20T11:45:04.944Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/051/G105143/20261020002/",
+      "source": "4Gamer",
+      "title": "オープンワールドサバイバルクラフト「モンスター娘サバイバル&クラフト2040」，体験版をSteamでリリース。11月16日に早期アクセス開始",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-20T11:45:04.944Z",
+      "updatedAt": "2026-10-20T11:45:04.944Z",
       "lastReason": "not-campaign"
     },
     {
@@ -1703,16 +1663,6 @@
       "lastReason": "not-campaign"
     },
     {
-      "url": "https://www.4gamer.net/games/851/G085169/20260920014/",
-      "source": "4Gamer",
-      "title": "気楽な懐かしい異世界で，美少女たちと暮らす。「ファレイドリア」が目指すものを，キム・ヨンハ氏とサウンドのミツキヨ氏に聞いた［TGS2026］",
-      "status": "rejected",
-      "attempts": 1,
-      "firstSeenAt": "2026-09-20T11:30:11.399Z",
-      "updatedAt": "2026-09-20T11:30:11.399Z",
-      "lastReason": "not-campaign"
-    },
-    {
       "url": "https://www.4gamer.net/games/865/G086591/20260921049/",
       "source": "4Gamer",
       "title": "恐竜やエイリアンが待ち受ける惑星が舞台。PvEシューティング「Turok: Origins」の開発陣に，環境デザインや戦闘システムについて聞いた",
@@ -1913,16 +1863,6 @@
       "lastReason": "not-campaign"
     },
     {
-      "url": "https://www.4gamer.net/games/968/G096854/20260919077/",
-      "source": "4Gamer",
-      "title": "「ステューピッド・ネバー・ダイズ」小林裕幸氏＆佐々木栄一郎氏にインタビュー。体験版の反響と発売に向けた取り組みを聞いた［TGS2026］",
-      "status": "rejected",
-      "attempts": 1,
-      "firstSeenAt": "2026-09-20T04:58:11.552Z",
-      "updatedAt": "2026-09-20T04:58:11.552Z",
-      "lastReason": "not-campaign"
-    },
-    {
       "url": "https://www.4gamer.net/games/968/G096862/20260920050/",
       "source": "4Gamer",
       "title": "武器も魔法も自由自在！ イマーシブシムの魅力が詰まった「WARLOCK: DUNGEONS & DRAGONS」プレイデモ視聴レポート＆開発者インタビュー［TGS2026］",
@@ -1990,16 +1930,6 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-23T04:50:06.285Z",
       "updatedAt": "2026-09-23T04:50:06.285Z",
-      "lastReason": "not-campaign"
-    },
-    {
-      "url": "https://www.4gamer.net/games/991/G099198/20260919001/",
-      "source": "4Gamer",
-      "title": "ネットマーブルの新作シャンナナ」「俺カル」「初挑戦の美少女RPG」で狙うは，地道なコミュニケーションに尽きる［TGS2026］",
-      "status": "rejected",
-      "attempts": 1,
-      "firstSeenAt": "2026-09-20T11:30:11.399Z",
-      "updatedAt": "2026-09-20T11:30:11.399Z",
       "lastReason": "not-campaign"
     },
     {
