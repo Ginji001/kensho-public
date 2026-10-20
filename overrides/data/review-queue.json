@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20T11:45:04.944Z",
+  "updatedAt": "2026-10-20T17:14:22.374Z",
   "items": [
     {
       "url": "https://crea.bunshun.jp/articles/-/60465",
       "source": "CREA",
       "title": "「この上司、腹立つ！」「めっちゃ面白い」話題のドラマ『会社員』“50歳本部長”役の吉田羊「よもや私には渡り歩けそうもない世界」会社員未経験で挑んだ役作り",
       "status": "held",
-      "attempts": 2,
+      "attempts": 3,
       "firstSeenAt": "2026-10-20T04:56:38.487Z",
-      "updatedAt": "2026-10-20T11:45:04.944Z",
+      "updatedAt": "2026-10-20T17:14:22.374Z",
       "lastReason": "no-deadline"
     },
     {
@@ -17,9 +17,9 @@
       "source": "CREA",
       "title": "“バリキャリ女性管理職”を演じた吉田羊が語る「結婚を選ばなかった人生」について思うこと、そして「役柄と重なる部分」",
       "status": "held",
-      "attempts": 2,
+      "attempts": 3,
       "firstSeenAt": "2026-10-20T04:56:38.487Z",
-      "updatedAt": "2026-10-20T11:45:04.944Z",
+      "updatedAt": "2026-10-20T17:14:22.374Z",
       "lastReason": "no-deadline"
     },
     {
@@ -923,6 +923,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/014/G101402/20261020001/",
+      "source": "4Gamer",
+      "title": "Switch2版「モンスターハンターワイルズ」序盤体験版を本日配信。Chapter1-3まで遊べる。最大4人のローカル通信にも対応",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-20T17:14:22.374Z",
+      "updatedAt": "2026-10-20T17:14:22.374Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/016/G101606/20261014007/",
       "source": "4Gamer",
       "title": "「テイルズ オブ エターニア」のここを知ってほしい！ 当時やり込んだファンが語る，リマスター版をもっと楽しむために押さえておきたいポイント",
@@ -950,6 +960,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-10-19T22:24:15.982Z",
       "updatedAt": "2026-10-19T22:24:15.982Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/033/G103320/20261020008/",
+      "source": "4Gamer",
+      "title": "ダイスで航海し，相場を読んで交易路を切り開け。「フォーチュリア：交易路の開拓者」，体験版をアップデート。オンライン対戦を追加",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-20T17:14:22.374Z",
+      "updatedAt": "2026-10-20T17:14:22.374Z",
       "lastReason": "not-campaign"
     },
     {
@@ -1493,6 +1513,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/554/G055489/20261020019/",
+      "source": "4Gamer",
+      "title": "「ウマ娘」，アメリカ・ロサンゼルスで開催予定だったイベントが公演中止に。ビザの承認が下りず，苦渋の決断",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-20T17:14:22.374Z",
+      "updatedAt": "2026-10-20T17:14:22.374Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/601/G060128/20261016073/",
       "source": "4Gamer",
       "title": "Switch版「CRYSTAR -クライスタ-」が95％オフの288円！ 発売8周年記念セールを開催。アートブック付き版も500円で買える",
@@ -1660,6 +1690,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-24T11:52:38.142Z",
       "updatedAt": "2026-09-24T11:52:38.142Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/845/G084544/20261019032/",
+      "source": "4Gamer",
+      "title": "「Surfpunk」，Steam Nextフェスに出展。鍛冶システムの刷新や新スキルの実装など，内容をアップデートした体験版が公開に",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-20T17:14:22.374Z",
+      "updatedAt": "2026-10-20T17:14:22.374Z",
       "lastReason": "not-campaign"
     },
     {
@@ -2260,6 +2300,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-10-08T23:24:15.528Z",
       "updatedAt": "2026-10-08T23:24:15.528Z",
+      "lastReason": "monitor"
+    },
+    {
+      "url": "https://www.cosme.net/brandcollection/present/detail/present_id/12279",
+      "source": "atcosme",
+      "title": "Amprem / アンプレム ケラチンショットシャンプー／ケラチンショットトリートメントをプレゼント！",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-20T17:14:22.374Z",
+      "updatedAt": "2026-10-20T17:14:22.374Z",
       "lastReason": "monitor"
     },
     {
