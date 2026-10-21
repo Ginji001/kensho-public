@@ -1,15 +1,35 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20T21:40:59.917Z",
+  "updatedAt": "2026-10-21T04:55:48.366Z",
   "items": [
+    {
+      "url": "https://crea.bunshun.jp/articles/-/60290",
+      "source": "CREA",
+      "title": "「あかり、信じているぞ」はネットミームに！ 料理家・長谷川あかりが、あまり料理をしない人に「料理って面白い」と思ってもらうために伝えたいこと",
+      "status": "held",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-21T04:55:48.366Z",
+      "updatedAt": "2026-10-21T04:55:48.366Z",
+      "lastReason": "no-deadline"
+    },
+    {
+      "url": "https://crea.bunshun.jp/articles/-/60291",
+      "source": "CREA",
+      "title": "「ハッシュドポテトが“朝マック”でよかった…」料理家・長谷川あかりが見つける毎日の幸せ、エッセイにも頻繁に登場する“頼れる夫”との夫婦円満の秘訣とは？",
+      "status": "held",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-21T04:55:48.366Z",
+      "updatedAt": "2026-10-21T04:55:48.366Z",
+      "lastReason": "no-deadline"
+    },
     {
       "url": "https://crea.bunshun.jp/articles/-/60465",
       "source": "CREA",
       "title": "「この上司、腹立つ！」「めっちゃ面白い」話題のドラマ『会社員』“50歳本部長”役の吉田羊「よもや私には渡り歩けそうもない世界」会社員未経験で挑んだ役作り",
       "status": "held",
-      "attempts": 4,
+      "attempts": 5,
       "firstSeenAt": "2026-10-20T04:56:38.487Z",
-      "updatedAt": "2026-10-20T21:40:59.917Z",
+      "updatedAt": "2026-10-21T04:55:48.366Z",
       "lastReason": "no-deadline"
     },
     {
@@ -17,9 +37,29 @@
       "source": "CREA",
       "title": "“バリキャリ女性管理職”を演じた吉田羊が語る「結婚を選ばなかった人生」について思うこと、そして「役柄と重なる部分」",
       "status": "held",
-      "attempts": 4,
+      "attempts": 5,
       "firstSeenAt": "2026-10-20T04:56:38.487Z",
-      "updatedAt": "2026-10-20T21:40:59.917Z",
+      "updatedAt": "2026-10-21T04:55:48.366Z",
+      "lastReason": "no-deadline"
+    },
+    {
+      "url": "https://crea.bunshun.jp/articles/-/60484",
+      "source": "CREA",
+      "title": "「日本は危機を不可視化している」「すでにこの国は社会主義的で…」経済思想家・斎藤幸平×エネルギーアナリスト・大場紀章が語る“日本のエネルギー政策の死角”",
+      "status": "held",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-21T04:55:48.366Z",
+      "updatedAt": "2026-10-21T04:55:48.366Z",
+      "lastReason": "no-deadline"
+    },
+    {
+      "url": "https://crea.bunshun.jp/articles/-/60485",
+      "source": "CREA",
+      "title": "「アメリカ一辺倒はリスクが高すぎる。むしろ中国から学びながら…」経済思想家・斎藤幸平が語った「資源をもたない日本が向かうべき道」とは",
+      "status": "held",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-21T04:55:48.366Z",
+      "updatedAt": "2026-10-21T04:55:48.366Z",
       "lastReason": "no-deadline"
     },
     {
@@ -903,6 +943,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/010/G101093/20261015041/",
+      "source": "4Gamer",
+      "title": "「ファイナルファンタジー レゾナンス」はHD-2D演出がすごいだけじゃない。バトルの駆け引きやキャラとパーティのビルドが楽しい［プレイレポ］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-21T04:55:48.366Z",
+      "updatedAt": "2026-10-21T04:55:48.366Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/013/G101380/20260921041/",
       "source": "4Gamer",
       "title": "「ソニック・ザ・ヘッジホッグ」35周年記念インタビュー。総合プロデューサー飯塚 隆氏に聞く，これまでの道のりと未来の可能性。そしてまだ見ぬ新作に向けて［TGS2026］",
@@ -1433,6 +1483,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/189/G018964/20261020050/",
+      "source": "4Gamer",
+      "title": "「サイバーパンク: エッジランナーズ 2」，Netflixで配信開始。10月22日にはPC，PS5，XBOX Series X",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-21T04:55:48.366Z",
+      "updatedAt": "2026-10-21T04:55:48.366Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/387/G038732/20260920038/",
       "source": "4Gamer",
       "title": "［プレイレポ］オシャレと交流，そして現代的な程よい距離感を楽しむ，「マビノギモバイル」での異世界暮らし",
@@ -1830,6 +1890,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-10-19T22:24:15.982Z",
       "updatedAt": "2026-10-19T22:24:15.982Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/952/G095270/20261002023/",
+      "source": "4Gamer",
+      "title": "すでに開発陣の想定外なゲームになった。「デッドアカウント〜二つの蒼い炎〜」は逃げるのではない，攻めるサバイバー［インタビュー］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-21T04:55:48.366Z",
+      "updatedAt": "2026-10-21T04:55:48.366Z",
       "lastReason": "not-campaign"
     },
     {
