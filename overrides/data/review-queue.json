@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T17:16:46.095Z",
+  "updatedAt": "2026-10-21T21:46:28.549Z",
   "items": [
     {
       "url": "https://crea.bunshun.jp/articles/-/60290",
       "source": "CREA",
       "title": "「あかり、信じているぞ」はネットミームに！ 料理家・長谷川あかりが、あまり料理をしない人に「料理って面白い」と思ってもらうために伝えたいこと",
       "status": "held",
-      "attempts": 3,
+      "attempts": 4,
       "firstSeenAt": "2026-10-21T04:55:48.366Z",
-      "updatedAt": "2026-10-21T17:16:46.095Z",
+      "updatedAt": "2026-10-21T21:46:28.549Z",
       "lastReason": "no-deadline"
     },
     {
@@ -17,9 +17,9 @@
       "source": "CREA",
       "title": "「ハッシュドポテトが“朝マック”でよかった…」料理家・長谷川あかりが見つける毎日の幸せ、エッセイにも頻繁に登場する“頼れる夫”との夫婦円満の秘訣とは？",
       "status": "held",
-      "attempts": 3,
+      "attempts": 4,
       "firstSeenAt": "2026-10-21T04:55:48.366Z",
-      "updatedAt": "2026-10-21T17:16:46.095Z",
+      "updatedAt": "2026-10-21T21:46:28.549Z",
       "lastReason": "no-deadline"
     },
     {
@@ -27,9 +27,9 @@
       "source": "CREA",
       "title": "「この上司、腹立つ！」「めっちゃ面白い」話題のドラマ『会社員』“50歳本部長”役の吉田羊「よもや私には渡り歩けそうもない世界」会社員未経験で挑んだ役作り",
       "status": "held",
-      "attempts": 7,
+      "attempts": 8,
       "firstSeenAt": "2026-10-20T04:56:38.487Z",
-      "updatedAt": "2026-10-21T17:16:46.095Z",
+      "updatedAt": "2026-10-21T21:46:28.549Z",
       "lastReason": "no-deadline"
     },
     {
@@ -37,9 +37,9 @@
       "source": "CREA",
       "title": "“バリキャリ女性管理職”を演じた吉田羊が語る「結婚を選ばなかった人生」について思うこと、そして「役柄と重なる部分」",
       "status": "held",
-      "attempts": 7,
+      "attempts": 8,
       "firstSeenAt": "2026-10-20T04:56:38.487Z",
-      "updatedAt": "2026-10-21T17:16:46.095Z",
+      "updatedAt": "2026-10-21T21:46:28.549Z",
       "lastReason": "no-deadline"
     },
     {
@@ -47,9 +47,9 @@
       "source": "CREA",
       "title": "「日本は危機を不可視化している」「すでにこの国は社会主義的で…」経済思想家・斎藤幸平×エネルギーアナリスト・大場紀章が語る“日本のエネルギー政策の死角”",
       "status": "held",
-      "attempts": 3,
+      "attempts": 4,
       "firstSeenAt": "2026-10-21T04:55:48.366Z",
-      "updatedAt": "2026-10-21T17:16:46.095Z",
+      "updatedAt": "2026-10-21T21:46:28.549Z",
       "lastReason": "no-deadline"
     },
     {
@@ -57,9 +57,9 @@
       "source": "CREA",
       "title": "「アメリカ一辺倒はリスクが高すぎる。むしろ中国から学びながら…」経済思想家・斎藤幸平が語った「資源をもたない日本が向かうべき道」とは",
       "status": "held",
-      "attempts": 3,
+      "attempts": 4,
       "firstSeenAt": "2026-10-21T04:55:48.366Z",
-      "updatedAt": "2026-10-21T17:16:46.095Z",
+      "updatedAt": "2026-10-21T21:46:28.549Z",
       "lastReason": "no-deadline"
     },
     {
@@ -1490,6 +1490,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-10-20T11:45:04.944Z",
       "updatedAt": "2026-10-20T11:45:04.944Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/052/G105222/20261021047/",
+      "source": "4Gamer",
+      "title": "敵を「支配」して，味方にできる。兄妹が魔界を探索して，魔物たちと出会うターン制ストラテジーRPG「魔界群雄割拠」，体験版をSteamで公開",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-21T21:46:28.549Z",
+      "updatedAt": "2026-10-21T21:46:28.549Z",
       "lastReason": "not-campaign"
     },
     {
