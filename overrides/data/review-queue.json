@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T04:55:48.366Z",
+  "updatedAt": "2026-10-21T11:56:51.680Z",
   "items": [
     {
       "url": "https://crea.bunshun.jp/articles/-/60290",
       "source": "CREA",
       "title": "「あかり、信じているぞ」はネットミームに！ 料理家・長谷川あかりが、あまり料理をしない人に「料理って面白い」と思ってもらうために伝えたいこと",
       "status": "held",
-      "attempts": 1,
+      "attempts": 2,
       "firstSeenAt": "2026-10-21T04:55:48.366Z",
-      "updatedAt": "2026-10-21T04:55:48.366Z",
+      "updatedAt": "2026-10-21T11:56:51.680Z",
       "lastReason": "no-deadline"
     },
     {
@@ -17,9 +17,9 @@
       "source": "CREA",
       "title": "「ハッシュドポテトが“朝マック”でよかった…」料理家・長谷川あかりが見つける毎日の幸せ、エッセイにも頻繁に登場する“頼れる夫”との夫婦円満の秘訣とは？",
       "status": "held",
-      "attempts": 1,
+      "attempts": 2,
       "firstSeenAt": "2026-10-21T04:55:48.366Z",
-      "updatedAt": "2026-10-21T04:55:48.366Z",
+      "updatedAt": "2026-10-21T11:56:51.680Z",
       "lastReason": "no-deadline"
     },
     {
@@ -27,9 +27,9 @@
       "source": "CREA",
       "title": "「この上司、腹立つ！」「めっちゃ面白い」話題のドラマ『会社員』“50歳本部長”役の吉田羊「よもや私には渡り歩けそうもない世界」会社員未経験で挑んだ役作り",
       "status": "held",
-      "attempts": 5,
+      "attempts": 6,
       "firstSeenAt": "2026-10-20T04:56:38.487Z",
-      "updatedAt": "2026-10-21T04:55:48.366Z",
+      "updatedAt": "2026-10-21T11:56:51.680Z",
       "lastReason": "no-deadline"
     },
     {
@@ -37,9 +37,9 @@
       "source": "CREA",
       "title": "“バリキャリ女性管理職”を演じた吉田羊が語る「結婚を選ばなかった人生」について思うこと、そして「役柄と重なる部分」",
       "status": "held",
-      "attempts": 5,
+      "attempts": 6,
       "firstSeenAt": "2026-10-20T04:56:38.487Z",
-      "updatedAt": "2026-10-21T04:55:48.366Z",
+      "updatedAt": "2026-10-21T11:56:51.680Z",
       "lastReason": "no-deadline"
     },
     {
@@ -47,9 +47,9 @@
       "source": "CREA",
       "title": "「日本は危機を不可視化している」「すでにこの国は社会主義的で…」経済思想家・斎藤幸平×エネルギーアナリスト・大場紀章が語る“日本のエネルギー政策の死角”",
       "status": "held",
-      "attempts": 1,
+      "attempts": 2,
       "firstSeenAt": "2026-10-21T04:55:48.366Z",
-      "updatedAt": "2026-10-21T04:55:48.366Z",
+      "updatedAt": "2026-10-21T11:56:51.680Z",
       "lastReason": "no-deadline"
     },
     {
@@ -57,9 +57,9 @@
       "source": "CREA",
       "title": "「アメリカ一辺倒はリスクが高すぎる。むしろ中国から学びながら…」経済思想家・斎藤幸平が語った「資源をもたない日本が向かうべき道」とは",
       "status": "held",
-      "attempts": 1,
+      "attempts": 2,
       "firstSeenAt": "2026-10-21T04:55:48.366Z",
-      "updatedAt": "2026-10-21T04:55:48.366Z",
+      "updatedAt": "2026-10-21T11:56:51.680Z",
       "lastReason": "no-deadline"
     },
     {
@@ -1023,6 +1023,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/038/G003821/20261021009/",
+      "source": "4Gamer",
+      "title": "次に遊びたいゲームがここにあるかも！ 約70本の体験版を遊んで厳選した「SteamNEXTフェス 10月エディション」注目作品まとめ",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-21T11:56:51.680Z",
+      "updatedAt": "2026-10-21T11:56:51.680Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/039/G103924/20261005024/",
       "source": "4Gamer",
       "title": "「3時間で終わります」と自分から言う，Cygamesの新ブランド。「CygamesEdge」の“尖り”とは何か，ブランドプロデューサーに聞いた［インタビュー］",
@@ -1593,16 +1603,6 @@
       "lastReason": "not-campaign"
     },
     {
-      "url": "https://www.4gamer.net/games/649/G064919/20260920007/",
-      "source": "4Gamer",
-      "title": "現実に存在するものから，誰も見たことがない世界を作る。「狐ト蛙ノ旅」を手がけるリアス氏へのインタビュー［TGS2026］",
-      "status": "rejected",
-      "attempts": 1,
-      "firstSeenAt": "2026-09-21T05:02:27.325Z",
-      "updatedAt": "2026-09-21T05:02:27.325Z",
-      "lastReason": "not-campaign"
-    },
-    {
       "url": "https://www.4gamer.net/games/667/G066758/20260920056/",
       "source": "4Gamer",
       "title": "「モンスターハンターアウトランダーズ」の新モンスター“ルガ・エアルダ”に挑む。スマホで広がる“冒険者”による新たな狩猟体験",
@@ -1813,16 +1813,6 @@
       "lastReason": "not-campaign"
     },
     {
-      "url": "https://www.4gamer.net/games/916/G091663/20260921008/",
-      "source": "4Gamer",
-      "title": "殺しのライセンスを持たない27歳のボンドをIO Interactiveはどう描いたのか。「007 ファースト・ライト」開発者インタビュー［TGS2026］",
-      "status": "rejected",
-      "attempts": 1,
-      "firstSeenAt": "2026-09-21T05:02:27.325Z",
-      "updatedAt": "2026-09-21T05:02:27.325Z",
-      "lastReason": "not-campaign"
-    },
-    {
       "url": "https://www.4gamer.net/games/919/G091973/20260710016/",
       "source": "4Gamer",
       "title": "フェスで気になったはず？ 「スプラトゥーン レイダース」のスピード，パワー，テクニカル各タイプのガジェットをさっそく確かめてみた",
@@ -1870,6 +1860,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-10-19T04:47:55.329Z",
       "updatedAt": "2026-10-19T04:47:55.329Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/948/G094806/20261014026/",
+      "source": "4Gamer",
+      "title": "アクションの手触りを左右する0.1秒と，メトロイドヴァニア“＋”の先にあるもの。「Chronoscript: The Endless End」プレイレポ＆インタビュー",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-21T11:56:51.680Z",
+      "updatedAt": "2026-10-21T11:56:51.680Z",
       "lastReason": "not-campaign"
     },
     {
