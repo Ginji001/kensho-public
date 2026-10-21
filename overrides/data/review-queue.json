@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T11:56:51.680Z",
+  "updatedAt": "2026-10-21T17:16:46.095Z",
   "items": [
     {
       "url": "https://crea.bunshun.jp/articles/-/60290",
       "source": "CREA",
       "title": "「あかり、信じているぞ」はネットミームに！ 料理家・長谷川あかりが、あまり料理をしない人に「料理って面白い」と思ってもらうために伝えたいこと",
       "status": "held",
-      "attempts": 2,
+      "attempts": 3,
       "firstSeenAt": "2026-10-21T04:55:48.366Z",
-      "updatedAt": "2026-10-21T11:56:51.680Z",
+      "updatedAt": "2026-10-21T17:16:46.095Z",
       "lastReason": "no-deadline"
     },
     {
@@ -17,9 +17,9 @@
       "source": "CREA",
       "title": "「ハッシュドポテトが“朝マック”でよかった…」料理家・長谷川あかりが見つける毎日の幸せ、エッセイにも頻繁に登場する“頼れる夫”との夫婦円満の秘訣とは？",
       "status": "held",
-      "attempts": 2,
+      "attempts": 3,
       "firstSeenAt": "2026-10-21T04:55:48.366Z",
-      "updatedAt": "2026-10-21T11:56:51.680Z",
+      "updatedAt": "2026-10-21T17:16:46.095Z",
       "lastReason": "no-deadline"
     },
     {
@@ -27,9 +27,9 @@
       "source": "CREA",
       "title": "「この上司、腹立つ！」「めっちゃ面白い」話題のドラマ『会社員』“50歳本部長”役の吉田羊「よもや私には渡り歩けそうもない世界」会社員未経験で挑んだ役作り",
       "status": "held",
-      "attempts": 6,
+      "attempts": 7,
       "firstSeenAt": "2026-10-20T04:56:38.487Z",
-      "updatedAt": "2026-10-21T11:56:51.680Z",
+      "updatedAt": "2026-10-21T17:16:46.095Z",
       "lastReason": "no-deadline"
     },
     {
@@ -37,9 +37,9 @@
       "source": "CREA",
       "title": "“バリキャリ女性管理職”を演じた吉田羊が語る「結婚を選ばなかった人生」について思うこと、そして「役柄と重なる部分」",
       "status": "held",
-      "attempts": 6,
+      "attempts": 7,
       "firstSeenAt": "2026-10-20T04:56:38.487Z",
-      "updatedAt": "2026-10-21T11:56:51.680Z",
+      "updatedAt": "2026-10-21T17:16:46.095Z",
       "lastReason": "no-deadline"
     },
     {
@@ -47,9 +47,9 @@
       "source": "CREA",
       "title": "「日本は危機を不可視化している」「すでにこの国は社会主義的で…」経済思想家・斎藤幸平×エネルギーアナリスト・大場紀章が語る“日本のエネルギー政策の死角”",
       "status": "held",
-      "attempts": 2,
+      "attempts": 3,
       "firstSeenAt": "2026-10-21T04:55:48.366Z",
-      "updatedAt": "2026-10-21T11:56:51.680Z",
+      "updatedAt": "2026-10-21T17:16:46.095Z",
       "lastReason": "no-deadline"
     },
     {
@@ -57,9 +57,9 @@
       "source": "CREA",
       "title": "「アメリカ一辺倒はリスクが高すぎる。むしろ中国から学びながら…」経済思想家・斎藤幸平が語った「資源をもたない日本が向かうべき道」とは",
       "status": "held",
-      "attempts": 2,
+      "attempts": 3,
       "firstSeenAt": "2026-10-21T04:55:48.366Z",
-      "updatedAt": "2026-10-21T11:56:51.680Z",
+      "updatedAt": "2026-10-21T17:16:46.095Z",
       "lastReason": "no-deadline"
     },
     {
@@ -953,16 +953,6 @@
       "lastReason": "not-campaign"
     },
     {
-      "url": "https://www.4gamer.net/games/013/G101380/20260921041/",
-      "source": "4Gamer",
-      "title": "「ソニック・ザ・ヘッジホッグ」35周年記念インタビュー。総合プロデューサー飯塚 隆氏に聞く，これまでの道のりと未来の可能性。そしてまだ見ぬ新作に向けて［TGS2026］",
-      "status": "rejected",
-      "attempts": 1,
-      "firstSeenAt": "2026-09-21T12:54:55.512Z",
-      "updatedAt": "2026-09-21T12:54:55.512Z",
-      "lastReason": "not-campaign"
-    },
-    {
       "url": "https://www.4gamer.net/games/014/G101402/20261020001/",
       "source": "4Gamer",
       "title": "Switch2版「モンスターハンターワイルズ」序盤体験版を本日配信。Chapter1-3まで遊べる。最大4人のローカル通信にも対応",
@@ -1000,6 +990,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-10-19T22:24:15.982Z",
       "updatedAt": "2026-10-19T22:24:15.982Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/033/G103301/20261021027/",
+      "source": "4Gamer",
+      "title": "オートバトルRPG「ラグナロク：アドベンチャーズ」，日本国内での正式サービス開始日が11月4日に決定",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-21T17:16:46.095Z",
+      "updatedAt": "2026-10-21T17:16:46.095Z",
       "lastReason": "not-campaign"
     },
     {
@@ -1583,6 +1583,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/574/G057444/20261021002/",
+      "source": "4Gamer",
+      "title": "「Palworld / パルワールド」，全世界人気投票2026の結果を発表。新アップデート「パルワールド：Side by Side」は今冬に配信決定",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-21T17:16:46.095Z",
+      "updatedAt": "2026-10-21T17:16:46.095Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/601/G060128/20261016073/",
       "source": "4Gamer",
       "title": "Switch版「CRYSTAR -クライスタ-」が95％オフの288円！ 発売8周年記念セールを開催。アートブック付き版も500円で買える",
@@ -1650,16 +1660,6 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-28T14:02:58.701Z",
       "updatedAt": "2026-09-28T14:02:58.701Z",
-      "lastReason": "not-campaign"
-    },
-    {
-      "url": "https://www.4gamer.net/games/759/G075960/20260921026/",
-      "source": "4Gamer",
-      "title": "善悪では割り切れない選択の連続。「Mass Effect」の元開発陣が手掛ける「EXODUS」試遊レポート＆インタビュー［TGS2026］",
-      "status": "rejected",
-      "attempts": 1,
-      "firstSeenAt": "2026-09-21T12:54:55.512Z",
-      "updatedAt": "2026-09-21T12:54:55.512Z",
       "lastReason": "not-campaign"
     },
     {
@@ -1790,6 +1790,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-09-29T05:48:32.573Z",
       "updatedAt": "2026-09-29T05:48:32.573Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/893/G089329/20260925040/",
+      "source": "4Gamer",
+      "title": "スーファミの名作がボードゲームに！ 「エフゼロ ナイトリーグ」で5つのサーキットを駆け抜けろ！ 昭和・平成レトロボードゲーム大百科 第20回",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-21T17:16:46.095Z",
+      "updatedAt": "2026-10-21T17:16:46.095Z",
       "lastReason": "not-campaign"
     },
     {
