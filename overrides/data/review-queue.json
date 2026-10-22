@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-22T11:59:05.665Z",
+  "updatedAt": "2026-10-22T17:15:01.176Z",
   "items": [
     {
       "url": "https://crea.bunshun.jp/articles/-/59921",
       "source": "CREA",
       "title": "「娘が苦手でゾッとする…」51歳母親の切実な悩みにジェーン・スーと堀井美香が回答。家族の呪縛を解く“サードプレイス”と母性神話の捨て方【OVER THE SUN出張！お悩み相談室】",
       "status": "held",
-      "attempts": 2,
+      "attempts": 3,
       "firstSeenAt": "2026-10-22T04:55:59.859Z",
-      "updatedAt": "2026-10-22T11:59:05.665Z",
+      "updatedAt": "2026-10-22T17:15:01.176Z",
       "lastReason": "no-deadline"
     },
     {
@@ -17,9 +17,9 @@
       "source": "CREA",
       "title": "「あかり、信じているぞ」はネットミームに！ 料理家・長谷川あかりが、あまり料理をしない人に「料理って面白い」と思ってもらうために伝えたいこと",
       "status": "held",
-      "attempts": 6,
+      "attempts": 7,
       "firstSeenAt": "2026-10-21T04:55:48.366Z",
-      "updatedAt": "2026-10-22T11:59:05.665Z",
+      "updatedAt": "2026-10-22T17:15:01.176Z",
       "lastReason": "no-deadline"
     },
     {
@@ -27,9 +27,9 @@
       "source": "CREA",
       "title": "「ハッシュドポテトが“朝マック”でよかった…」料理家・長谷川あかりが見つける毎日の幸せ、エッセイにも頻繁に登場する“頼れる夫”との夫婦円満の秘訣とは？",
       "status": "held",
-      "attempts": 6,
+      "attempts": 7,
       "firstSeenAt": "2026-10-21T04:55:48.366Z",
-      "updatedAt": "2026-10-22T11:59:05.665Z",
+      "updatedAt": "2026-10-22T17:15:01.176Z",
       "lastReason": "no-deadline"
     },
     {
@@ -37,9 +37,9 @@
       "source": "CREA",
       "title": "「この上司、腹立つ！」「めっちゃ面白い」話題のドラマ『会社員』“50歳本部長”役の吉田羊「よもや私には渡り歩けそうもない世界」会社員未経験で挑んだ役作り",
       "status": "held",
-      "attempts": 10,
+      "attempts": 11,
       "firstSeenAt": "2026-10-20T04:56:38.487Z",
-      "updatedAt": "2026-10-22T11:59:05.665Z",
+      "updatedAt": "2026-10-22T17:15:01.176Z",
       "lastReason": "no-deadline"
     },
     {
@@ -47,9 +47,9 @@
       "source": "CREA",
       "title": "“バリキャリ女性管理職”を演じた吉田羊が語る「結婚を選ばなかった人生」について思うこと、そして「役柄と重なる部分」",
       "status": "held",
-      "attempts": 10,
+      "attempts": 11,
       "firstSeenAt": "2026-10-20T04:56:38.487Z",
-      "updatedAt": "2026-10-22T11:59:05.665Z",
+      "updatedAt": "2026-10-22T17:15:01.176Z",
       "lastReason": "no-deadline"
     },
     {
@@ -57,9 +57,9 @@
       "source": "CREA",
       "title": "「日本は危機を不可視化している」「すでにこの国は社会主義的で…」経済思想家・斎藤幸平×エネルギーアナリスト・大場紀章が語る“日本のエネルギー政策の死角”",
       "status": "held",
-      "attempts": 6,
+      "attempts": 7,
       "firstSeenAt": "2026-10-21T04:55:48.366Z",
-      "updatedAt": "2026-10-22T11:59:05.665Z",
+      "updatedAt": "2026-10-22T17:15:01.176Z",
       "lastReason": "no-deadline"
     },
     {
@@ -67,9 +67,9 @@
       "source": "CREA",
       "title": "「アメリカ一辺倒はリスクが高すぎる。むしろ中国から学びながら…」経済思想家・斎藤幸平が語った「資源をもたない日本が向かうべき道」とは",
       "status": "held",
-      "attempts": 6,
+      "attempts": 7,
       "firstSeenAt": "2026-10-21T04:55:48.366Z",
-      "updatedAt": "2026-10-22T11:59:05.665Z",
+      "updatedAt": "2026-10-22T17:15:01.176Z",
       "lastReason": "no-deadline"
     },
     {
@@ -913,6 +913,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/002/G100207/20261021043/",
+      "source": "4Gamer",
+      "title": "「クライムライト／CRYMELIGHT」，体験版をSwitch2/PS5向けに本日配信。第1章をまるごと収録，想定プレイ時間は1.5〜3時間以上",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-22T17:15:01.176Z",
+      "updatedAt": "2026-10-22T17:15:01.176Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/004/G100451/20261019046/",
       "source": "4Gamer",
       "title": "にじさんじライバーがガチで挑むゲーム大会「NIJISANJI Extreme Match / Overwatch」，10月25日に開催",
@@ -953,6 +963,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/010/G101093/20261022005/",
+      "source": "4Gamer",
+      "title": "「ファイナルファンタジー レゾナンス」本日発売。「もしFFがドットのまま進化をしていたら」をコンセプトにした新作RPG",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-22T17:15:01.176Z",
+      "updatedAt": "2026-10-22T17:15:01.176Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/014/G101402/20261020001/",
       "source": "4Gamer",
       "title": "Switch2版「モンスターハンターワイルズ」序盤体験版を本日配信。Chapter1-3まで遊べる。最大4人のローカル通信にも対応",
@@ -960,6 +980,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-10-20T17:14:22.374Z",
       "updatedAt": "2026-10-20T17:14:22.374Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/015/G101532/20260911042/",
+      "source": "4Gamer",
+      "title": "「ONE PIECE 海のごちそうレストラン」は，ファン必見のアニメ再現メニューやマニアックな小ネタが満載。「ONE PIECE」の世界を魅力的に表現した経営シムを体験［プレイレポ］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-22T17:15:01.176Z",
+      "updatedAt": "2026-10-22T17:15:01.176Z",
       "lastReason": "not-campaign"
     },
     {
@@ -1433,6 +1463,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/050/G105042/20261021028/",
+      "source": "4Gamer",
+      "title": "2人プレイ専用の非対称型協力ホラーゲーム「Beyond the Dark:ナイトウォッチ」，本日発売",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-22T17:15:01.176Z",
+      "updatedAt": "2026-10-22T17:15:01.176Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/050/G105096/20261016048/",
       "source": "4Gamer",
       "title": "ホロライブのタレントで3対3のターン制バトル。「ホロすと！」体験版をSteamで本日配信。開発中のフルバージョンを期間限定で公開",
@@ -1510,6 +1550,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-10-21T04:55:48.366Z",
       "updatedAt": "2026-10-21T04:55:48.366Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/324/G032410/20261022006/",
+      "source": "4Gamer",
+      "title": "旅行ゲーム「ワールドクエスト」，10月21日をもってサービス終了",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-22T17:15:01.176Z",
+      "updatedAt": "2026-10-22T17:15:01.176Z",
       "lastReason": "not-campaign"
     },
     {
