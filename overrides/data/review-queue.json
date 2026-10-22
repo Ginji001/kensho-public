@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-22T04:55:59.859Z",
+  "updatedAt": "2026-10-22T11:59:05.665Z",
   "items": [
     {
       "url": "https://crea.bunshun.jp/articles/-/59921",
       "source": "CREA",
       "title": "「娘が苦手でゾッとする…」51歳母親の切実な悩みにジェーン・スーと堀井美香が回答。家族の呪縛を解く“サードプレイス”と母性神話の捨て方【OVER THE SUN出張！お悩み相談室】",
       "status": "held",
-      "attempts": 1,
+      "attempts": 2,
       "firstSeenAt": "2026-10-22T04:55:59.859Z",
-      "updatedAt": "2026-10-22T04:55:59.859Z",
+      "updatedAt": "2026-10-22T11:59:05.665Z",
       "lastReason": "no-deadline"
     },
     {
@@ -17,9 +17,9 @@
       "source": "CREA",
       "title": "「あかり、信じているぞ」はネットミームに！ 料理家・長谷川あかりが、あまり料理をしない人に「料理って面白い」と思ってもらうために伝えたいこと",
       "status": "held",
-      "attempts": 5,
+      "attempts": 6,
       "firstSeenAt": "2026-10-21T04:55:48.366Z",
-      "updatedAt": "2026-10-22T04:55:59.859Z",
+      "updatedAt": "2026-10-22T11:59:05.665Z",
       "lastReason": "no-deadline"
     },
     {
@@ -27,9 +27,9 @@
       "source": "CREA",
       "title": "「ハッシュドポテトが“朝マック”でよかった…」料理家・長谷川あかりが見つける毎日の幸せ、エッセイにも頻繁に登場する“頼れる夫”との夫婦円満の秘訣とは？",
       "status": "held",
-      "attempts": 5,
+      "attempts": 6,
       "firstSeenAt": "2026-10-21T04:55:48.366Z",
-      "updatedAt": "2026-10-22T04:55:59.859Z",
+      "updatedAt": "2026-10-22T11:59:05.665Z",
       "lastReason": "no-deadline"
     },
     {
@@ -37,9 +37,9 @@
       "source": "CREA",
       "title": "「この上司、腹立つ！」「めっちゃ面白い」話題のドラマ『会社員』“50歳本部長”役の吉田羊「よもや私には渡り歩けそうもない世界」会社員未経験で挑んだ役作り",
       "status": "held",
-      "attempts": 9,
+      "attempts": 10,
       "firstSeenAt": "2026-10-20T04:56:38.487Z",
-      "updatedAt": "2026-10-22T04:55:59.859Z",
+      "updatedAt": "2026-10-22T11:59:05.665Z",
       "lastReason": "no-deadline"
     },
     {
@@ -47,9 +47,9 @@
       "source": "CREA",
       "title": "“バリキャリ女性管理職”を演じた吉田羊が語る「結婚を選ばなかった人生」について思うこと、そして「役柄と重なる部分」",
       "status": "held",
-      "attempts": 9,
+      "attempts": 10,
       "firstSeenAt": "2026-10-20T04:56:38.487Z",
-      "updatedAt": "2026-10-22T04:55:59.859Z",
+      "updatedAt": "2026-10-22T11:59:05.665Z",
       "lastReason": "no-deadline"
     },
     {
@@ -57,9 +57,9 @@
       "source": "CREA",
       "title": "「日本は危機を不可視化している」「すでにこの国は社会主義的で…」経済思想家・斎藤幸平×エネルギーアナリスト・大場紀章が語る“日本のエネルギー政策の死角”",
       "status": "held",
-      "attempts": 5,
+      "attempts": 6,
       "firstSeenAt": "2026-10-21T04:55:48.366Z",
-      "updatedAt": "2026-10-22T04:55:59.859Z",
+      "updatedAt": "2026-10-22T11:59:05.665Z",
       "lastReason": "no-deadline"
     },
     {
@@ -67,9 +67,9 @@
       "source": "CREA",
       "title": "「アメリカ一辺倒はリスクが高すぎる。むしろ中国から学びながら…」経済思想家・斎藤幸平が語った「資源をもたない日本が向かうべき道」とは",
       "status": "held",
-      "attempts": 5,
+      "attempts": 6,
       "firstSeenAt": "2026-10-21T04:55:48.366Z",
-      "updatedAt": "2026-10-22T04:55:59.859Z",
+      "updatedAt": "2026-10-22T11:59:05.665Z",
       "lastReason": "no-deadline"
     },
     {
@@ -1363,16 +1363,6 @@
       "lastReason": "not-campaign"
     },
     {
-      "url": "https://www.4gamer.net/games/043/G104316/20260920036/",
-      "source": "4Gamer",
-      "title": "「水ダウ」の藤井健太郎氏が手がける「THE FIRST ZOMBIE」には，まだ明かせない“さまざまな仕掛け”が。制作チームに開発の裏側を聞いた［TGS2026］",
-      "status": "rejected",
-      "attempts": 1,
-      "firstSeenAt": "2026-09-22T11:44:44.538Z",
-      "updatedAt": "2026-09-22T11:44:44.538Z",
-      "lastReason": "not-campaign"
-    },
-    {
       "url": "https://www.4gamer.net/games/043/G104376/20260920043/",
       "source": "4Gamer",
       "title": "玄人志向から「Crowxis」へ。CFD販売がブランドを変えることになった理由と，今後の展開についてブランド統括担当者に聞く［TGS2026］",
@@ -1573,6 +1563,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/536/G053628/20261019002/",
+      "source": "4Gamer",
+      "title": "スマホゲームのセルラン分析（2026年10月8日〜10月14日）。今週の1位は「eFootball」。7月〜9月のパブリッシャ別国内収益ランキングも",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-22T11:59:05.665Z",
+      "updatedAt": "2026-10-22T11:59:05.665Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/550/G055070/20260919046/",
       "source": "4Gamer",
       "title": "大手PCメーカーの参入やメモリ価格の高騰は，ONEXPLAYERの携帯型ゲームPCに影響を与えたのか？ 来日したCEOに直撃取材［TGS2026］",
@@ -1720,6 +1720,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-10-19T22:24:15.982Z",
       "updatedAt": "2026-10-19T22:24:15.982Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/786/G078621/20261021054/",
+      "source": "4Gamer",
+      "title": "「マーベル・ライバルズ」，50人のヒーローがサノスと戦う大規模PvEモード“Path to Doomsday - Avengers: Endgame”のトレイラーを公開",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-22T11:59:05.665Z",
+      "updatedAt": "2026-10-22T11:59:05.665Z",
       "lastReason": "not-campaign"
     },
     {
@@ -2120,6 +2130,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-10-15T21:28:15.505Z",
       "updatedAt": "2026-10-15T21:28:15.505Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/999/G999904/20261022019/",
+      "source": "4Gamer",
+      "title": "PHPで確認された深刻な脆弱性を巡り，ゲームのサービス終了が続く。10年以上運営されてきた「僕の魔界を救って！」も終了へ",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-22T11:59:05.665Z",
+      "updatedAt": "2026-10-22T11:59:05.665Z",
       "lastReason": "not-campaign"
     },
     {
