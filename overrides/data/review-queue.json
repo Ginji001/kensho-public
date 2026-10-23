@@ -1,55 +1,15 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T17:13:08.739Z",
+  "updatedAt": "2026-10-23T21:27:48.764Z",
   "items": [
     {
       "url": "https://crea.bunshun.jp/articles/-/59921",
       "source": "CREA",
       "title": "「娘が苦手でゾッとする…」51歳母親の切実な悩みにジェーン・スーと堀井美香が回答。家族の呪縛を解く“サードプレイス”と母性神話の捨て方【OVER THE SUN出張！お悩み相談室】",
       "status": "held",
-      "attempts": 7,
+      "attempts": 8,
       "firstSeenAt": "2026-10-22T04:55:59.859Z",
-      "updatedAt": "2026-10-23T17:13:08.739Z",
-      "lastReason": "no-deadline"
-    },
-    {
-      "url": "https://crea.bunshun.jp/articles/-/60290",
-      "source": "CREA",
-      "title": "「あかり、信じているぞ」はネットミームに！ 料理家・長谷川あかりが、あまり料理をしない人に「料理って面白い」と思ってもらうために伝えたいこと",
-      "status": "held",
-      "attempts": 11,
-      "firstSeenAt": "2026-10-21T04:55:48.366Z",
-      "updatedAt": "2026-10-23T17:13:08.739Z",
-      "lastReason": "no-deadline"
-    },
-    {
-      "url": "https://crea.bunshun.jp/articles/-/60291",
-      "source": "CREA",
-      "title": "「ハッシュドポテトが“朝マック”でよかった…」料理家・長谷川あかりが見つける毎日の幸せ、エッセイにも頻繁に登場する“頼れる夫”との夫婦円満の秘訣とは？",
-      "status": "held",
-      "attempts": 11,
-      "firstSeenAt": "2026-10-21T04:55:48.366Z",
-      "updatedAt": "2026-10-23T17:13:08.739Z",
-      "lastReason": "no-deadline"
-    },
-    {
-      "url": "https://crea.bunshun.jp/articles/-/60484",
-      "source": "CREA",
-      "title": "「日本は危機を不可視化している」「すでにこの国は社会主義的で…」経済思想家・斎藤幸平×エネルギーアナリスト・大場紀章が語る“日本のエネルギー政策の死角”",
-      "status": "held",
-      "attempts": 11,
-      "firstSeenAt": "2026-10-21T04:55:48.366Z",
-      "updatedAt": "2026-10-23T17:13:08.739Z",
-      "lastReason": "no-deadline"
-    },
-    {
-      "url": "https://crea.bunshun.jp/articles/-/60485",
-      "source": "CREA",
-      "title": "「アメリカ一辺倒はリスクが高すぎる。むしろ中国から学びながら…」経済思想家・斎藤幸平が語った「資源をもたない日本が向かうべき道」とは",
-      "status": "held",
-      "attempts": 11,
-      "firstSeenAt": "2026-10-21T04:55:48.366Z",
-      "updatedAt": "2026-10-23T17:13:08.739Z",
+      "updatedAt": "2026-10-23T21:27:48.764Z",
       "lastReason": "no-deadline"
     },
     {
@@ -57,9 +17,9 @@
       "source": "CREA",
       "title": "「望まなくても誰かと比べられて…」森香澄が明かす、局アナ時代の“葛藤”「何かと闘っているわけではないのですが」見えない不安も“全力で楽しむ”思考法とは",
       "status": "held",
-      "attempts": 3,
+      "attempts": 4,
       "firstSeenAt": "2026-10-23T04:57:59.078Z",
-      "updatedAt": "2026-10-23T17:13:08.739Z",
+      "updatedAt": "2026-10-23T21:27:48.764Z",
       "lastReason": "no-deadline"
     },
     {
@@ -67,9 +27,9 @@
       "source": "CREA",
       "title": "「あざといと言われても」森香澄が語る、世間の評価との“付き合い方”とフリー転身時の“本音”「元アナウンサーが仕事なくなったのでバイトしますって…」",
       "status": "held",
-      "attempts": 3,
+      "attempts": 4,
       "firstSeenAt": "2026-10-23T04:57:59.078Z",
-      "updatedAt": "2026-10-23T17:13:08.739Z",
+      "updatedAt": "2026-10-23T21:27:48.764Z",
       "lastReason": "no-deadline"
     },
     {
@@ -523,6 +483,26 @@
       "lastReason": "no-deadline"
     },
     {
+      "url": "https://crea.bunshun.jp/articles/-/60290",
+      "source": "CREA",
+      "title": "「あかり、信じているぞ」はネットミームに！ 料理家・長谷川あかりが、あまり料理をしない人に「料理って面白い」と思ってもらうために伝えたいこと",
+      "status": "rejected",
+      "attempts": 12,
+      "firstSeenAt": "2026-10-21T04:55:48.366Z",
+      "updatedAt": "2026-10-23T21:27:48.764Z",
+      "lastReason": "no-deadline"
+    },
+    {
+      "url": "https://crea.bunshun.jp/articles/-/60291",
+      "source": "CREA",
+      "title": "「ハッシュドポテトが“朝マック”でよかった…」料理家・長谷川あかりが見つける毎日の幸せ、エッセイにも頻繁に登場する“頼れる夫”との夫婦円満の秘訣とは？",
+      "status": "rejected",
+      "attempts": 12,
+      "firstSeenAt": "2026-10-21T04:55:48.366Z",
+      "updatedAt": "2026-10-23T21:27:48.764Z",
+      "lastReason": "no-deadline"
+    },
+    {
       "url": "https://crea.bunshun.jp/articles/-/60298",
       "source": "CREA",
       "title": "",
@@ -791,6 +771,26 @@
       "firstSeenAt": "2026-10-16T04:37:35.048Z",
       "updatedAt": "2026-10-16T04:37:35.048Z",
       "lastReason": "deadline-too-far"
+    },
+    {
+      "url": "https://crea.bunshun.jp/articles/-/60484",
+      "source": "CREA",
+      "title": "「日本は危機を不可視化している」「すでにこの国は社会主義的で…」経済思想家・斎藤幸平×エネルギーアナリスト・大場紀章が語る“日本のエネルギー政策の死角”",
+      "status": "rejected",
+      "attempts": 12,
+      "firstSeenAt": "2026-10-21T04:55:48.366Z",
+      "updatedAt": "2026-10-23T21:27:48.764Z",
+      "lastReason": "no-deadline"
+    },
+    {
+      "url": "https://crea.bunshun.jp/articles/-/60485",
+      "source": "CREA",
+      "title": "「アメリカ一辺倒はリスクが高すぎる。むしろ中国から学びながら…」経済思想家・斎藤幸平が語った「資源をもたない日本が向かうべき道」とは",
+      "status": "rejected",
+      "attempts": 12,
+      "firstSeenAt": "2026-10-21T04:55:48.366Z",
+      "updatedAt": "2026-10-23T21:27:48.764Z",
+      "lastReason": "no-deadline"
     },
     {
       "url": "https://crea.bunshun.jp/articles/-/60553",
