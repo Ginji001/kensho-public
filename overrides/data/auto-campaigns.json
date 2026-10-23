@@ -406,5 +406,29 @@
     "updatedAt": "2026-10-16T16:43:23.000Z",
     "autoPublished": true,
     "firstSeenAt": "2026-10-16T16:43:23.000Z"
+  },
+  {
+    "id": "campaign-auto-756ae4e55801",
+    "source": "CREA",
+    "genre": "コスメ",
+    "name": "自宅で簡単に炭酸パック。「EPOLIS リッチグロウパック ワイドスパチュラ付き」を3名様にプレゼント",
+    "prize": "自宅で簡単に炭酸パック。「EPOLIS リッチグロウパック ワイドスパチュラ付き」を3名様にプレゼント",
+    "winners": 3,
+    "winnersText": "3名",
+    "deadline": "2026-11-22",
+    "condition": "会員登録（自動抽出・詳細は公式で確認）",
+    "entryType": "member",
+    "requiresPurchase": null,
+    "requiresReview": false,
+    "requiresApp": false,
+    "requiresLogin": true,
+    "isMonitor": false,
+    "url": "https://crea.bunshun.jp/articles/-/60508",
+    "applyUrl": null,
+    "cost": "unknown",
+    "productType": "unknown",
+    "updatedAt": "2026-10-23T04:57:59.078Z",
+    "autoPublished": true,
+    "firstSeenAt": "2026-10-23T04:57:59.078Z"
   }
 ]

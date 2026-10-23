@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-22T21:40:56.282Z",
+  "updatedAt": "2026-10-23T04:57:59.078Z",
   "items": [
     {
       "url": "https://crea.bunshun.jp/articles/-/59921",
       "source": "CREA",
       "title": "「娘が苦手でゾッとする…」51歳母親の切実な悩みにジェーン・スーと堀井美香が回答。家族の呪縛を解く“サードプレイス”と母性神話の捨て方【OVER THE SUN出張！お悩み相談室】",
       "status": "held",
-      "attempts": 4,
+      "attempts": 5,
       "firstSeenAt": "2026-10-22T04:55:59.859Z",
-      "updatedAt": "2026-10-22T21:40:56.282Z",
+      "updatedAt": "2026-10-23T04:57:59.078Z",
       "lastReason": "no-deadline"
     },
     {
@@ -17,9 +17,9 @@
       "source": "CREA",
       "title": "「あかり、信じているぞ」はネットミームに！ 料理家・長谷川あかりが、あまり料理をしない人に「料理って面白い」と思ってもらうために伝えたいこと",
       "status": "held",
-      "attempts": 8,
+      "attempts": 9,
       "firstSeenAt": "2026-10-21T04:55:48.366Z",
-      "updatedAt": "2026-10-22T21:40:56.282Z",
+      "updatedAt": "2026-10-23T04:57:59.078Z",
       "lastReason": "no-deadline"
     },
     {
@@ -27,9 +27,9 @@
       "source": "CREA",
       "title": "「ハッシュドポテトが“朝マック”でよかった…」料理家・長谷川あかりが見つける毎日の幸せ、エッセイにも頻繁に登場する“頼れる夫”との夫婦円満の秘訣とは？",
       "status": "held",
-      "attempts": 8,
+      "attempts": 9,
       "firstSeenAt": "2026-10-21T04:55:48.366Z",
-      "updatedAt": "2026-10-22T21:40:56.282Z",
+      "updatedAt": "2026-10-23T04:57:59.078Z",
       "lastReason": "no-deadline"
     },
     {
@@ -37,9 +37,9 @@
       "source": "CREA",
       "title": "「日本は危機を不可視化している」「すでにこの国は社会主義的で…」経済思想家・斎藤幸平×エネルギーアナリスト・大場紀章が語る“日本のエネルギー政策の死角”",
       "status": "held",
-      "attempts": 8,
+      "attempts": 9,
       "firstSeenAt": "2026-10-21T04:55:48.366Z",
-      "updatedAt": "2026-10-22T21:40:56.282Z",
+      "updatedAt": "2026-10-23T04:57:59.078Z",
       "lastReason": "no-deadline"
     },
     {
@@ -47,9 +47,29 @@
       "source": "CREA",
       "title": "「アメリカ一辺倒はリスクが高すぎる。むしろ中国から学びながら…」経済思想家・斎藤幸平が語った「資源をもたない日本が向かうべき道」とは",
       "status": "held",
-      "attempts": 8,
+      "attempts": 9,
       "firstSeenAt": "2026-10-21T04:55:48.366Z",
-      "updatedAt": "2026-10-22T21:40:56.282Z",
+      "updatedAt": "2026-10-23T04:57:59.078Z",
+      "lastReason": "no-deadline"
+    },
+    {
+      "url": "https://crea.bunshun.jp/articles/-/60512",
+      "source": "CREA",
+      "title": "「望まなくても誰かと比べられて…」森香澄が明かす、局アナ時代の“葛藤”「何かと闘っているわけではないのですが」見えない不安も“全力で楽しむ”思考法とは",
+      "status": "held",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-23T04:57:59.078Z",
+      "updatedAt": "2026-10-23T04:57:59.078Z",
+      "lastReason": "no-deadline"
+    },
+    {
+      "url": "https://crea.bunshun.jp/articles/-/60513",
+      "source": "CREA",
+      "title": "「あざといと言われても」森香澄が語る、世間の評価との“付き合い方”とフリー転身時の“本音”「元アナウンサーが仕事なくなったのでバイトしますって…」",
+      "status": "held",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-23T04:57:59.078Z",
+      "updatedAt": "2026-10-23T04:57:59.078Z",
       "lastReason": "no-deadline"
     },
     {
@@ -770,6 +790,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-10-16T04:37:35.048Z",
       "updatedAt": "2026-10-16T04:37:35.048Z",
+      "lastReason": "deadline-too-far"
+    },
+    {
+      "url": "https://crea.bunshun.jp/articles/-/60553",
+      "source": "CREA",
+      "title": "冬旅プランにおすすめ！凛とした空の下で楽しむ「源泉足湯こたつでぬくもり滞在」を開催する【界 秋保】で冬の温活を",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-23T04:57:59.078Z",
+      "updatedAt": "2026-10-23T04:57:59.078Z",
       "lastReason": "deadline-too-far"
     },
     {
@@ -1723,6 +1753,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/709/G070944/20261022011/",
+      "source": "4Gamer",
+      "title": "10月29日のリリースを控えるアクション「Phantom Blade Zero」，ローンチトレイラーを公開。2027年にはPS5パッケージ版が発売予定",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-23T04:57:59.078Z",
+      "updatedAt": "2026-10-23T04:57:59.078Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/745/G074550/20260803013/",
       "source": "4Gamer",
       "title": "［インタビュー］「フラガリアメモリーズ」，ついに「ロストキティ編」が完結！ 梶原岳人さんが語る，ハルリットの揺れ動く心とハルリット・シャドウの存在",
@@ -1853,16 +1893,6 @@
       "lastReason": "not-campaign"
     },
     {
-      "url": "https://www.4gamer.net/games/872/G087214/20260918075/",
-      "source": "4Gamer",
-      "title": "［インタビュー］家庭用ゲーム機版も発表された「Shape of Dreams」。少人数チームが直面した外部協業の苦労やゲームデザインの裏側とは",
-      "status": "rejected",
-      "attempts": 1,
-      "firstSeenAt": "2026-09-23T04:50:06.285Z",
-      "updatedAt": "2026-09-23T04:50:06.285Z",
-      "lastReason": "not-campaign"
-    },
-    {
       "url": "https://www.4gamer.net/games/883/G088337/20260924002/",
       "source": "4Gamer",
       "title": "［インタビュー］「俺はこの業界を，SEKIROの最高難度でプレイしてるんだ」―――Red Dunes Gamesの“CKO”であるSultan Al Darmaki氏が，フロム脳の超本音トークで業界をぶった切り",
@@ -1930,16 +1960,6 @@
       "attempts": 1,
       "firstSeenAt": "2026-10-15T04:47:33.873Z",
       "updatedAt": "2026-10-15T04:47:33.873Z",
-      "lastReason": "not-campaign"
-    },
-    {
-      "url": "https://www.4gamer.net/games/930/G093058/20260921022/",
-      "source": "4Gamer",
-      "title": "数々の賞に輝いた韓国インディー「MONOWAVE」は，いかにして日本のパブリッシャと出会い，世に出たのか。Phoenixxと開発元Studio BBBに聞く［TGS2026］",
-      "status": "rejected",
-      "attempts": 1,
-      "firstSeenAt": "2026-09-23T04:50:06.285Z",
-      "updatedAt": "2026-09-23T04:50:06.285Z",
       "lastReason": "not-campaign"
     },
     {
@@ -2043,6 +2063,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/968/G096869/20261022013/",
+      "source": "4Gamer",
+      "title": "「Gears of War: E-Day」の戦場では，決して1人じゃない。ルーキーが目の当たりにした仲間たちの筋肉，絆，そしてアツさ［プレイレポ］",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-23T04:57:59.078Z",
+      "updatedAt": "2026-10-23T04:57:59.078Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/968/G096877/20260924059/",
       "source": "4Gamer",
       "title": "「トータルウォー：ウォーハンマー40,000」開発者インタビュー。銀河を舞台にした新時代のTotal Warはどうなるのか［TGS2026］",
@@ -2090,16 +2120,6 @@
       "attempts": 1,
       "firstSeenAt": "2026-10-15T21:28:15.505Z",
       "updatedAt": "2026-10-15T21:28:15.505Z",
-      "lastReason": "not-campaign"
-    },
-    {
-      "url": "https://www.4gamer.net/games/988/G098872/20260920046/",
-      "source": "4Gamer",
-      "title": "キャラはあと2人くらい追加したい。すでに5人目の映像も――ローグライトアクション「Cinderia」，総括ディレクターインタビュー［TGS2026］",
-      "status": "rejected",
-      "attempts": 1,
-      "firstSeenAt": "2026-09-23T04:50:06.285Z",
-      "updatedAt": "2026-09-23T04:50:06.285Z",
       "lastReason": "not-campaign"
     },
     {
