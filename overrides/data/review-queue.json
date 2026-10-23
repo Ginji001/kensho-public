@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T04:57:59.078Z",
+  "updatedAt": "2026-10-23T11:45:00.906Z",
   "items": [
     {
       "url": "https://crea.bunshun.jp/articles/-/59921",
       "source": "CREA",
       "title": "「娘が苦手でゾッとする…」51歳母親の切実な悩みにジェーン・スーと堀井美香が回答。家族の呪縛を解く“サードプレイス”と母性神話の捨て方【OVER THE SUN出張！お悩み相談室】",
       "status": "held",
-      "attempts": 5,
+      "attempts": 6,
       "firstSeenAt": "2026-10-22T04:55:59.859Z",
-      "updatedAt": "2026-10-23T04:57:59.078Z",
+      "updatedAt": "2026-10-23T11:45:00.906Z",
       "lastReason": "no-deadline"
     },
     {
@@ -17,9 +17,9 @@
       "source": "CREA",
       "title": "「あかり、信じているぞ」はネットミームに！ 料理家・長谷川あかりが、あまり料理をしない人に「料理って面白い」と思ってもらうために伝えたいこと",
       "status": "held",
-      "attempts": 9,
+      "attempts": 10,
       "firstSeenAt": "2026-10-21T04:55:48.366Z",
-      "updatedAt": "2026-10-23T04:57:59.078Z",
+      "updatedAt": "2026-10-23T11:45:00.906Z",
       "lastReason": "no-deadline"
     },
     {
@@ -27,9 +27,9 @@
       "source": "CREA",
       "title": "「ハッシュドポテトが“朝マック”でよかった…」料理家・長谷川あかりが見つける毎日の幸せ、エッセイにも頻繁に登場する“頼れる夫”との夫婦円満の秘訣とは？",
       "status": "held",
-      "attempts": 9,
+      "attempts": 10,
       "firstSeenAt": "2026-10-21T04:55:48.366Z",
-      "updatedAt": "2026-10-23T04:57:59.078Z",
+      "updatedAt": "2026-10-23T11:45:00.906Z",
       "lastReason": "no-deadline"
     },
     {
@@ -37,9 +37,9 @@
       "source": "CREA",
       "title": "「日本は危機を不可視化している」「すでにこの国は社会主義的で…」経済思想家・斎藤幸平×エネルギーアナリスト・大場紀章が語る“日本のエネルギー政策の死角”",
       "status": "held",
-      "attempts": 9,
+      "attempts": 10,
       "firstSeenAt": "2026-10-21T04:55:48.366Z",
-      "updatedAt": "2026-10-23T04:57:59.078Z",
+      "updatedAt": "2026-10-23T11:45:00.906Z",
       "lastReason": "no-deadline"
     },
     {
@@ -47,9 +47,9 @@
       "source": "CREA",
       "title": "「アメリカ一辺倒はリスクが高すぎる。むしろ中国から学びながら…」経済思想家・斎藤幸平が語った「資源をもたない日本が向かうべき道」とは",
       "status": "held",
-      "attempts": 9,
+      "attempts": 10,
       "firstSeenAt": "2026-10-21T04:55:48.366Z",
-      "updatedAt": "2026-10-23T04:57:59.078Z",
+      "updatedAt": "2026-10-23T11:45:00.906Z",
       "lastReason": "no-deadline"
     },
     {
@@ -57,9 +57,9 @@
       "source": "CREA",
       "title": "「望まなくても誰かと比べられて…」森香澄が明かす、局アナ時代の“葛藤”「何かと闘っているわけではないのですが」見えない不安も“全力で楽しむ”思考法とは",
       "status": "held",
-      "attempts": 1,
+      "attempts": 2,
       "firstSeenAt": "2026-10-23T04:57:59.078Z",
-      "updatedAt": "2026-10-23T04:57:59.078Z",
+      "updatedAt": "2026-10-23T11:45:00.906Z",
       "lastReason": "no-deadline"
     },
     {
@@ -67,9 +67,9 @@
       "source": "CREA",
       "title": "「あざといと言われても」森香澄が語る、世間の評価との“付き合い方”とフリー転身時の“本音”「元アナウンサーが仕事なくなったのでバイトしますって…」",
       "status": "held",
-      "attempts": 1,
+      "attempts": 2,
       "firstSeenAt": "2026-10-23T04:57:59.078Z",
-      "updatedAt": "2026-10-23T04:57:59.078Z",
+      "updatedAt": "2026-10-23T11:45:00.906Z",
       "lastReason": "no-deadline"
     },
     {
@@ -1560,6 +1560,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-10-21T21:46:28.549Z",
       "updatedAt": "2026-10-21T21:46:28.549Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/052/G105243/20261022025/",
+      "source": "4Gamer",
+      "title": "「メタルギアソリッドV」と「ゼルダの伝説 風のタクト」から着想を得たステルスアクションADV「Trillionaire Mercenaries of 21XX」，体験版配信中",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-23T11:45:00.906Z",
+      "updatedAt": "2026-10-23T11:45:00.906Z",
       "lastReason": "not-campaign"
     },
     {
