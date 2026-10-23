@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T11:45:00.906Z",
+  "updatedAt": "2026-10-23T17:13:08.739Z",
   "items": [
     {
       "url": "https://crea.bunshun.jp/articles/-/59921",
       "source": "CREA",
       "title": "「娘が苦手でゾッとする…」51歳母親の切実な悩みにジェーン・スーと堀井美香が回答。家族の呪縛を解く“サードプレイス”と母性神話の捨て方【OVER THE SUN出張！お悩み相談室】",
       "status": "held",
-      "attempts": 6,
+      "attempts": 7,
       "firstSeenAt": "2026-10-22T04:55:59.859Z",
-      "updatedAt": "2026-10-23T11:45:00.906Z",
+      "updatedAt": "2026-10-23T17:13:08.739Z",
       "lastReason": "no-deadline"
     },
     {
@@ -17,9 +17,9 @@
       "source": "CREA",
       "title": "「あかり、信じているぞ」はネットミームに！ 料理家・長谷川あかりが、あまり料理をしない人に「料理って面白い」と思ってもらうために伝えたいこと",
       "status": "held",
-      "attempts": 10,
+      "attempts": 11,
       "firstSeenAt": "2026-10-21T04:55:48.366Z",
-      "updatedAt": "2026-10-23T11:45:00.906Z",
+      "updatedAt": "2026-10-23T17:13:08.739Z",
       "lastReason": "no-deadline"
     },
     {
@@ -27,9 +27,9 @@
       "source": "CREA",
       "title": "「ハッシュドポテトが“朝マック”でよかった…」料理家・長谷川あかりが見つける毎日の幸せ、エッセイにも頻繁に登場する“頼れる夫”との夫婦円満の秘訣とは？",
       "status": "held",
-      "attempts": 10,
+      "attempts": 11,
       "firstSeenAt": "2026-10-21T04:55:48.366Z",
-      "updatedAt": "2026-10-23T11:45:00.906Z",
+      "updatedAt": "2026-10-23T17:13:08.739Z",
       "lastReason": "no-deadline"
     },
     {
@@ -37,9 +37,9 @@
       "source": "CREA",
       "title": "「日本は危機を不可視化している」「すでにこの国は社会主義的で…」経済思想家・斎藤幸平×エネルギーアナリスト・大場紀章が語る“日本のエネルギー政策の死角”",
       "status": "held",
-      "attempts": 10,
+      "attempts": 11,
       "firstSeenAt": "2026-10-21T04:55:48.366Z",
-      "updatedAt": "2026-10-23T11:45:00.906Z",
+      "updatedAt": "2026-10-23T17:13:08.739Z",
       "lastReason": "no-deadline"
     },
     {
@@ -47,9 +47,9 @@
       "source": "CREA",
       "title": "「アメリカ一辺倒はリスクが高すぎる。むしろ中国から学びながら…」経済思想家・斎藤幸平が語った「資源をもたない日本が向かうべき道」とは",
       "status": "held",
-      "attempts": 10,
+      "attempts": 11,
       "firstSeenAt": "2026-10-21T04:55:48.366Z",
-      "updatedAt": "2026-10-23T11:45:00.906Z",
+      "updatedAt": "2026-10-23T17:13:08.739Z",
       "lastReason": "no-deadline"
     },
     {
@@ -57,9 +57,9 @@
       "source": "CREA",
       "title": "「望まなくても誰かと比べられて…」森香澄が明かす、局アナ時代の“葛藤”「何かと闘っているわけではないのですが」見えない不安も“全力で楽しむ”思考法とは",
       "status": "held",
-      "attempts": 2,
+      "attempts": 3,
       "firstSeenAt": "2026-10-23T04:57:59.078Z",
-      "updatedAt": "2026-10-23T11:45:00.906Z",
+      "updatedAt": "2026-10-23T17:13:08.739Z",
       "lastReason": "no-deadline"
     },
     {
@@ -67,9 +67,9 @@
       "source": "CREA",
       "title": "「あざといと言われても」森香澄が語る、世間の評価との“付き合い方”とフリー転身時の“本音”「元アナウンサーが仕事なくなったのでバイトしますって…」",
       "status": "held",
-      "attempts": 2,
+      "attempts": 3,
       "firstSeenAt": "2026-10-23T04:57:59.078Z",
-      "updatedAt": "2026-10-23T11:45:00.906Z",
+      "updatedAt": "2026-10-23T17:13:08.739Z",
       "lastReason": "no-deadline"
     },
     {
@@ -1013,6 +1013,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/014/G101429/20261023007/",
+      "source": "4Gamer",
+      "title": "ダーク三國アクションRPG「Wo Long 2: Wings of Ember」，α体験版のフィードバックレポートを公開。改善方針も発表",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-23T17:13:08.739Z",
+      "updatedAt": "2026-10-23T17:13:08.739Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/015/G101532/20260911042/",
       "source": "4Gamer",
       "title": "「ONE PIECE 海のごちそうレストラン」は，ファン必見のアニメ再現メニューやマニアックな小ネタが満載。「ONE PIECE」の世界を魅力的に表現した経営シムを体験［プレイレポ］",
@@ -1573,6 +1583,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/052/G105259/20261023001/",
+      "source": "4Gamer",
+      "title": "壁世界にコロニーを築き上げろ！ シリーズ最新作「Wall World Strategy」，発売日を11月11日に決定。おなじみの多脚メカもしっかり登場",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-23T17:13:08.739Z",
+      "updatedAt": "2026-10-23T17:13:08.739Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/172/G017216/20261021057/",
       "source": "4Gamer",
       "title": "「Warframe」は，大規模イベント“一大作戦：Tauへの道”で何を描き，どう変わっていくのか。開発者に見どころと少し先の未来について聞いた［インタビュー］",
@@ -1590,6 +1610,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-10-21T04:55:48.366Z",
       "updatedAt": "2026-10-21T04:55:48.366Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/189/G018964/20261022050/",
+      "source": "4Gamer",
+      "title": "「サイバーパンク2077」，アニメ「エッジランナーズ 2」にあわせた大型無料アップデート2.5を配信開始。アニメの前日譚を描くクエストに加え，二丁持ちや新衣装，DLSS 4.5対応などを追加",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-23T17:13:08.739Z",
+      "updatedAt": "2026-10-23T17:13:08.739Z",
       "lastReason": "not-campaign"
     },
     {
@@ -1823,6 +1853,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/784/G078489/20261023011/",
+      "source": "4Gamer",
+      "title": "「アズールプロミリア」，11月26日に正式リリース決定。キボ「キャバード」の限定着せ替えなどを獲得できるWebキャンペーンも開始",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-23T17:13:08.739Z",
+      "updatedAt": "2026-10-23T17:13:08.739Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/786/G078621/20261021054/",
       "source": "4Gamer",
       "title": "「マーベル・ライバルズ」，50人のヒーローがサノスと戦う大規模PvEモード“Path to Doomsday - Avengers: Endgame”のトレイラーを公開",
@@ -1940,6 +1980,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-10-02T05:45:38.182Z",
       "updatedAt": "2026-10-02T05:45:38.182Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/918/G091829/20261023003/",
+      "source": "4Gamer",
+      "title": "「ペルソナ4 リバイバル」，イゴール，マーガレット，マリーのプロフィールと，特別な空間「ベルベットルーム」の情報を公開。ペルソナ検定も実施",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-23T17:13:08.739Z",
+      "updatedAt": "2026-10-23T17:13:08.739Z",
       "lastReason": "not-campaign"
     },
     {
@@ -2213,6 +2263,16 @@
       "lastReason": "not-campaign"
     },
     {
+      "url": "https://www.4gamer.net/games/999/G999903/20261022056/",
+      "source": "4Gamer",
+      "title": "任天堂の宮本茂氏が文化勲章を受章。「スーパーマリオ」誕生の裏話から生成AI時代の創作論，若き開発者への想いまでが語られた記者会見をレポート",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-23T17:13:08.739Z",
+      "updatedAt": "2026-10-23T17:13:08.739Z",
+      "lastReason": "not-campaign"
+    },
+    {
       "url": "https://www.4gamer.net/games/999/G999904/20261022019/",
       "source": "4Gamer",
       "title": "PHPで確認された深刻な脆弱性を巡り，ゲームのサービス終了が続く。10年以上運営されてきた「僕の魔界を救って！」も終了へ",
@@ -2410,6 +2470,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-10-19T13:26:09.012Z",
       "updatedAt": "2026-10-19T13:26:09.012Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/999/G999905/20261023030/",
+      "source": "4Gamer",
+      "title": "PHPの重大な脆弱性が発覚。ゲーム業界への影響と各社の対応まとめ",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-23T17:13:08.739Z",
+      "updatedAt": "2026-10-23T17:13:08.739Z",
       "lastReason": "not-campaign"
     },
     {
