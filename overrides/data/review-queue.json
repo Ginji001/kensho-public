@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T21:27:48.764Z",
+  "updatedAt": "2026-10-24T04:42:43.501Z",
   "items": [
     {
       "url": "https://crea.bunshun.jp/articles/-/59921",
       "source": "CREA",
       "title": "「娘が苦手でゾッとする…」51歳母親の切実な悩みにジェーン・スーと堀井美香が回答。家族の呪縛を解く“サードプレイス”と母性神話の捨て方【OVER THE SUN出張！お悩み相談室】",
       "status": "held",
-      "attempts": 8,
+      "attempts": 9,
       "firstSeenAt": "2026-10-22T04:55:59.859Z",
-      "updatedAt": "2026-10-23T21:27:48.764Z",
+      "updatedAt": "2026-10-24T04:42:43.501Z",
       "lastReason": "no-deadline"
     },
     {
@@ -17,9 +17,9 @@
       "source": "CREA",
       "title": "「望まなくても誰かと比べられて…」森香澄が明かす、局アナ時代の“葛藤”「何かと闘っているわけではないのですが」見えない不安も“全力で楽しむ”思考法とは",
       "status": "held",
-      "attempts": 4,
+      "attempts": 5,
       "firstSeenAt": "2026-10-23T04:57:59.078Z",
-      "updatedAt": "2026-10-23T21:27:48.764Z",
+      "updatedAt": "2026-10-24T04:42:43.501Z",
       "lastReason": "no-deadline"
     },
     {
@@ -27,9 +27,29 @@
       "source": "CREA",
       "title": "「あざといと言われても」森香澄が語る、世間の評価との“付き合い方”とフリー転身時の“本音”「元アナウンサーが仕事なくなったのでバイトしますって…」",
       "status": "held",
-      "attempts": 4,
+      "attempts": 5,
       "firstSeenAt": "2026-10-23T04:57:59.078Z",
-      "updatedAt": "2026-10-23T21:27:48.764Z",
+      "updatedAt": "2026-10-24T04:42:43.501Z",
+      "lastReason": "no-deadline"
+    },
+    {
+      "url": "https://crea.bunshun.jp/articles/-/60550",
+      "source": "CREA",
+      "title": "「東京ラブストーリーみたいな恋愛をしてみたかった」鈴木愛理（32）の飾らない本音",
+      "status": "held",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-24T04:42:43.501Z",
+      "updatedAt": "2026-10-24T04:42:43.501Z",
+      "lastReason": "no-deadline"
+    },
+    {
+      "url": "https://crea.bunshun.jp/articles/-/60551",
+      "source": "CREA",
+      "title": "「仕事で『今日は80％でいいや』は絶対無理、ただ家では突然…」鈴木愛理が明かした“プライベートの過ごし方”",
+      "status": "held",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-24T04:42:43.501Z",
+      "updatedAt": "2026-10-24T04:42:43.501Z",
       "lastReason": "no-deadline"
     },
     {
@@ -2260,6 +2280,16 @@
       "attempts": 1,
       "firstSeenAt": "2026-10-15T21:28:15.505Z",
       "updatedAt": "2026-10-15T21:28:15.505Z",
+      "lastReason": "not-campaign"
+    },
+    {
+      "url": "https://www.4gamer.net/games/999/G999902/20261021026/",
+      "source": "4Gamer",
+      "title": "えいた選手とNL選手の意見を取り入れたアーケードコントローラ「HJK FIGHTSTICK」，12月上旬に発売【PR】",
+      "status": "rejected",
+      "attempts": 1,
+      "firstSeenAt": "2026-10-24T04:42:43.501Z",
+      "updatedAt": "2026-10-24T04:42:43.501Z",
       "lastReason": "not-campaign"
     },
     {
